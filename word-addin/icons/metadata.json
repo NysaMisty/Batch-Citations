@@ -1,0 +1,28 @@
+{
+  "batch": {
+    "file": "batch-ribbon.png",
+    "size": [
+      1287,
+      1222
+    ],
+    "bounds": [
+      289,
+      324,
+      997,
+      939
+    ]
+  },
+  "display": {
+    "file": "display-ribbon.png",
+    "size": [
+      1263,
+      1246
+    ],
+    "bounds": [
+      338,
+      282,
+      892,
+      968
+    ]
+  }
+}
