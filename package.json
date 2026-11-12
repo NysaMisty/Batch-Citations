@@ -1,0 +1,20 @@
+{
+  "name": "zotero-batch-citations",
+  "version": "1.1.13",
+  "private": true,
+  "description": "Live numbered citation mapping in Word with Zotero citation fields",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "demo": "node scripts/demo.cjs",
+    "build": "python scripts/build.py",
+    "version:update": "python scripts/version.py",
+    "version:check": "python scripts/version.py --check",
+    "release:prepare": "python scripts/release.py prepare",
+    "release:verify": "python scripts/release.py verify",
+    "release:promote": "python scripts/release.py promote"
+  },
+  "devDependencies": {
+    "@xmldom/xmldom": "0.9.10",
+    "fflate": "0.8.2"
+  }
+}
