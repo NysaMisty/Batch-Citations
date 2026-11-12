@@ -1,0 +1,124 @@
+TAP version 13
+# Subtest: full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+ok 1 - full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+  ---
+  duration_ms: 22.8832
+  type: 'test'
+  ...
+# Subtest: reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+ok 2 - reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+  ---
+  duration_ms: 895.9856
+  type: 'test'
+  ...
+# Subtest: count excluded story candidates separately
+ok 3 - count excluded story candidates separately
+  ---
+  duration_ms: 1.8276
+  type: 'test'
+  ...
+# Subtest: bibliography placeholder is ordinary text, never an existing Zotero field
+ok 4 - bibliography placeholder is ordinary text, never an existing Zotero field
+  ---
+  duration_ms: 1.0847
+  type: 'test'
+  ...
+# Subtest: parse simple, clusters, Chinese separators and bounded ranges
+ok 5 - parse simple, clusters, Chinese separators and bounded ranges
+  ---
+  duration_ms: 2.1206
+  type: 'test'
+  ...
+# Subtest: scan across runs but never across paragraphs
+ok 6 - scan across runs but never across paragraphs
+  ---
+  duration_ms: 4.0126
+  type: 'test'
+  ...
+# Subtest: protected hyperlink and ordinary fields are visible but ineligible
+ok 7 - protected hyperlink and ordinary fields are visible but ineligible
+  ---
+  duration_ms: 1.0494
+  type: 'test'
+  ...
+# Subtest: block content controls protect their paragraphs and cannot host the bibliography marker
+ok 8 - block content controls protect their paragraphs and cannot host the bibliography marker
+  ---
+  duration_ms: 3.2581
+  type: 'test'
+  ...
+# Subtest: reject tracked changes, existing Zotero fields, malformed XML and DTD
+ok 9 - reject tracked changes, existing Zotero fields, malformed XML and DTD
+  ---
+  duration_ms: 0.6991
+  type: 'test'
+  ...
+# Subtest: replace multiple markers in same run; preserve text, suffix formatting and section
+ok 10 - replace multiple markers in same run; preserve text, suffix formatting and section
+  ---
+  duration_ms: 7.3772
+  type: 'test'
+  ...
+# Subtest: cross-run suffix retains its original formatting
+ok 11 - cross-run suffix retains its original formatting
+  ---
+  duration_ms: 1.2665
+  type: 'test'
+  ...
+# Subtest: only selected candidates convert; missing mappings fail before output
+ok 12 - only selected candidates convert; missing mappings fail before output
+  ---
+  duration_ms: 1.9141
+  type: 'test'
+  ...
+# Subtest: duplicate mapped paper appears once in a cluster
+ok 13 - duplicate mapped paper appears once in a cluster
+  ---
+  duration_ms: 1.4038
+  type: 'test'
+  ...
+# Subtest: bibliography marker requires its own paragraph; manual list is rejected
+ok 14 - bibliography marker requires its own paragraph; manual list is rejected
+  ---
+  duration_ms: 2.8282
+  type: 'test'
+  ...
+# Subtest: custom properties retain unrelated entries and reject existing Zotero prefs
+ok 15 - custom properties retain unrelated entries and reject existing Zotero prefs
+  ---
+  duration_ms: 1.6712
+  type: 'test'
+  ...
+# Subtest: preference data is accepted as JSON version 4 with Word fields
+ok 16 - preference data is accepted as JSON version 4 with Word fields
+  ---
+  duration_ms: 0.2599
+  type: 'test'
+  ...
+# Subtest: about:blank unload does not lose the live window; shutdown cleans up
+ok 17 - about:blank unload does not lose the live window; shutdown cleans up
+  ---
+  duration_ms: 2.2953
+  type: 'test'
+  ...
+# Subtest: manifest contains the metadata required by the Zotero 7 loader
+ok 18 - manifest contains the metadata required by the Zotero 7 loader
+  ---
+  duration_ms: 1.1334
+  type: 'test'
+  ...
+# Subtest: XHTML controller loads after controls, without relying on HTML-only defer behavior
+ok 19 - XHTML controller loads after controls, without relying on HTML-only defer behavior
+  ---
+  duration_ms: 3.6647
+  type: 'test'
+  ...
+1..19
+# tests 19
+# suites 0
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1054.5662

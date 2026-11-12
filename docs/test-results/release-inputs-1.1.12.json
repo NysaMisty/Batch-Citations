@@ -1,0 +1,21 @@
+{
+  "version": "1.1.12",
+  "hosts": [
+    {
+      "activation": "test-runs/active/test-v7-activation1112-corrections-release-v7-retry",
+      "ui": "test-runs/active/test-v7-ui1112-corr-final-o",
+      "zoteroVersion": "7.0.32",
+      "live": "test-runs/active/test-v7-live1112-corr-word-d7"
+    },
+    {
+      "activation": "test-runs/active/test-v10-activation1112-corrections-release-v10-retry",
+      "ui": "test-runs/active/test-v10-ui1112-corr-final-o",
+      "zoteroVersion": "10.0.7",
+      "live": "test-runs/active/test-v10-live1112-corr-word-d10"
+    }
+  ],
+  "sourceFixture": "D:/zotero-plugin/work/test-fixtures/large-document.docx",
+  "safety": "test-runs/active/test-word-safety1112-corrections-release-final-retry",
+  "integrity": "test-runs/active/test-word-citation-integrity1112-corrections-release-final-retry",
+  "pipeline": "test-runs/active/test-word-identity-pipeline1112-corrections-release-final-retry"
+}

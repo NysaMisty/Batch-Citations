@@ -1,0 +1,21 @@
+{
+  "version": "1.1.9",
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "ui": "test-runs/active/test-v7-ui119-embedded-auth7",
+      "live": "test-runs/active/test-v7-live119-embedded-auth7",
+      "activation": "test-runs/active/test-v7-activation119-embedded-auth7act"
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "ui": "test-runs/active/test-v10-ui119-embedded-auth10",
+      "live": "test-runs/active/test-v10-live119-embedded-auth10",
+      "activation": "test-runs/active/test-v10-activation119-embedded-auth10act2"
+    }
+  ],
+  "sourceFixture": "D:/zotero-plugin/textdocx/大规模文档测试.docx",
+  "safety": "test-runs/active/test-word-safety119-embedded-auth-independent2",
+  "integrity": "test-runs/active/test-word-citation-integrity119-embedded-auth-independent2",
+  "pipeline": "test-runs/active/test-word-identity-pipeline119-embedded-auth-independent2"
+}

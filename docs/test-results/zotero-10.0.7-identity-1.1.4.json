@@ -1,0 +1,1484 @@
+{
+  "wordBuild": "16.0.20527",
+  "checks": [
+    "normally launched registered Word host is connected to the candidate",
+    "ieee initial seven native references and v2 ledger",
+    "ieee A plus H retain the original A field and left-to-right item order",
+    "ieee original one survives and remaining references shift without loss",
+    "ieee preview was calculated by the installed native CSL engine",
+    "ieee new label reuses existing C and its final number",
+    "ieee earlier duplicate becomes number one across all C occurrences",
+    "ieee deleting one repeated occurrence preserves all remaining identities",
+    "ieee save and reopen restores bindings without forced recovery",
+    "ieee official Zotero bibliography coexists with preserved native citations",
+    "ieee plugin refresh updates the existing bibliography without duplication",
+    "ieee incremental insert updates an existing official bibliography",
+    "swjtu initial seven native references and v2 ledger",
+    "swjtu A plus H retain the original A field and left-to-right item order",
+    "swjtu original one survives and remaining references shift without loss",
+    "swjtu preview was calculated by the installed native CSL engine",
+    "swjtu new label reuses existing C and its final number",
+    "swjtu earlier duplicate becomes number one across all C occurrences",
+    "swjtu deleting one repeated occurrence preserves all remaining identities",
+    "swjtu save and reopen restores bindings without forced recovery",
+    "swjtu official Zotero bibliography coexists with preserved native citations",
+    "swjtu plugin refresh updates the existing bibliography without duplication",
+    "swjtu incremental insert updates an existing official bibliography",
+    "ordinary matching cannot overwrite an existing label with a different reference",
+    "the same existing input label can add a legitimate repeated occurrence",
+    "deleting a repeated first occurrence automatically refreshes and preserves the open matching session",
+    "moving a native citation before the first reference automatically renumbers the same identities",
+    "warning layout 760px font 1 light tab 0",
+    "warning layout 760px font 1 light tab 1",
+    "warning layout 760px font 1 dark tab 0",
+    "warning layout 760px font 1 dark tab 1",
+    "warning layout 760px font 1.25 light tab 0",
+    "warning layout 760px font 1.25 light tab 1",
+    "warning layout 760px font 1.25 dark tab 0",
+    "warning layout 760px font 1.25 dark tab 1",
+    "warning layout 760px font 1.5 light tab 0",
+    "warning layout 760px font 1.5 light tab 1",
+    "warning layout 760px font 1.5 dark tab 0",
+    "warning layout 760px font 1.5 dark tab 1",
+    "warning layout 1000px font 1 light tab 0",
+    "warning layout 1000px font 1 light tab 1",
+    "warning layout 1000px font 1 dark tab 0",
+    "warning layout 1000px font 1 dark tab 1",
+    "warning layout 1000px font 1.25 light tab 0",
+    "warning layout 1000px font 1.25 light tab 1",
+    "warning layout 1000px font 1.25 dark tab 0",
+    "warning layout 1000px font 1.25 dark tab 1",
+    "warning layout 1000px font 1.5 light tab 0",
+    "warning layout 1000px font 1.5 light tab 1",
+    "warning layout 1000px font 1.5 dark tab 0",
+    "warning layout 1000px font 1.5 dark tab 1",
+    "status uses native stylesheet and normal flow",
+    "reopen 0 has no spurious migration request",
+    "reopen 1 has no spurious migration request",
+    "reopen 2 has no spurious migration request",
+    "a failure after real native refresh retains fields and reports an unfinished transaction",
+    "reopening an interrupted transaction offers verified recovery",
+    "verified resume completes the original transaction without duplicate fields or lost labels",
+    "large document reopen 1 reuses candidates without full rescan",
+    "large document reopen 2 reuses candidates without full rescan",
+    "large document reopen 3 reuses candidates without full rescan"
+  ],
+  "performance": [
+    {
+      "scans": 1,
+      "hits": 0,
+      "captureMs": 341
+    },
+    {
+      "scans": 1,
+      "hits": 1,
+      "captureMs": 60
+    },
+    {
+      "scans": 1,
+      "hits": 2,
+      "captureMs": 72
+    },
+    {
+      "scans": 1,
+      "hits": 3,
+      "captureMs": 66
+    }
+  ],
+  "geometry": {
+    "ok": true,
+    "checks": [
+      "warning layout 760px font 1 light tab 0",
+      "warning layout 760px font 1 light tab 1",
+      "warning layout 760px font 1 dark tab 0",
+      "warning layout 760px font 1 dark tab 1",
+      "warning layout 760px font 1.25 light tab 0",
+      "warning layout 760px font 1.25 light tab 1",
+      "warning layout 760px font 1.25 dark tab 0",
+      "warning layout 760px font 1.25 dark tab 1",
+      "warning layout 760px font 1.5 light tab 0",
+      "warning layout 760px font 1.5 light tab 1",
+      "warning layout 760px font 1.5 dark tab 0",
+      "warning layout 760px font 1.5 dark tab 1",
+      "warning layout 1000px font 1 light tab 0",
+      "warning layout 1000px font 1 light tab 1",
+      "warning layout 1000px font 1 dark tab 0",
+      "warning layout 1000px font 1 dark tab 1",
+      "warning layout 1000px font 1.25 light tab 0",
+      "warning layout 1000px font 1.25 light tab 1",
+      "warning layout 1000px font 1.25 dark tab 0",
+      "warning layout 1000px font 1.25 dark tab 1",
+      "warning layout 1000px font 1.5 light tab 0",
+      "warning layout 1000px font 1.5 light tab 1",
+      "warning layout 1000px font 1.5 dark tab 0",
+      "warning layout 1000px font 1.5 dark tab 1",
+      "status uses native stylesheet and normal flow"
+    ],
+    "geometry": [
+      {
+        "size": 760,
+        "scale": 1,
+        "scheme": "light",
+        "tab": 0,
+        "statusHeight": 291,
+        "workspaceHeight": 285.33331298828125,
+        "hintHeight": 86.66667175292969,
+        "buttonTop": 291
+      },
+      {
+        "size": 760,
+        "scale": 1,
+        "scheme": "light",
+        "tab": 1,
+        "statusHeight": 291,
+        "workspaceHeight": 285.33331298828125,
+        "hintHeight": 86.66667175292969,
+        "buttonTop": 291
+      },
+      {
+        "size": 760,
+        "scale": 1,
+        "scheme": "dark",
+        "tab": 0,
+        "statusHeight": 291,
+        "workspaceHeight": 285.33331298828125,
+        "hintHeight": 86.66667175292969,
+        "buttonTop": 291
+      },
+      {
+        "size": 760,
+        "scale": 1,
+        "scheme": "dark",
+        "tab": 1,
+        "statusHeight": 291,
+        "workspaceHeight": 285.33331298828125,
+        "hintHeight": 86.66667175292969,
+        "buttonTop": 291
+      },
+      {
+        "size": 760,
+        "scale": 1.25,
+        "scheme": "light",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 270.9000244140625,
+        "hintHeight": 130,
+        "buttonTop": 408
+      },
+      {
+        "size": 760,
+        "scale": 1.25,
+        "scheme": "light",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 270.9000244140625,
+        "hintHeight": 130,
+        "buttonTop": 408
+      },
+      {
+        "size": 760,
+        "scale": 1.25,
+        "scheme": "dark",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 270.9000244140625,
+        "hintHeight": 130,
+        "buttonTop": 408
+      },
+      {
+        "size": 760,
+        "scale": 1.25,
+        "scheme": "dark",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 270.9000244140625,
+        "hintHeight": 130,
+        "buttonTop": 408
+      },
+      {
+        "size": 760,
+        "scale": 1.5,
+        "scheme": "light",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 260.23333740234375,
+        "hintHeight": 208,
+        "buttonTop": 553
+      },
+      {
+        "size": 760,
+        "scale": 1.5,
+        "scheme": "light",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 260.23333740234375,
+        "hintHeight": 208,
+        "buttonTop": 553
+      },
+      {
+        "size": 760,
+        "scale": 1.5,
+        "scheme": "dark",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 260.23333740234375,
+        "hintHeight": 208,
+        "buttonTop": 553
+      },
+      {
+        "size": 760,
+        "scale": 1.5,
+        "scheme": "dark",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 260.23333740234375,
+        "hintHeight": 208,
+        "buttonTop": 553
+      },
+      {
+        "size": 1000,
+        "scale": 1,
+        "scheme": "light",
+        "tab": 0,
+        "statusHeight": 256.33331298828125,
+        "workspaceHeight": 371.3333435058594,
+        "hintHeight": 69.33332824707031,
+        "buttonTop": 256.33331298828125
+      },
+      {
+        "size": 1000,
+        "scale": 1,
+        "scheme": "light",
+        "tab": 1,
+        "statusHeight": 256.33331298828125,
+        "workspaceHeight": 371.3333435058594,
+        "hintHeight": 69.33332824707031,
+        "buttonTop": 256.33331298828125
+      },
+      {
+        "size": 1000,
+        "scale": 1,
+        "scheme": "dark",
+        "tab": 0,
+        "statusHeight": 256.33331298828125,
+        "workspaceHeight": 371.3333435058594,
+        "hintHeight": 69.33332824707031,
+        "buttonTop": 256.33331298828125
+      },
+      {
+        "size": 1000,
+        "scale": 1,
+        "scheme": "dark",
+        "tab": 1,
+        "statusHeight": 256.33331298828125,
+        "workspaceHeight": 371.3333435058594,
+        "hintHeight": 69.33332824707031,
+        "buttonTop": 256.33331298828125
+      },
+      {
+        "size": 1000,
+        "scale": 1.25,
+        "scheme": "light",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 326.566650390625,
+        "hintHeight": 108.33332824707031,
+        "buttonTop": 343
+      },
+      {
+        "size": 1000,
+        "scale": 1.25,
+        "scheme": "light",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 326.566650390625,
+        "hintHeight": 108.33332824707031,
+        "buttonTop": 343
+      },
+      {
+        "size": 1000,
+        "scale": 1.25,
+        "scheme": "dark",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 326.566650390625,
+        "hintHeight": 108.33332824707031,
+        "buttonTop": 343
+      },
+      {
+        "size": 1000,
+        "scale": 1.25,
+        "scheme": "dark",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 326.566650390625,
+        "hintHeight": 108.33332824707031,
+        "buttonTop": 343
+      },
+      {
+        "size": 1000,
+        "scale": 1.5,
+        "scheme": "light",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 294.23333740234375,
+        "hintHeight": 156,
+        "buttonTop": 449
+      },
+      {
+        "size": 1000,
+        "scale": 1.5,
+        "scheme": "light",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 294.23333740234375,
+        "hintHeight": 156,
+        "buttonTop": 449
+      },
+      {
+        "size": 1000,
+        "scale": 1.5,
+        "scheme": "dark",
+        "tab": 0,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 294.23333740234375,
+        "hintHeight": 156,
+        "buttonTop": 449
+      },
+      {
+        "size": 1000,
+        "scale": 1.5,
+        "scheme": "dark",
+        "tab": 1,
+        "statusHeight": 296.76666259765625,
+        "workspaceHeight": 294.23333740234375,
+        "hintHeight": 156,
+        "buttonTop": 449
+      }
+    ],
+    "scope": "Native Zotero window; font scaling and CSS native light/dark colors, not an OS DPI/theme change"
+  },
+  "normalWordHost": true,
+  "snapshots": [
+    {
+      "preview": {
+        "order": [
+          {
+            "number": 1,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD",
+            "title": "Live synthetic reference 1",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 2,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW",
+            "title": "Live synthetic reference 8",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+            ],
+            "via": "inserted"
+          },
+          {
+            "number": 3,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS",
+            "title": "Live synthetic reference 2",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 4,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M",
+            "title": "Live synthetic reference 3",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 5,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP",
+            "title": "Live synthetic reference 4",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 6,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8",
+            "title": "Live synthetic reference 5",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 7,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B",
+            "title": "Live synthetic reference 6",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 8,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R",
+            "title": "Live synthetic reference 7",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+            ],
+            "via": "existing"
+          }
+        ],
+        "numeric": true,
+        "verifiedCSL": true
+      },
+      "style": "ieee",
+      "value": {
+        "raw": {
+          "text": "Paragraph 1 [1], [2].\rParagraph 2 [3].\rParagraph 3 [4].\rParagraph 4 [5].\rParagraph 5 [6].\rParagraph 6 [7].\rParagraph 7 [8].\rTAIL\r\r",
+          "fields": [
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn0xo6gd6u4i6jrvyzkbp7tt\",\"properties\":{\"formattedCitation\":\"[1], [2]\",\"plainCitation\":\"[1], [2]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"],\"itemData\":{\"id\":1,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 1\",\"author\":[{\"family\":\"Author1\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2021\"]]}}},{\"id\":8,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"],\"itemData\":{\"id\":8,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 8\",\"author\":[{\"family\":\"Author8\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2028\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[1], [2]",
+              "superscript": 0
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn1cio9iwth36ql1fzfjqdx\",\"properties\":{\"formattedCitation\":\"[3]\",\"plainCitation\":\"[3]\",\"noteIndex\":0},\"citationItems\":[{\"id\":2,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"],\"itemData\":{\"id\":2,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 2\",\"author\":[{\"family\":\"Author2\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2022\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[3]",
+              "superscript": 0
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn12zmnpqb3l8v3suxemtv2oj\",\"properties\":{\"formattedCitation\":\"[4]\",\"plainCitation\":\"[4]\",\"noteIndex\":0},\"citationItems\":[{\"id\":3,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"],\"itemData\":{\"id\":3,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 3\",\"author\":[{\"family\":\"Author3\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2023\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[4]",
+              "superscript": 0
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn11fyn5cbnhw75dex9lbxwo4\",\"properties\":{\"formattedCitation\":\"[5]\",\"plainCitation\":\"[5]\",\"noteIndex\":0},\"citationItems\":[{\"id\":4,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"],\"itemData\":{\"id\":4,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 4\",\"author\":[{\"family\":\"Author4\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2024\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[5]",
+              "superscript": 0
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn12kjuk2kqj6p5p1zt23r29n\",\"properties\":{\"formattedCitation\":\"[6]\",\"plainCitation\":\"[6]\",\"noteIndex\":0},\"citationItems\":[{\"id\":5,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"],\"itemData\":{\"id\":5,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 5\",\"author\":[{\"family\":\"Author5\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2025\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[6]",
+              "superscript": 0
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn1gjcx27zv0at5rq99g3kwfj\",\"properties\":{\"formattedCitation\":\"[7]\",\"plainCitation\":\"[7]\",\"noteIndex\":0},\"citationItems\":[{\"id\":6,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"],\"itemData\":{\"id\":6,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 6\",\"author\":[{\"family\":\"Author6\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2026\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[7]",
+              "superscript": 0
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jwrn1qqj7edkhbvro3t6wna3ltg\",\"properties\":{\"formattedCitation\":\"[8]\",\"plainCitation\":\"[8]\",\"noteIndex\":0},\"citationItems\":[{\"id\":7,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"],\"itemData\":{\"id\":7,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 7\",\"author\":[{\"family\":\"Author7\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2027\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[8]",
+              "superscript": 0
+            }
+          ],
+          "bindingData": "{\"version\":2,\"revision\":2,\"entries\":{\"1\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"],\"citations\":[\"mw1jwrn0xo6gd6u4i6jrvyzkbp7tt\"]},\"2\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"],\"citations\":[\"mw1jwrn1cio9iwth36ql1fzfjqdx\"]},\"3\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"],\"citations\":[\"mw1jwrn12zmnpqb3l8v3suxemtv2oj\"]},\"4\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"],\"citations\":[\"mw1jwrn11fyn5cbnhw75dex9lbxwo4\"]},\"5\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"],\"citations\":[\"mw1jwrn12kjuk2kqj6p5p1zt23r29n\"]},\"6\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"],\"citations\":[\"mw1jwrn1gjcx27zv0at5rq99g3kwfj\"]},\"7\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"],\"citations\":[\"mw1jwrn1qqj7edkhbvro3t6wna3ltg\"]},\"8\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"],\"citations\":[\"mw1jwrn0xo6gd6u4i6jrvyzkbp7tt\"]}},\"references\":{\"https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"]},\"https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"]},\"https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"]},\"https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"]},\"https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"]},\"https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"]},\"https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"]},\"https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"]}},\"occurrences\":[{\"occurrenceId\":\"citation:mw1jwrn0xo6gd6u4i6jrvyzkbp7tt\",\"citationID\":\"mw1jwrn0xo6gd6u4i6jrvyzkbp7tt\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"},{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"}]},{\"occurrenceId\":\"citation:mw1jwrn1cio9iwth36ql1fzfjqdx\",\"citationID\":\"mw1jwrn1cio9iwth36ql1fzfjqdx\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"}]},{\"occurrenceId\":\"citation:mw1jwrn12zmnpqb3l8v3suxemtv2oj\",\"citationID\":\"mw1jwrn12zmnpqb3l8v3suxemtv2oj\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"}]},{\"occurrenceId\":\"citation:mw1jwrn11fyn5cbnhw75dex9lbxwo4\",\"citationID\":\"mw1jwrn11fyn5cbnhw75dex9lbxwo4\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"}]},{\"occurrenceId\":\"citation:mw1jwrn12kjuk2kqj6p5p1zt23r29n\",\"citationID\":\"mw1jwrn12kjuk2kqj6p5p1zt23r29n\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"}]},{\"occurrenceId\":\"citation:mw1jwrn1gjcx27zv0at5rq99g3kwfj\",\"citationID\":\"mw1jwrn1gjcx27zv0at5rq99g3kwfj\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"}]},{\"occurrenceId\":\"citation:mw1jwrn1qqj7edkhbvro3t6wna3ltg\",\"citationID\":\"mw1jwrn1qqj7edkhbvro3t6wna3ltg\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"}]}]}"
+        },
+        "ledger": {
+          "version": 2,
+          "revision": 2,
+          "entries": {
+            "1": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+              ],
+              "citations": [
+                "mw1jwrn0xo6gd6u4i6jrvyzkbp7tt"
+              ]
+            },
+            "2": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+              ],
+              "citations": [
+                "mw1jwrn1cio9iwth36ql1fzfjqdx"
+              ]
+            },
+            "3": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+              ],
+              "citations": [
+                "mw1jwrn12zmnpqb3l8v3suxemtv2oj"
+              ]
+            },
+            "4": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+              ],
+              "citations": [
+                "mw1jwrn11fyn5cbnhw75dex9lbxwo4"
+              ]
+            },
+            "5": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+              ],
+              "citations": [
+                "mw1jwrn12kjuk2kqj6p5p1zt23r29n"
+              ]
+            },
+            "6": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+              ],
+              "citations": [
+                "mw1jwrn1gjcx27zv0at5rq99g3kwfj"
+              ]
+            },
+            "7": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+              ],
+              "citations": [
+                "mw1jwrn1qqj7edkhbvro3t6wna3ltg"
+              ]
+            },
+            "8": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+              ],
+              "citations": [
+                "mw1jwrn0xo6gd6u4i6jrvyzkbp7tt"
+              ]
+            }
+          },
+          "references": {
+            "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+              ]
+            }
+          },
+          "occurrences": [
+            {
+              "occurrenceId": "citation:mw1jwrn0xo6gd6u4i6jrvyzkbp7tt",
+              "citationID": "mw1jwrn0xo6gd6u4i6jrvyzkbp7tt",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+                },
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jwrn1cio9iwth36ql1fzfjqdx",
+              "citationID": "mw1jwrn1cio9iwth36ql1fzfjqdx",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jwrn12zmnpqb3l8v3suxemtv2oj",
+              "citationID": "mw1jwrn12zmnpqb3l8v3suxemtv2oj",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jwrn11fyn5cbnhw75dex9lbxwo4",
+              "citationID": "mw1jwrn11fyn5cbnhw75dex9lbxwo4",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jwrn12kjuk2kqj6p5p1zt23r29n",
+              "citationID": "mw1jwrn12kjuk2kqj6p5p1zt23r29n",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jwrn1gjcx27zv0at5rq99g3kwfj",
+              "citationID": "mw1jwrn1gjcx27zv0at5rq99g3kwfj",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jwrn1qqj7edkhbvro3t6wna3ltg",
+              "citationID": "mw1jwrn1qqj7edkhbvro3t6wna3ltg",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+                }
+              ]
+            }
+          ]
+        },
+        "fields": [
+          {
+            "id": "mw1jwrn0xo6gd6u4i6jrvyzkbp7tt",
+            "items": [
+              {
+                "id": 1,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+                ],
+                "itemData": {
+                  "id": 1,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 1",
+                  "author": [
+                    {
+                      "family": "Author1",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2021"
+                      ]
+                    ]
+                  }
+                }
+              },
+              {
+                "id": 8,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+                ],
+                "itemData": {
+                  "id": 8,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 8",
+                  "author": [
+                    {
+                      "family": "Author8",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2028"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[1], [2]"
+          },
+          {
+            "id": "mw1jwrn1cio9iwth36ql1fzfjqdx",
+            "items": [
+              {
+                "id": 2,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+                ],
+                "itemData": {
+                  "id": 2,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 2",
+                  "author": [
+                    {
+                      "family": "Author2",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2022"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[3]"
+          },
+          {
+            "id": "mw1jwrn12zmnpqb3l8v3suxemtv2oj",
+            "items": [
+              {
+                "id": 3,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+                ],
+                "itemData": {
+                  "id": 3,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 3",
+                  "author": [
+                    {
+                      "family": "Author3",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2023"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[4]"
+          },
+          {
+            "id": "mw1jwrn11fyn5cbnhw75dex9lbxwo4",
+            "items": [
+              {
+                "id": 4,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+                ],
+                "itemData": {
+                  "id": 4,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 4",
+                  "author": [
+                    {
+                      "family": "Author4",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2024"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[5]"
+          },
+          {
+            "id": "mw1jwrn12kjuk2kqj6p5p1zt23r29n",
+            "items": [
+              {
+                "id": 5,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+                ],
+                "itemData": {
+                  "id": 5,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 5",
+                  "author": [
+                    {
+                      "family": "Author5",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2025"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[6]"
+          },
+          {
+            "id": "mw1jwrn1gjcx27zv0at5rq99g3kwfj",
+            "items": [
+              {
+                "id": 6,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+                ],
+                "itemData": {
+                  "id": 6,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 6",
+                  "author": [
+                    {
+                      "family": "Author6",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2026"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[7]"
+          },
+          {
+            "id": "mw1jwrn1qqj7edkhbvro3t6wna3ltg",
+            "items": [
+              {
+                "id": 7,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+                ],
+                "itemData": {
+                  "id": 7,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 7",
+                  "author": [
+                    {
+                      "family": "Author7",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2027"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[8]"
+          }
+        ]
+      },
+      "stage": "insertH"
+    },
+    {
+      "preview": {
+        "order": [
+          {
+            "number": 1,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD",
+            "title": "Live synthetic reference 1",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 2,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW",
+            "title": "Live synthetic reference 8",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+            ],
+            "via": "inserted"
+          },
+          {
+            "number": 3,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS",
+            "title": "Live synthetic reference 2",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 4,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M",
+            "title": "Live synthetic reference 3",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 5,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP",
+            "title": "Live synthetic reference 4",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 6,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8",
+            "title": "Live synthetic reference 5",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 7,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B",
+            "title": "Live synthetic reference 6",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+            ],
+            "via": "existing"
+          },
+          {
+            "number": 8,
+            "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R",
+            "title": "Live synthetic reference 7",
+            "uris": [
+              "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+            ],
+            "via": "existing"
+          }
+        ],
+        "numeric": true,
+        "verifiedCSL": true
+      },
+      "style": "swjtu",
+      "value": {
+        "raw": {
+          "text": "Paragraph 1 [1,2].\rParagraph 2 [3].\rParagraph 3 [4].\rParagraph 4 [5].\rParagraph 5 [6].\rParagraph 6 [7].\rParagraph 7 [8].\rTAIL\r\r",
+          "fields": [
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59vnseucmfg5ydd9xp0zzfe\",\"properties\":{\"formattedCitation\":\"\\\\super [1,2]\\\\nosupersub{}\",\"plainCitation\":\"[1,2]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"],\"itemData\":{\"id\":1,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 1\",\"author\":[{\"family\":\"Author1\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2021\"]]}}},{\"id\":8,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"],\"itemData\":{\"id\":8,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 8\",\"author\":[{\"family\":\"Author8\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2028\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[1,2]",
+              "superscript": -1
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59v5w0qboy64ohv3tk359c7c\",\"properties\":{\"formattedCitation\":\"\\\\super [3]\\\\nosupersub{}\",\"plainCitation\":\"[3]\",\"noteIndex\":0},\"citationItems\":[{\"id\":2,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"],\"itemData\":{\"id\":2,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 2\",\"author\":[{\"family\":\"Author2\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2022\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[3]",
+              "superscript": -1
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59wnmiywhpm2kkumwkkvcaeom\",\"properties\":{\"formattedCitation\":\"\\\\super [4]\\\\nosupersub{}\",\"plainCitation\":\"[4]\",\"noteIndex\":0},\"citationItems\":[{\"id\":3,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"],\"itemData\":{\"id\":3,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 3\",\"author\":[{\"family\":\"Author3\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2023\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[4]",
+              "superscript": -1
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59wmmsmgqb4szveu9kb4bjbs\",\"properties\":{\"formattedCitation\":\"\\\\super [5]\\\\nosupersub{}\",\"plainCitation\":\"[5]\",\"noteIndex\":0},\"citationItems\":[{\"id\":4,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"],\"itemData\":{\"id\":4,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 4\",\"author\":[{\"family\":\"Author4\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2024\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[5]",
+              "superscript": -1
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59wyw6dwfj0ki88sdaclk40wm\",\"properties\":{\"formattedCitation\":\"\\\\super [6]\\\\nosupersub{}\",\"plainCitation\":\"[6]\",\"noteIndex\":0},\"citationItems\":[{\"id\":5,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"],\"itemData\":{\"id\":5,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 5\",\"author\":[{\"family\":\"Author5\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2025\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[6]",
+              "superscript": -1
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59wpjcdzoznr9s07q4nazolb2n\",\"properties\":{\"formattedCitation\":\"\\\\super [7]\\\\nosupersub{}\",\"plainCitation\":\"[7]\",\"noteIndex\":0},\"citationItems\":[{\"id\":6,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"],\"itemData\":{\"id\":6,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 6\",\"author\":[{\"family\":\"Author6\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2026\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[7]",
+              "superscript": -1
+            },
+            {
+              "code": " ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"mw1jx59whg0pws4or9hr7f1w6w43rr\",\"properties\":{\"formattedCitation\":\"\\\\super [8]\\\\nosupersub{}\",\"plainCitation\":\"[8]\",\"noteIndex\":0},\"citationItems\":[{\"id\":7,\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"],\"itemData\":{\"id\":7,\"type\":\"book\",\"publisher\":\"Test Press\",\"title\":\"Live synthetic reference 7\",\"author\":[{\"family\":\"Author7\",\"given\":\"Test\"}],\"issued\":{\"date-parts\":[[\"2027\"]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"} ",
+              "text": "[8]",
+              "superscript": -1
+            }
+          ],
+          "bindingData": "{\"version\":2,\"revision\":2,\"entries\":{\"1\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"],\"citations\":[\"mw1jx59vnseucmfg5ydd9xp0zzfe\"]},\"2\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"],\"citations\":[\"mw1jx59v5w0qboy64ohv3tk359c7c\"]},\"3\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"],\"citations\":[\"mw1jx59wnmiywhpm2kkumwkkvcaeom\"]},\"4\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"],\"citations\":[\"mw1jx59wmmsmgqb4szveu9kb4bjbs\"]},\"5\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"],\"citations\":[\"mw1jx59wyw6dwfj0ki88sdaclk40wm\"]},\"6\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"],\"citations\":[\"mw1jx59wpjcdzoznr9s07q4nazolb2n\"]},\"7\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"],\"citations\":[\"mw1jx59whg0pws4or9hr7f1w6w43rr\"]},\"8\":{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\",\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"],\"citations\":[\"mw1jx59vnseucmfg5ydd9xp0zzfe\"]}},\"references\":{\"https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"]},\"https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"]},\"https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"]},\"https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"]},\"https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"]},\"https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"]},\"https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"]},\"https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\":{\"uris\":[\"http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"]}},\"occurrences\":[{\"occurrenceId\":\"citation:mw1jx59vnseucmfg5ydd9xp0zzfe\",\"citationID\":\"mw1jx59vnseucmfg5ydd9xp0zzfe\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD\"},{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW\"}]},{\"occurrenceId\":\"citation:mw1jx59v5w0qboy64ohv3tk359c7c\",\"citationID\":\"mw1jx59v5w0qboy64ohv3tk359c7c\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS\"}]},{\"occurrenceId\":\"citation:mw1jx59wnmiywhpm2kkumwkkvcaeom\",\"citationID\":\"mw1jx59wnmiywhpm2kkumwkkvcaeom\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M\"}]},{\"occurrenceId\":\"citation:mw1jx59wmmsmgqb4szveu9kb4bjbs\",\"citationID\":\"mw1jx59wmmsmgqb4szveu9kb4bjbs\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP\"}]},{\"occurrenceId\":\"citation:mw1jx59wyw6dwfj0ki88sdaclk40wm\",\"citationID\":\"mw1jx59wyw6dwfj0ki88sdaclk40wm\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8\"}]},{\"occurrenceId\":\"citation:mw1jx59wpjcdzoznr9s07q4nazolb2n\",\"citationID\":\"mw1jx59wpjcdzoznr9s07q4nazolb2n\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B\"}]},{\"occurrenceId\":\"citation:mw1jx59whg0pws4or9hr7f1w6w43rr\",\"citationID\":\"mw1jx59whg0pws4or9hr7f1w6w43rr\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R\"}]}]}"
+        },
+        "ledger": {
+          "version": 2,
+          "revision": 2,
+          "entries": {
+            "1": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+              ],
+              "citations": [
+                "mw1jx59vnseucmfg5ydd9xp0zzfe"
+              ]
+            },
+            "2": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+              ],
+              "citations": [
+                "mw1jx59v5w0qboy64ohv3tk359c7c"
+              ]
+            },
+            "3": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+              ],
+              "citations": [
+                "mw1jx59wnmiywhpm2kkumwkkvcaeom"
+              ]
+            },
+            "4": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+              ],
+              "citations": [
+                "mw1jx59wmmsmgqb4szveu9kb4bjbs"
+              ]
+            },
+            "5": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+              ],
+              "citations": [
+                "mw1jx59wyw6dwfj0ki88sdaclk40wm"
+              ]
+            },
+            "6": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+              ],
+              "citations": [
+                "mw1jx59wpjcdzoznr9s07q4nazolb2n"
+              ]
+            },
+            "7": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+              ],
+              "citations": [
+                "mw1jx59whg0pws4or9hr7f1w6w43rr"
+              ]
+            },
+            "8": {
+              "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW",
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+              ],
+              "citations": [
+                "mw1jx59vnseucmfg5ydd9xp0zzfe"
+              ]
+            }
+          },
+          "references": {
+            "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+              ]
+            },
+            "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R": {
+              "uris": [
+                "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+              ]
+            }
+          },
+          "occurrences": [
+            {
+              "occurrenceId": "citation:mw1jx59vnseucmfg5ydd9xp0zzfe",
+              "citationID": "mw1jx59vnseucmfg5ydd9xp0zzfe",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+                },
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jx59v5w0qboy64ohv3tk359c7c",
+              "citationID": "mw1jx59v5w0qboy64ohv3tk359c7c",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jx59wnmiywhpm2kkumwkkvcaeom",
+              "citationID": "mw1jx59wnmiywhpm2kkumwkkvcaeom",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jx59wmmsmgqb4szveu9kb4bjbs",
+              "citationID": "mw1jx59wmmsmgqb4szveu9kb4bjbs",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jx59wyw6dwfj0ki88sdaclk40wm",
+              "citationID": "mw1jx59wyw6dwfj0ki88sdaclk40wm",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jx59wpjcdzoznr9s07q4nazolb2n",
+              "citationID": "mw1jx59wpjcdzoznr9s07q4nazolb2n",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+                }
+              ]
+            },
+            {
+              "occurrenceId": "citation:mw1jx59whg0pws4or9hr7f1w6w43rr",
+              "citationID": "mw1jx59whg0pws4or9hr7f1w6w43rr",
+              "items": [
+                {
+                  "referenceId": "https://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+                }
+              ]
+            }
+          ]
+        },
+        "fields": [
+          {
+            "id": "mw1jx59vnseucmfg5ydd9xp0zzfe",
+            "items": [
+              {
+                "id": 1,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/HFVYCTFD"
+                ],
+                "itemData": {
+                  "id": 1,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 1",
+                  "author": [
+                    {
+                      "family": "Author1",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2021"
+                      ]
+                    ]
+                  }
+                }
+              },
+              {
+                "id": 8,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/3RC2NPAW"
+                ],
+                "itemData": {
+                  "id": 8,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 8",
+                  "author": [
+                    {
+                      "family": "Author8",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2028"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[1,2]"
+          },
+          {
+            "id": "mw1jx59v5w0qboy64ohv3tk359c7c",
+            "items": [
+              {
+                "id": 2,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/LTHVFQDS"
+                ],
+                "itemData": {
+                  "id": 2,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 2",
+                  "author": [
+                    {
+                      "family": "Author2",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2022"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[3]"
+          },
+          {
+            "id": "mw1jx59wnmiywhpm2kkumwkkvcaeom",
+            "items": [
+              {
+                "id": 3,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/7VPVBC7M"
+                ],
+                "itemData": {
+                  "id": 3,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 3",
+                  "author": [
+                    {
+                      "family": "Author3",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2023"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[4]"
+          },
+          {
+            "id": "mw1jx59wmmsmgqb4szveu9kb4bjbs",
+            "items": [
+              {
+                "id": 4,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/AFCB8JVP"
+                ],
+                "itemData": {
+                  "id": 4,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 4",
+                  "author": [
+                    {
+                      "family": "Author4",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2024"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[5]"
+          },
+          {
+            "id": "mw1jx59wyw6dwfj0ki88sdaclk40wm",
+            "items": [
+              {
+                "id": 5,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/2SAXXKL8"
+                ],
+                "itemData": {
+                  "id": 5,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 5",
+                  "author": [
+                    {
+                      "family": "Author5",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2025"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[6]"
+          },
+          {
+            "id": "mw1jx59wpjcdzoznr9s07q4nazolb2n",
+            "items": [
+              {
+                "id": 6,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/H7MLDJ8B"
+                ],
+                "itemData": {
+                  "id": 6,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 6",
+                  "author": [
+                    {
+                      "family": "Author6",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2026"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[7]"
+          },
+          {
+            "id": "mw1jx59whg0pws4or9hr7f1w6w43rr",
+            "items": [
+              {
+                "id": 7,
+                "uris": [
+                  "http://zotero.org/users/local/hDmdZOD1/items/LW85TS7R"
+                ],
+                "itemData": {
+                  "id": 7,
+                  "type": "book",
+                  "publisher": "Test Press",
+                  "title": "Live synthetic reference 7",
+                  "author": [
+                    {
+                      "family": "Author7",
+                      "given": "Test"
+                    }
+                  ],
+                  "issued": {
+                    "date-parts": [
+                      [
+                        "2027"
+                      ]
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "[8]"
+          }
+        ]
+      },
+      "stage": "insertH"
+    }
+  ],
+  "candidateSHA256": "054244CDC2A38789365F529D2DC3253C7E91E4239BC2C31E7584BC10A633A441",
+  "count": 61,
+  "ok": true,
+  "wordVersion": "16.0",
+  "zoteroVersion": "10.0.7",
+  "finished": "2026-11-04T11:23:28.9226665+08:00"
+}

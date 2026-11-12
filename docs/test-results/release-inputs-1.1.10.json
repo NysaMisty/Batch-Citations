@@ -1,0 +1,21 @@
+{
+  "version": "1.1.10",
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "ui": "test-runs/active/test-v7-ui1110-final-a",
+      "live": "test-runs/active/test-v7-live1110-final-a",
+      "activation": "test-runs/active/test-v7-activation1110-final-a"
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "ui": "test-runs/active/test-v10-ui1110-final-a",
+      "live": "test-runs/active/test-v10-live1110-final-a",
+      "activation": "test-runs/active/test-v10-activation1110-final-a"
+    }
+  ],
+  "sourceFixture": "D:/zotero-plugin/textdocx/大规模文档测试.docx",
+  "safety": "test-runs/active/test-word-safety1110-final-a",
+  "integrity": "test-runs/active/test-word-citation-integrity1110-final-a",
+  "pipeline": "test-runs/active/test-word-identity-pipeline1110-final-a"
+}

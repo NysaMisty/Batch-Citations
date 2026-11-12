@@ -1,0 +1,37 @@
+{
+  "version": "7.0.32",
+  "checks": [
+    "Word recognizes 4 citation fields and 1 bibliography",
+    "Word reads custom Zotero preferences",
+    "Refresh retains all fields",
+    "bibliography updates from Zotero library",
+    "citation embedded metadata refreshes"
+  ],
+  "started": "2026-11-02T15:43:22.990Z",
+  "after": [
+    {
+      "kind": "citation",
+      "text": "[1]"
+    },
+    {
+      "kind": "citation",
+      "text": "[1], [2]"
+    },
+    {
+      "kind": "citation",
+      "text": "[3]"
+    },
+    {
+      "kind": "citation",
+      "text": "[1], [2], [3]"
+    },
+    {
+      "kind": "bibliography",
+      "text": "[1]\tT. Author1, UPDATED synthetic reference 1. Test Press, 2021.\r[2]\tT. Author3, Synthetic reference 3. Test Press, 2023.\r[3]\tT. Author2, Synthetic reference 2. Test Press, 2022.\r"
+    }
+  ],
+  "ok": true,
+  "finished": "2026-11-02T15:43:26.611Z",
+  "fixture": "Synthetic references and DOCX only",
+  "addonContentSHA256": "718ffdc81a2c399ea73c0ef2c3bf7cfb24f2c2dfdba8110733b9bd876c80d0e1"
+}

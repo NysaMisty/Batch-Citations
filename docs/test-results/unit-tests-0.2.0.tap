@@ -1,0 +1,178 @@
+TAP version 13
+# Subtest: full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+ok 1 - full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+  ---
+  duration_ms: 23.2978
+  type: 'test'
+  ...
+# Subtest: reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+ok 2 - reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+  ---
+  duration_ms: 1048.9226
+  type: 'test'
+  ...
+# Subtest: count excluded story candidates separately
+ok 3 - count excluded story candidates separately
+  ---
+  duration_ms: 1.9259
+  type: 'test'
+  ...
+# Subtest: bibliography placeholder is ordinary text, never an existing Zotero field
+ok 4 - bibliography placeholder is ordinary text, never an existing Zotero field
+  ---
+  duration_ms: 0.9046
+  type: 'test'
+  ...
+# Subtest: parse simple, clusters, Chinese separators and bounded ranges
+ok 5 - parse simple, clusters, Chinese separators and bounded ranges
+  ---
+  duration_ms: 2.1151
+  type: 'test'
+  ...
+# Subtest: scan across runs but never across paragraphs
+ok 6 - scan across runs but never across paragraphs
+  ---
+  duration_ms: 4.6153
+  type: 'test'
+  ...
+# Subtest: protected hyperlink and ordinary fields are visible but ineligible
+ok 7 - protected hyperlink and ordinary fields are visible but ineligible
+  ---
+  duration_ms: 1.0909
+  type: 'test'
+  ...
+# Subtest: block content controls protect their paragraphs and cannot host the bibliography marker
+ok 8 - block content controls protect their paragraphs and cannot host the bibliography marker
+  ---
+  duration_ms: 2.6089
+  type: 'test'
+  ...
+# Subtest: reject tracked changes, existing Zotero fields, malformed XML and DTD
+ok 9 - reject tracked changes, existing Zotero fields, malformed XML and DTD
+  ---
+  duration_ms: 0.5569
+  type: 'test'
+  ...
+# Subtest: replace multiple markers in same run; preserve text, suffix formatting and section
+ok 10 - replace multiple markers in same run; preserve text, suffix formatting and section
+  ---
+  duration_ms: 8.3953
+  type: 'test'
+  ...
+# Subtest: cross-run suffix retains its original formatting
+ok 11 - cross-run suffix retains its original formatting
+  ---
+  duration_ms: 1.4851
+  type: 'test'
+  ...
+# Subtest: markers next to tabs and line breaks convert without losing surrounding run content
+ok 12 - markers next to tabs and line breaks convert without losing surrounding run content
+  ---
+  duration_ms: 6.6693
+  type: 'test'
+  ...
+# Subtest: cross-run marker replacement retains adjacent drawings, multiple text nodes and bookmarks
+ok 13 - cross-run marker replacement retains adjacent drawings, multiple text nodes and bookmarks
+  ---
+  duration_ms: 2.7477
+  type: 'test'
+  ...
+# Subtest: text outside a complex field remains convertible while its display text stays protected across paragraphs
+ok 14 - text outside a complex field remains convertible while its display text stays protected across paragraphs
+  ---
+  duration_ms: 1.8217
+  type: 'test'
+  ...
+# Subtest: only selected candidates convert; missing mappings fail before output
+ok 15 - only selected candidates convert; missing mappings fail before output
+  ---
+  duration_ms: 1.0021
+  type: 'test'
+  ...
+# Subtest: duplicate mapped paper appears once in a cluster
+ok 16 - duplicate mapped paper appears once in a cluster
+  ---
+  duration_ms: 0.5456
+  type: 'test'
+  ...
+# Subtest: bibliography marker requires its own paragraph; manual list is rejected
+ok 17 - bibliography marker requires its own paragraph; manual list is rejected
+  ---
+  duration_ms: 1.1298
+  type: 'test'
+  ...
+# Subtest: custom properties retain unrelated entries and reject existing Zotero prefs
+ok 18 - custom properties retain unrelated entries and reject existing Zotero prefs
+  ---
+  duration_ms: 1.1669
+  type: 'test'
+  ...
+# Subtest: preference data is accepted as JSON version 4 with Word fields
+ok 19 - preference data is accepted as JSON version 4 with Word fields
+  ---
+  duration_ms: 0.1488
+  type: 'test'
+  ...
+# Subtest: about:blank unload does not lose the live window; shutdown cleans up
+ok 20 - about:blank unload does not lose the live window; shutdown cleans up
+  ---
+  duration_ms: 2.0225
+  type: 'test'
+  ...
+# Subtest: sequence check sorts distinct numbers, reports gaps and accepts continuous excerpts
+ok 21 - sequence check sorts distinct numbers, reports gaps and accepts continuous excerpts
+  ---
+  duration_ms: 1.2814
+  type: 'test'
+  ...
+# Subtest: duplicate current item IDs or normalized Zotero URIs are blocked atomically
+ok 22 - duplicate current item IDs or normalized Zotero URIs are blocked atomically
+  ---
+  duration_ms: 0.6313
+  type: 'test'
+  ...
+# Subtest: reselecting the same numbered item is allowed; identical titles do not identify an item
+ok 23 - reselecting the same numbered item is allowed; identical titles do not identify an item
+  ---
+  duration_ms: 0.2882
+  type: 'test'
+  ...
+# Subtest: ordered assignment preserves actual add order and does not mutate the source mapping
+ok 24 - ordered assignment preserves actual add order and does not mutate the source mapping
+  ---
+  duration_ms: 0.8786
+  type: 'test'
+  ...
+# Subtest: duplicate batch choice stays at the same number and retains the previous draft
+ok 25 - duplicate batch choice stays at the same number and retains the previous draft
+  ---
+  duration_ms: 0.2136
+  type: 'test'
+  ...
+# Subtest: batch edit and clear allow correction, preserve unrelated mappings and reject gaps
+ok 26 - batch edit and clear allow correction, preserve unrelated mappings and reject gaps
+  ---
+  duration_ms: 0.252
+  type: 'test'
+  ...
+# Subtest: manifest contains the metadata required by the Zotero 7 loader
+ok 27 - manifest contains the metadata required by the Zotero 7 loader
+  ---
+  duration_ms: 1.1538
+  type: 'test'
+  ...
+# Subtest: XHTML controller loads after controls, without relying on HTML-only defer behavior
+ok 28 - XHTML controller loads after controls, without relying on HTML-only defer behavior
+  ---
+  duration_ms: 3.6144
+  type: 'test'
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1214.8353

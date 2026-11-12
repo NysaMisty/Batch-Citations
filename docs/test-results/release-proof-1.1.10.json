@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "version": "1.1.10",
+  "addonContentSHA256": "8abde2e91a582ec7ea0ac29b36a0c7fefd587a14915c31f2995e12dbd0bb064d",
+  "assemblySHA256": "22aab9eb4a06925fbb2bef69c2ff24550f950967755827df51ab6a84135acaed",
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "hostChecks": 109,
+      "iterationChecks": 51,
+      "activationChecks": 63,
+      "literatureUIChecks": 26,
+      "restored": true,
+      "foreground": {
+        "actualProcess": 27320,
+        "exactDialogForeground": true,
+        "apiErrors": [],
+        "dialogHandle": 5703302,
+        "actualWindowHandle": 5703302,
+        "expectedProcess": 27320,
+        "backgroundValidation": true,
+        "verified": true,
+        "nativeActivation": true,
+        "visible": true
+      },
+      "wordVersion": "16.0",
+      "wordBuild": "16.0.20527",
+      "devicePixelRatio": [
+        1
+      ]
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "hostChecks": 109,
+      "iterationChecks": 51,
+      "activationChecks": 63,
+      "literatureUIChecks": 26,
+      "restored": true,
+      "foreground": {
+        "actualProcess": 21648,
+        "exactDialogForeground": true,
+        "apiErrors": [],
+        "dialogHandle": 234227294,
+        "actualWindowHandle": 234227294,
+        "expectedProcess": 21648,
+        "backgroundValidation": true,
+        "verified": true,
+        "nativeActivation": true,
+        "visible": true
+      },
+      "wordVersion": "16.0",
+      "wordBuild": "16.0.20527",
+      "devicePixelRatio": [
+        1
+      ]
+    }
+  ],
+  "independent": {
+    "safety": 15,
+    "integrity": 8,
+    "pipeline": 8
+  },
+  "evidenceFiles": {
+    "docs/test-results/zotero-7.0.32-host-1.1.10.json": "20ad6b997ccadd5d566d4329e7dde183d903f46090f00c68979863cc50a90e70",
+    "docs/test-results/zotero-7.0.32-iteration-1.1.10.json": "49fb2f2bd12810d926ba2c2aeae794e61d446e7fc1080037d0043868345c55d6",
+    "docs/test-results/zotero-7.0.32-activation-1.1.10.json": "c06747d060815de9df841eca7a97ba7f78dbf6ea5619f93ee53b69ee90088660",
+    "docs/test-results/zotero-7.0.32-restoration-1.1.10.json": "14b1fb6c1a92482983cd7bd9d31df7c765a7bd95421f1e2fccbe1bd298903a5b",
+    "docs/test-results/zotero-7.0.32-activation-restoration-1.1.10.json": "14b1fb6c1a92482983cd7bd9d31df7c765a7bd95421f1e2fccbe1bd298903a5b",
+    "docs/test-results/zotero-10.0.7-host-1.1.10.json": "035b20c274aa333deeb57835deb861b0d46dfda89a96ff7c31dac018eaf9c41e",
+    "docs/test-results/zotero-10.0.7-iteration-1.1.10.json": "f02327c64848478f3f2cd3ef8ebbde673fb366c0d748179c6b5d43019418409f",
+    "docs/test-results/zotero-10.0.7-activation-1.1.10.json": "27853881a4bd8b1b0df5ec9713dec90740b734f80bac368344e6e7328765b29d",
+    "docs/test-results/zotero-10.0.7-restoration-1.1.10.json": "14b1fb6c1a92482983cd7bd9d31df7c765a7bd95421f1e2fccbe1bd298903a5b",
+    "docs/test-results/zotero-10.0.7-activation-restoration-1.1.10.json": "14b1fb6c1a92482983cd7bd9d31df7c765a7bd95421f1e2fccbe1bd298903a5b",
+    "docs/test-results/word-safety-1.1.10.json": "7400ba06686a3d776c3c981f2586e940ec1ef211f7e0bfef48e5d589a7c540b0",
+    "docs/test-results/word-integrity-1.1.10.json": "12ca093ab2686eea8c2de416e2d5f515acff4d1ea5596ccdc0eb54eb14fd23df",
+    "docs/test-results/word-pipeline-1.1.10.json": "f8bafcc6f023c1fbb685b066916271fdf70455f33b2df579d154a63524378b0c",
+    "docs/test-results/unit-tests-1.1.10.tap": "a7b75e1362106c0dcbde41a9748b0d93ffa21930a937e73472ec12825970c7a5"
+  },
+  "unitTests": 188
+}

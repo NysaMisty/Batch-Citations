@@ -1,0 +1,191 @@
+{
+  "foreground": {
+    "events": [
+      4132668,
+      2951522,
+      4916986,
+      6425560,
+      4916902,
+      3148130,
+      4394812
+    ],
+    "mainHandle": 32572182
+  },
+  "wordBuild": "16.0.20527",
+  "checks": [
+    "duplicate original numbers create four native fields and persistent binding data",
+    "official bibliography insertion leaves one bibliography and four citations",
+    "bibliography reopen 1 restores original number 2 even though CSL displays it as 1",
+    "bibliography reopen 1 keeps the library main window minimized",
+    "bibliography reopen 2 restores original number 2 even though CSL displays it as 1",
+    "bibliography reopen 2 keeps the library main window minimized",
+    "closing then reopening recovers even when the asynchronous cancellation notification was lost",
+    "bibliography reopen 3 restores original number 2 even though CSL displays it as 1",
+    "bibliography reopen 3 keeps the library main window minimized",
+    "bibliography reopen 4 restores original number 2 even though CSL displays it as 1",
+    "bibliography reopen 4 keeps the library main window minimized",
+    "bibliography reopen 5 restores original number 2 even though CSL displays it as 1",
+    "bibliography reopen 5 keeps the library main window minimized",
+    "bibliography reopen 6 restores original number 2 even though CSL displays it as 1",
+    "bibliography reopen 6 keeps the library main window minimized",
+    "no foreground event targets Zotero main during repeated Word batch calls",
+    "deleting only one duplicate does not release original number 2",
+    "existing original number 2 is restored to its original item",
+    "bound number has no ordinary change or clear action",
+    "service rejects a different item for an already bound original number",
+    "another original number cannot steal a bound item",
+    "conflicting CSV import leaves all bindings unchanged",
+    "ordered matching skips and protects committed original numbers",
+    "incremental conversion reuses the surviving binding and creates only requested new fields",
+    "all original number 2 positions still use the same Zotero item URI",
+    "official refresh preserves binding metadata and one consistent bibliography",
+    "saving closing and reopening restores all original-number bindings",
+    "a manually replaced citation requires explicit confirmation rather than silently changing its original binding",
+    "explicit confirmation reconciles a deliberately replaced citation and preserves the original number",
+    "legacy fields without metadata require explicit restoration and do not guess from displayed numbers",
+    "confirmed legacy recovery persists bindings without adding or replacing citation fields",
+    "unchanged large document reopen 1 reuses candidates without a full scan",
+    "unchanged large document reopen 2 reuses candidates without a full scan",
+    "unchanged large document reopen 3 reuses candidates without a full scan",
+    "a document number edit invalidates the cache and updates automatically",
+    "same-length marker replacements update the cached continuity result",
+    "idle background events cannot cause full rescans, snapshot updates or event-free polling"
+  ],
+  "ok": true,
+  "wordAddinSHA256": "2DF9AE3E244364827FB18D0204D6E02C4C56439C6EC1839CC186856657B1C743",
+  "wordVersion": "16.0",
+  "timing": [
+    {
+      "phase": "bibliography-reopen",
+      "round": 1,
+      "metrics": {
+        "scans": 3,
+        "hits": 0,
+        "captureMs": 457
+      },
+      "elapsedMs": 878
+    },
+    {
+      "phase": "bibliography-reopen",
+      "round": 2,
+      "metrics": {
+        "scans": 3,
+        "hits": 1,
+        "captureMs": 194
+      },
+      "elapsedMs": 475
+    },
+    {
+      "phase": "bibliography-reopen",
+      "round": 3,
+      "metrics": {
+        "scans": 3,
+        "hits": 3,
+        "captureMs": 191
+      },
+      "elapsedMs": 550
+    },
+    {
+      "phase": "bibliography-reopen",
+      "round": 4,
+      "metrics": {
+        "scans": 3,
+        "hits": 4,
+        "captureMs": 175
+      },
+      "elapsedMs": 518
+    },
+    {
+      "phase": "bibliography-reopen",
+      "round": 5,
+      "metrics": {
+        "scans": 3,
+        "hits": 5,
+        "captureMs": 190
+      },
+      "elapsedMs": 534
+    },
+    {
+      "phase": "bibliography-reopen",
+      "round": 6,
+      "metrics": {
+        "scans": 3,
+        "hits": 6,
+        "captureMs": 161
+      },
+      "elapsedMs": 412
+    },
+    {
+      "metrics": {
+        "scans": 1,
+        "hits": 0,
+        "captureMs": 2065
+      },
+      "phase": "large-first"
+    },
+    {
+      "phase": "large-cached",
+      "round": 1,
+      "metrics": {
+        "scans": 1,
+        "hits": 1,
+        "captureMs": 347
+      }
+    },
+    {
+      "phase": "large-cached",
+      "round": 2,
+      "metrics": {
+        "scans": 1,
+        "hits": 2,
+        "captureMs": 314
+      }
+    },
+    {
+      "phase": "large-cached",
+      "round": 3,
+      "metrics": {
+        "scans": 1,
+        "hits": 3,
+        "captureMs": 305
+      }
+    },
+    {
+      "scansBefore": 3,
+      "scansAfter": 3,
+      "updatesBefore": 2,
+      "after": {
+        "state": "pending",
+        "watching": true,
+        "active": true,
+        "pendingCheck": false,
+        "checking": false,
+        "network": false,
+        "committed": false,
+        "generation": 35,
+        "events": 216,
+        "checks": 3,
+        "updates": 2
+      },
+      "before": {
+        "state": "pending",
+        "watching": true,
+        "active": true,
+        "pendingCheck": false,
+        "checking": false,
+        "network": false,
+        "committed": false,
+        "generation": 35,
+        "events": 216,
+        "checks": 3,
+        "updates": 2
+      },
+      "phase": "idle-events",
+      "updatesAfter": 2
+    }
+  ],
+  "zoteroVersion": "7.0.32",
+  "addonVersion": "1.1.3",
+  "addonContentSHA256": "a0ebe9290709a52b07bd7da77819459f988e5283eb399dc631bcf7e98c529868",
+  "sourceDirectory": "D:\\zotero-plugin\\work\\test-runs\\active\\test-v7-reliability-113-final"
+}

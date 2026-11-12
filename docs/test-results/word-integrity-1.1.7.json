@@ -1,0 +1,16 @@
+﻿{
+    "ok":  true,
+    "assemblySHA256":  "E37CC5DF9C3674EDF4CCD33E89CD0F7E4B9C359771479B63F5FD78BD85CB9761",
+    "finished":  "2026-11-05T13:22:53.5165868+08:00",
+    "checks":  [
+                   "two adjacent candidate markers are visible to the add-in",
+                   "staged merge setup inserts two real citation fields",
+                   "capture exposes ordered field ranges and citation IDs",
+                   "adjacent merge keeps one field, reuses the left ID and removes the punctuation gap",
+                   "successful merge leaves a staged transaction and guards the active ledger",
+                   "finalize refuses a document changed after verification",
+                   "finalize promotes the verified ledger without inserting fields",
+                   "finalize leaves the citation field and surrounding text intact"
+               ],
+    "wordVersion":  "16.0"
+}

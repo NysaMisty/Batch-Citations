@@ -1,0 +1,36 @@
+{
+  "version": "10.0.7",
+  "checks": [
+    "plugin startup",
+    "Tools menu",
+    "dialog and host API checks",
+    "native FilePicker API",
+    "dialog initialization",
+    "URI and CSL metadata",
+    "resolve library URI",
+    "DOCX scan",
+    "all markers eligible beside tabs and breaks",
+    "available in-text styles",
+    "CSL citation clusters",
+    "CSL bibliography",
+    "tabs and line breaks preserved",
+    "write new DOCX",
+    "existing output refused",
+    "official DocumentData reader",
+    "official CitationField reader"
+  ],
+  "started": "2026-11-02T16:10:31.138Z",
+  "citationTexts": {
+    "0:15:18": "[1]",
+    "0:27:32": "[1], [2]",
+    "1:5:8": "[3]",
+    "2:8:13": "[1], [2], [3]"
+  },
+  "bibliography": "[1] T. Author1, Synthetic reference 1. Test Press, 2021.\n[2] T. Author3, Synthetic reference 3. Test Press, 2023.\n[3] T. Author2, Synthetic reference 2. Test Press, 2022.",
+  "style": "http://www.zotero.org/styles/ieee",
+  "ok": true,
+  "finished": "2026-11-02T16:10:35.919Z",
+  "fixture": "Synthetic references and DOCX with adjacent tabs and line breaks",
+  "addonVersion": "0.1.1",
+  "addonContentSHA256": "9c88f96059ade2203a3d2bb5a8805521e1397e6ff8799953409c25ab366348b0"
+}

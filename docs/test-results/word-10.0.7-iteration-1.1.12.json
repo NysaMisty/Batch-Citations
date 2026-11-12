@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "version": "1.1.12",
+  "kind": "development-word-acceptance",
+  "host": "Zotero 10.0.7",
+  "wordVersion": "16.0",
+  "wordBuild": "16.0.20527",
+  "passed": true,
+  "passedChecks": 53,
+  "checks": [
+    "registered Word host loads the candidate add-in",
+    "problem document opens a ready batch window with exactly 35 unique ranges",
+    "live opening directly synchronizes all seventeen picker numbers without a refresh hook",
+    "problem document preserves all seventeen recognized numbers and has no unresolved ranges",
+    "opening leaves all positions unchecked and the Word content and fields unchanged",
+    "immediate reference mapping leaves real Word text and fields unchanged",
+    "closing and reopening the unchanged real Word document retains the applied UI mapping",
+    "problem document reopens with the same exact ranges, text, fields and bindings",
+    "volatile inline drawing identifiers do not change the complete document fingerprint",
+    "problem document copy completes confirmed conversion and native refresh for all 35 selected positions",
+    "ordinary scan keeps exact candidates and number set",
+    "ordinary scan makes no unconfirmed edits",
+    "long blocking error fits without enabling submission or editing Word",
+    "repeat scan keeps exact candidates and number set",
+    "repeat scan makes no unconfirmed edits",
+    "compound scan keeps exact candidates and number set",
+    "compound scan makes no unconfirmed edits",
+    "unsupported scan keeps exact candidates and number set",
+    "unsupported scan makes no unconfirmed edits",
+    "unsupported structures are visible, explained and disabled individually",
+    "unsupported window fits normal narrow and minimum widths",
+    "empty scan keeps exact candidates and number set",
+    "empty scan makes no unconfirmed edits",
+    "empty window fits normal narrow and minimum widths",
+    "dense scan keeps exact candidates and number set",
+    "dense scan makes no unconfirmed edits",
+    "table cells retain repeated, distinct and compound markers exactly once per position",
+    "sixty-reference application starts with sixty selectable positions",
+    "sixty-reference application uses the real ordered picker and applies all sixty selected rows",
+    "sixty-reference UI application inserts and natively refreshes sixty distinct citation fields",
+    "button and drag sorting reach the actual Word citation URI mapping",
+    "sixty-reference application preserves all historical label mappings",
+    "sixty-reference save and reopen restores every native reference without manual recovery",
+    "real partial picker application converts only two fully bound positions and preserves the incomplete compound marker",
+    "confirmed duplicate labels produce one real reference and retain both historical mappings",
+    "duplicate numbering preview shares one final reference number",
+    "partial duplicate mappings reopen without recovery and leave the missing number unbound",
+    "individual picker fills the missing number without modifying committed neighboring mappings",
+    "completed compound reference contains both actual Zotero identities",
+    "completed partial and duplicate application survives native refresh save and reopen",
+    "final confirmation and main window share the exact changed rows and complete details",
+    "canceling final confirmation leaves all fields, text and bindings untouched",
+    "live numbering preview and format help fit normal narrow and minimum windows",
+    "accepting final confirmation inserts once and refreshes the current document",
+    "official Zotero bibliography coexists with all four native citations",
+    "incremental application refreshes the existing bibliography without replacing or duplicating it",
+    "mixed native and manual document recognizes only the external manual positions as eligible",
+    "mixed document entry protects every preexisting native citation and binding",
+    "real mixed citation status counts existing fields and all pending repeated positions",
+    "mixed-status reuse inserts without duplicating or replacing the reference identity",
+    "live UI import export CSV TSV JSON settings and help regressions pass",
+    "literature UI checks leave the actual Word document untouched",
+    "original problem document remains byte-identical"
+  ],
+  "assemblySHA256": "035FADD927ACAF42AD3703FD2BCCC7AFB4A3EC27D53D74C1DEAD16FF8F619196",
+  "sourceFixtureSHA256": "B729C2EA9EE879B913907C26915578D941D270FBF657119D97E00816E68D44A0",
+  "sourceFixtureUnchanged": true,
+  "scenarios": {
+    "problemDocument": {
+      "uniquePositions": 35,
+      "recognizedNumbers": 17,
+      "selectedForConversion": 35,
+      "insertedCitationFields": 35,
+      "uniqueReferenceURIs": 17,
+      "mappingDidNotEditWord": true,
+      "reopenRetainedMapping": true
+    },
+    "sixtyReferenceApplication": {
+      "selected": 60,
+      "orderedPickerCount": 60,
+      "numericPreview": true,
+      "verifiedCSL": true,
+      "insertedCitationFields": 60,
+      "distinctReferenceURIs": 60
+    },
+    "partialDuplicate": {
+      "selected": 2,
+      "appliedLabels": [
+        "1",
+        "3"
+      ],
+      "singleNumberReplacementPreservedNeighbors": true,
+      "cancelKeptPending": true,
+      "acceptApplied": true
+    },
+    "mixedDocument": {
+      "selected": 2,
+      "existingCitationRows": 2,
+      "passed": true
+    },
+    "layout": {
+      "windows": [
+        "1000x680 tab 0",
+        "1000x680 tab 1",
+        "760x600 tab 0",
+        "760x600 tab 1",
+        "640x560 tab 0",
+        "640x560 tab 1"
+      ],
+      "errorStateChecks": [
+        "main 1000x680 tab 0 fits with internal scrolling",
+        "main 1000x680 tab 1 fits with internal scrolling",
+        "main 760x600 tab 0 fits with internal scrolling",
+        "main 760x600 tab 1 fits with internal scrolling",
+        "main 640x560 tab 0 fits with internal scrolling",
+        "main 640x560 tab 1 fits with internal scrolling"
+      ],
+      "allLayoutChecksPassed": true
+    },
+    "libraryIOPassed": true
+  },
+  "restoration": {
+    "ok": true,
+    "registrationRestored": true,
+    "nativeTemplateUnchanged": true,
+    "userTemplateUnchanged": true,
+    "normalWordLaunch": true
+  },
+  "testDirectory": "D:\\zotero-plugin\\work\\test-runs\\active\\test-v10-live1112-corr-word-d10",
+  "finished": "2026-11-06T16:44:17.6421854+08:00"
+}

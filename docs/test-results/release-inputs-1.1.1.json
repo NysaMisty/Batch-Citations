@@ -1,0 +1,13 @@
+{
+  "version": "1.1.1",
+  "unitTests": 49,
+  "hosts": [
+    {"zoteroVersion": "7.0.32", "live": "test-runs/1.1.1/test-v7-live-111-verified", "ui": "test-runs/1.1.1/test-v7-ui-111-native-accept", "wordChecks": 15, "automaticChecks": 54, "hostChecks": 44},
+    {"zoteroVersion": "10.0.7", "live": "test-runs/1.1.1/test-v10-live-111-release", "ui": "test-runs/1.1.1/test-v10-ui-111-native-accept", "wordChecks": 15, "automaticChecks": 54, "hostChecks": 44}
+  ],
+  "safety": "test-runs/1.1.1/test-word-safety-111-verified",
+  "safetyChecks": 12,
+  "images": "test-runs/1.1.1/test-ribbon-images-111-release",
+  "imageChecks": 14,
+  "ribbonChecks": 7
+}
