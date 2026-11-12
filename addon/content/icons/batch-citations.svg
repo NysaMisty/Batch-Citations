@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <title>编号批量引用</title>
+  <rect width="96" height="96" rx="18" fill="#245f53"/>
+  <g fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M35 26H25V70H35M61 26H71V70H61"/>
+    <path d="M43 38L49 32V64M42 64H56"/>
+  </g>
+</svg>
