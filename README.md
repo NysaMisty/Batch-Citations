@@ -1,7 +1,5 @@
 # 编号批量引用 · Batch Citations 1.1.13
 
-> 仓库迁移中。完整源码、界面截图和安装包会在本次迁移完成后一起提供。
-
 把 Windows 桌面 Word 文档里的 `[1]`、`[1,3]`、`[1–3]` 等手写文献编号，批量转换成可编辑、可刷新的 Zotero 动态引用。
 
 [下载完整安装包](https://github.com/NysaMisty/Batch-Citations/releases/latest/download/zotero-batch-citations-1.1.13-bundle.zip) · [版本说明与校验文件](https://github.com/NysaMisty/Batch-Citations/releases/latest)

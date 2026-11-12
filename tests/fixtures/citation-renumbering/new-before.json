@@ -1,0 +1,34 @@
+{
+  "source": "synthetic-new-before.docx",
+  "ledger": "{\"version\":1,\"entries\":{\"1\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0002\"],\"citations\":[\"demo-citation-03\"]},\"2\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0005\"],\"citations\":[\"demo-citation-04\"]},\"3\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0008\"],\"citations\":[\"demo-citation-01\"]},\"4\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0003\"],\"citations\":[\"demo-citation-02\"]},\"5\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0006\"],\"citations\":[\"demo-citation-06\"]},\"6\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0007\"],\"citations\":[\"demo-citation-07\"]},\"7\":{\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0004\"],\"citations\":[\"demo-citation-05\"]}}}",
+  "fields": [
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-03\",\"properties\":{\"formattedCitation\":\"\\\\super [1]\\\\nosupersub{}\",\"plainCitation\":\"[1]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1001,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0002\"],\"itemData\":{\"id\":1001,\"type\":\"article\",\"title\":\"Synthetic reference A\",\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}],\"issued\":{\"date-parts\":[[2024]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[1]"
+    },
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-04\",\"properties\":{\"formattedCitation\":\"\\\\super [2]\\\\nosupersub{}\",\"plainCitation\":\"[2]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1002,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0005\"],\"itemData\":{\"id\":1002,\"type\":\"article\",\"title\":\"Synthetic reference B\",\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}],\"issued\":{\"date-parts\":[[2024]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[2]"
+    },
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-01\",\"properties\":{\"formattedCitation\":\"\\\\super [3]\\\\nosupersub{}\",\"plainCitation\":\"[3]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1003,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0008\"],\"itemData\":{\"id\":1003,\"type\":\"webpage\",\"title\":\"Synthetic reference C\",\"issued\":{\"date-parts\":[[2024]]},\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}]}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[3]"
+    },
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-02\",\"properties\":{\"formattedCitation\":\"\\\\super [4]\\\\nosupersub{}\",\"plainCitation\":\"[4]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1004,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0003\"],\"itemData\":{\"id\":1004,\"type\":\"article-journal\",\"title\":\"Synthetic reference D\",\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}],\"issued\":{\"date-parts\":[[2024]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[4]"
+    },
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-06\",\"properties\":{\"formattedCitation\":\"\\\\super [5]\\\\nosupersub{}\",\"plainCitation\":\"[5]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1005,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0006\"],\"itemData\":{\"id\":1005,\"type\":\"article-journal\",\"title\":\"Synthetic reference E\",\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}],\"issued\":{\"date-parts\":[[2024]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[5]"
+    },
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-07\",\"properties\":{\"formattedCitation\":\"\\\\super [6]\\\\nosupersub{}\",\"plainCitation\":\"[6]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1006,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0007\"],\"itemData\":{\"id\":1006,\"type\":\"webpage\",\"title\":\"Synthetic reference F\",\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}],\"issued\":{\"date-parts\":[[2024]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[6]"
+    },
+    {
+      "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"citationID\":\"demo-citation-05\",\"properties\":{\"formattedCitation\":\"\\\\super [7]\\\\nosupersub{}\",\"plainCitation\":\"[7]\",\"noteIndex\":0},\"citationItems\":[{\"id\":1007,\"uris\":[\"http://zotero.org/users/local/TESTLIB1/items/DEMO0004\"],\"itemData\":{\"id\":1007,\"type\":\"webpage\",\"title\":\"Synthetic reference G\",\"author\":[{\"family\":\"Example\",\"given\":\"Author\"}],\"issued\":{\"date-parts\":[[2024]]}}}],\"schema\":\"https://github.com/citation-style-language/schema/raw/master/csl-citation.json\"}",
+      "text": "[7]"
+    }
+  ]
+}
