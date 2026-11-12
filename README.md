@@ -32,7 +32,7 @@ Word 加载项负责扫描当前文档、核对位置和写入引用。Zotero �
 
 ## 欢迎反馈和帮忙测试
 
-这是我第一次做项目、第一次在 GitHub 发布作品。实现工作几乎全部由 **ChatGPT** 完成，我负责功能测试。欢迎在 [Issues](https://github.com/NysaMisty/Batch-Citations/issues) 提建议或报告问题。如果你愿意帮忙测试不同版本的 Windows、Word 和 Zotero，或想一起探索 macOS、WPS 等环境的适配，也欢迎留言。
+实现工作几乎全部由 **ChatGPT** 完成，我主要负责功能测试。欢迎在 [Issues](https://github.com/NysaMisty/Batch-Citations/issues) 提建议或报告问题。如果你愿意帮忙测试不同版本的 Windows、Word 和 Zotero，或想一起探索 macOS、WPS 等环境的适配，也欢迎留言。
 
 遇到问题时，附上系统和软件版本、复现步骤或截图，会方便一起排查。
 
