@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://zotero/skin/zotero.css" type="text/css"?>
+<?xml-stylesheet href="chrome://zotero-platform/content/zotero.css" type="text/css"?>
+<?xml-stylesheet href="ui-common.css" type="text/css"?>
+<?xml-stylesheet href="dialog.css" type="text/css"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" xmlns:html="http://www.w3.org/1999/xhtml" id="zbc-renumber-confirm" windowtype="zbc:renumber-confirm" class="zotero-dialog" title="编号变化预览" width="620" height="440">
+  <dialog id="renumber-confirm-dialog" buttons="accept,cancel" buttonlabelaccept="插入并刷新" buttonlabelcancel="取消">
+    <script src="chrome://zotero/content/include.js"/>
+    <script src="chrome://zotero/content/customElements.js"/>
+    <script src="citation-state.js"/>
+    <script src="numbering-summary.js"/>
+    <html:div class="renumber-confirm-content">
+      <html:p class="renumber-confirm-title">编号变化预览</html:p>
+      <html:p id="renumber-confirm-error" class="error" role="alert" hidden="hidden"/>
+      <html:p id="renumber-notice" class="hint" hidden="hidden"/>
+      <html:div class="preview-tools"><html:span id="renumber-count"/><html:label><html:input id="renumber-full" type="checkbox"/>查看全部</html:label></html:div>
+      <html:div class="number-preview-scroll"><html:table class="number-preview-table" aria-label="编号变化预览"><html:thead><html:tr><html:th>文献</html:th><html:th>编号变化</html:th></html:tr></html:thead><html:tbody id="renumber-summary-lines"/></html:table></html:div>
+    </html:div>
+    <html:p class="hint renumber-confirm-notice">点击“插入并刷新”后，将插入所选引用并刷新当前 Word 文档。</html:p>
+    <script src="renumber-confirm.js"/>
+  </dialog>
+</window>

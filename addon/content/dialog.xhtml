@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xul="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" lang="zh-CN" class="zotero-dialog">
+<head>
+  <meta charset="utf-8"/>
+  <title>Zotero — 批量匹配编号</title>
+  <link rel="stylesheet" href="chrome://global/skin/global.css"/>
+  <link rel="stylesheet" href="chrome://zotero/skin/zotero.css"/>
+  <link rel="stylesheet" href="chrome://zotero-platform/content/zotero.css"/>
+  <link rel="stylesheet" href="ui-common.css"/>
+  <link rel="stylesheet" href="dialog.css"/>
+  <link rel="stylesheet" href="picker.css"/>
+  <link rel="localization" href="zotero.ftl"/>
+  <script src="chrome://zotero/content/include.js"></script>
+  <script src="chrome://zotero/content/customElements.js"></script>
+  <script src="vendor/fflate.js"></script>
+  <script src="core.js"></script>
+  <script src="citation-state.js"></script>
+  <script src="reference-status.js"></script>
+  <script src="numbering-summary.js"></script>
+  <script src="mapping.js"></script>
+  <script src="selection.js"></script>
+  <script src="live-core.js"></script>
+  <script src="archive.js"></script>
+  <script src="literature.js"></script>
+  <script src="library.js"></script>
+  <script src="picker-layout.js"></script>
+  <script src="picker.js"></script>
+  <script src="zotero-adapter.js"></script>
+</head>
+<body>
+<header class="document-bar"><span>当前文档：</span><span id="filename">当前 Word 文档</span><span id="version" hidden="hidden">1.1.13</span><span id="workflow" hidden="hidden">为正文编号选择 Zotero 文献</span></header>
+<main>
+  <section id="status-panel" class="status-panel" aria-label="引用状态">
+    <div id="message" role="status" aria-live="polite" aria-atomic="true" hidden="hidden"></div>
+    <div class="status-line"><div id="status-summary" class="status-summary" role="status" aria-live="polite">正在检查引用状态…</div>
+    <div id="number-check" class="check-result" role="status" aria-live="polite">正在检查编号…</div></div>
+    <ul id="status-issues" class="status-issues" hidden="hidden"></ul>
+    <div id="binding-recovery" hidden="hidden"><span id="binding-hint" class="hint">旧引用缺少原编号记录，请核对后恢复绑定。</span> <button id="recover-bindings">恢复旧版编号绑定…</button></div>
+  </section>
+  <details id="renumber-preview" hidden="hidden"><summary id="renumber-preview-summary">编号变化预览</summary><div class="preview-content"><p id="renumber-preview-notice" class="hint" hidden="hidden"/><div class="preview-tools"><span id="renumber-preview-count"/><label><input id="renumber-preview-full" type="checkbox"/>查看全部</label></div><div class="number-preview-scroll"><table class="number-preview-table" aria-label="编号变化预览"><thead><tr><th>文献</th><th>编号变化</th></tr></thead><tbody id="renumber-preview-body"/></table></div></div></details>
+  <div id="compatibility" class="toolbar" hidden="hidden"><button id="open">打开 DOCX…</button><span class="hint">文件兼容模式：导出新副本</span></div>
+  <xul:tabbox id="workspace" class="workspace" flex="1">
+    <xul:tabs><xul:tab id="mapping-tab" label="文献列表"/><xul:tab id="occurrences-tab" label="引用位置"/></xul:tabs>
+    <xul:tabpanels flex="1">
+      <xul:tabpanel id="mapping-panel" orient="vertical" flex="1"><div class="list-panel">
+        <div class="toolbar reference-toolbar"><div class="layout-controls" role="group" aria-label="文献选择区域布局"><span>布局：</span><button id="layout-stacked" aria-pressed="true" title="待选文献在上，已选编号在下">上下</button><button id="layout-side" aria-pressed="false" title="待选文献在左，已选编号在右">左右</button></div><span id="layout-notice" class="hint" role="status" hidden="hidden">空间不足，暂用上下布局</span><span class="toolbar-spacer"/><details id="list-more" class="list-more"><summary>导入/出文献列表</summary><div class="more-content"><p class="hint">导入/导出（可选）：备份、恢复或复用当前文献列表；文献需能在当前 Zotero 资料库中找到。</p><button id="import-map" disabled="disabled">导入文献列表</button><button id="export-map" disabled="disabled" title="导出当前已保存的编号与文献映射">导出文献列表</button><div class="export-format"><label id="list-format-label">导出格式：</label><xul:menulist id="list-format" native="true" aria-labelledby="list-format-label" value="csv"><xul:menupopup><xul:menuitem value="csv" label="CSV"/><xul:menuitem value="tsv" label="TSV"/><xul:menuitem value="json" label="JSON"/></xul:menupopup></xul:menulist></div><p class="hint">支持插件导出的 CSV、TSV 和旧版 JSON；不包含文献文件。无需手写文献 URL。</p></div></details></div>
+        <section id="zbc-reference-workspace" aria-label="选择文献">
+          <xul:hbox id="collections-items-container" flex="1">
+            <xul:vbox id="zotero-collections-tree-container" class="virtualized-table-container"><div id="zotero-collections-tree"/></xul:vbox>
+            <xul:vbox id="zotero-items-tree-container" flex="1">
+              <xul:hbox id="search-toolbar"><xul:quick-search-textbox id="zotero-tb-search" timeout="250" dir="reverse"/></xul:hbox>
+              <xul:hbox id="zotero-items-pane-content" class="virtualized-table-container"><div id="zotero-items-tree" seltype="single"/></xul:hbox>
+            </xul:vbox>
+          </xul:hbox>
+        </section>
+      </div></xul:tabpanel>
+      <xul:tabpanel id="occurrences-panel" orient="vertical" flex="1"><div class="list-panel">
+        <div class="toolbar"><button id="select-all" disabled="disabled">全选可转换位置</button><button id="select-none" disabled="disabled">取消全选</button><span class="toolbar-spacer"></span><span id="positions-hint" class="hint">只勾选确实属于文献引用的位置。</span></div>
+        <div class="preview"><table aria-label="引用位置列表"><colgroup><col class="check-column"/><col class="marker-column"/><col/><col class="state-column"/></colgroup><thead><tr><th>转换</th><th>标记</th><th>上下文</th><th>位置状态</th></tr></thead><tbody id="occurrences"><tr><td colspan="4" class="empty">正文中的引用位置将在这里显示</td></tr></tbody></table></div>
+        <p id="scan-summary" class="hint"></p>
+      </div></xul:tabpanel>
+    </xul:tabpanels>
+  </xul:tabbox>
+  <div class="settings-area">
+    <span id="output-heading" hidden="hidden">插入当前文档</span>
+    <div class="settings"><div class="setting"><label id="style-label">引用样式：</label><xul:menulist id="style" native="true" tabindex="0" aria-labelledby="style-label"><xul:menupopup id="style-popup"/></xul:menulist></div><div class="setting"><label id="locale-label">语言：</label><xul:menulist id="locale" native="true" tabindex="0" aria-labelledby="locale-label"><xul:menupopup id="locale-popup"><xul:menuitem value="zh-CN" label="中文（中国大陆）"/><xul:menuitem value="en-US" label="English (US)"/></xul:menupopup></xul:menulist></div></div>
+    <p id="output-hint" class="hint">最终编号由引用样式生成；已有引用沿用文档设置。</p>
+    <details class="integration-help"><summary>Word / Zotero 使用说明</summary><p class="hint">原编号用于匹配文献；最终编号由 Zotero 按引用样式生成。参考文献表请使用 Word 中 Zotero 的 Add/Edit Bibliography；已有引用请使用 Add/Edit Citation 修改。</p></details>
+  </div>
+</main>
+<div class="dialog-buttons"><span id="selection" class="hint">默认不勾选，请逐处核对。</span><span class="toolbar-spacer"></span><button id="convert" default="true" disabled="disabled">插入并刷新</button><button id="cancel">取消</button></div>
+<script src="dialog.js"></script>
+</body></html>
