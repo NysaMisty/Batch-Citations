@@ -2,7 +2,7 @@
 
 ## 唯一源码与目录职责
 
-唯一维护源码为 `D:\zotero-plugin\work\zotero-batch-citations`。每次迭代在这套源码内修改，不复制 `source-final`、`候选源码` 或另一套工作工程。
+当前仓库是唯一维护的源码，维护目录使用 `work/zotero-batch-citations`。每次迭代都在这个仓库内修改。
 
 | 位置 | 职责 |
 |---|---|
@@ -42,6 +42,8 @@ Word 构建同时生成 `word-addin/bin/build-info.json`，记录实际程序集
 
 ## 本版测试与证据
 
+公开仓库可用 `npm test` 运行单元测试，并可用 `examples/placeholder-demo.docx` 在 Word 和 Zotero 中试用。下面的宿主回归命令用于维护工作区，依赖配套的隔离 Zotero 运行时、Word 宿主脚本和测试文档。
+
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File tests/validate-117-hosts.ps1 -Phase UI -Majors 7 -Suffix unique-name
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File tests/validate-117-hosts.ps1 -Phase Word -Majors 7 -Suffix unique-name
@@ -62,6 +64,8 @@ python tests/verify-delivery.py docs/test-results/release-inputs-X.Y.Z.json
 ```
 
 核验器要求两版 Zotero 的布局与绑定、真实 Word 插入、窗口复用/最小化恢复、临时环境恢复，以及独立 Word 安全、完整性和管线记录。各测试 XPI 的文件内容必须与当前 addon 逐项相同；测试安装 DLL 必须与当前 DLL 摘要一致。汇总记录实际 OS 前台结果，不能把 Gecko 内部聚焦当作 Windows 前台成功。
+
+输入 JSON 中的 `sourceFixture` 可以填写相对于工作区的路径，例如 `test-fixtures/large-document.docx`，也可以填写绝对路径。工作区是源码仓库的上一级目录。核验器按 `addon/manifest.json` 的插件 ID 查找测试用 XPI。
 
 使用 UTF-8 保存 JSON、Markdown 和 TAP；Windows PowerShell 5 中含中文路径的新增脚本使用 UTF-8 BOM。测试报告写明实际应用版本、尺寸、缩放、通过项和未覆盖条件。
 
