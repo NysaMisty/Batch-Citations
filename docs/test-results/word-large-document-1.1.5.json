@@ -1,0 +1,16 @@
+{
+  "uniqueRanges": 35,
+  "captureMs": 16033,
+  "openMs": 1482,
+  "sourceHashAfter": "B729C2EA9EE879B913907C26915578D941D270FBF657119D97E00816E68D44A0",
+  "candidates": 35,
+  "nativeFields": 0,
+  "assemblyHash": "CD70D06DC438D1A8AD04E920FA80D96D1ECF00CF444034C5D5AD9A473755F7E9",
+  "sourceUnchanged": true,
+  "stableFingerprint": true,
+  "stage": "complete",
+  "elapsedMs": 20826,
+  "sourceHashBefore": "B729C2EA9EE879B913907C26915578D941D270FBF657119D97E00816E68D44A0",
+  "pictureResizeDetected": true,
+  "ok": true
+}

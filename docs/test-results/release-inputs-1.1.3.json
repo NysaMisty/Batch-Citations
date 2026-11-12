@@ -1,0 +1,32 @@
+{
+  "version": "1.1.3",
+  "unitTests": 62,
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "live": "test-runs/active/test-v7-live-113-release2",
+      "reliability": "test-runs/active/test-v7-reliability-113-final",
+      "ui": "test-runs/active/test-v7-ui-113-release",
+      "wordChecks": 15,
+      "automaticChecks": 59,
+      "bibliographyChecks": 42,
+      "reliabilityChecks": 37,
+      "hostChecks": 47
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "live": "test-runs/active/test-v10-live-113-release2",
+      "ui": "test-runs/active/test-v10-ui-113-release",
+      "wordChecks": 15,
+      "automaticChecks": 59,
+      "bibliographyChecks": 42,
+      "reliabilityChecks": 37,
+      "hostChecks": 47
+    }
+  ],
+  "safety": "test-runs/active/test-word-safety-113-release2",
+  "safetyChecks": 15,
+  "images": "test-runs/active/test-ribbon-images-113-release2",
+  "imageChecks": 17,
+  "ribbonChecks": 7
+}

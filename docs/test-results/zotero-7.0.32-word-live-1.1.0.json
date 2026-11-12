@@ -1,0 +1,28 @@
+{
+  "wordBuild": "16.0.20527",
+  "checks": [
+    "actual Word COM add-in connected",
+    "batch converts four occurrences in unsaved current document",
+    "batch creates no copy and keeps document open",
+    "numbering follows citation order",
+    "adjacent bold and italic text preserved",
+    "repeated Refresh does not duplicate citations",
+    "bibliography inserted at cursor before tail",
+    "repeated bibliography command updates instead of duplicating",
+    "superscript applies to existing numeric citation results",
+    "display preference survives Refresh",
+    "inline restores existing numeric citation results",
+    "library metadata changes update the bibliography",
+    "deleting a citation renumbers remaining citations",
+    "saved and reopened document remains manageable",
+    "incremental batch preserves existing citations and one bibliography"
+  ],
+  "ok": true,
+  "wordAddinSHA256": "A09B88851ED390DBE97C552979DF3C7AD4AC6AE49D24AE593CA3F32B935A5CA9",
+  "wordVersion": "16.0",
+  "finished": "2026-11-03T13:41:49.8033784+08:00",
+  "zoteroVersion": "7.0.32",
+  "addonVersion": "1.1.0",
+  "addonContentSHA256": "b7ae48e91c8184eb0cca7f8756fbe1a2f19f27fee4b4310db69cf998cc2f81db",
+  "fixture": "Isolated synthetic references and a normally launched Word document"
+}

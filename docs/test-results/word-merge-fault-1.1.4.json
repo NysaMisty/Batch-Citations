@@ -1,0 +1,238 @@
+{
+  "sourceUnchanged": true,
+  "beforeFields": 2,
+  "productionSourceSHA256": "C614797722624A4C14C7A1BA36AE8BDE9231108CB2154424EF0DD1566997446D",
+  "error": "Exception calling \"Commit\" with \"1\" argument(s): \"TEST_FAULT_AFTER_MERGE_DELETION\"",
+  "after": {
+    "documentKey": "1244dbf89ba740a5b3e4337b2bfa9295",
+    "fingerprint": "4e6509ca8a0ece825c5bb12750ab7444dd12715acaa401255a74bb3e5f58ade3",
+    "documentData": "",
+    "bindingData": "",
+    "path": "",
+    "name": "文档1",
+    "candidates": [
+      {
+        "start": 251,
+        "end": 254,
+        "raw": "[1]",
+        "eligible": false,
+        "reason": "已有域（包括 Zotero 引用及参考文献表）",
+        "context": "em 1\",\"id\":1,\"type\":\"book\"}}]} [1], ",
+        "textAfter": ", "
+      },
+      {
+        "start": 502,
+        "end": 505,
+        "raw": "[2]",
+        "eligible": false,
+        "reason": "已有域（包括 Zotero 引用及参考文献表）",
+        "context": "em 2\",\"id\":2,\"type\":\"book\"}}]} [2] tail.\r",
+        "textAfter": " tail.\r"
+      }
+    ],
+    "citationCodes": [
+      "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[1]\",\"noteIndex\":0},\"citationID\":\"c1\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0001\"],\"id\":1,\"itemData\":{\"title\":\"Item 1\",\"id\":1,\"type\":\"book\"}}]}",
+      "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[2]\",\"noteIndex\":0},\"citationID\":\"c2\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0002\"],\"id\":2,\"itemData\":{\"title\":\"Item 2\",\"id\":2,\"type\":\"book\"}}]}"
+    ],
+    "citationTexts": [
+      "[1]",
+      "[2]"
+    ],
+    "citationFields": [
+      {
+        "index": 0,
+        "start": 7,
+        "end": 254,
+        "codeStart": 7,
+        "codeEnd": 250,
+        "resultStart": 251,
+        "resultEnd": 254,
+        "fieldStart": 6,
+        "fieldEnd": 255,
+        "storyType": 1,
+        "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[1]\",\"noteIndex\":0},\"citationID\":\"c1\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0001\"],\"id\":1,\"itemData\":{\"title\":\"Item 1\",\"id\":1,\"type\":\"book\"}}]}",
+        "codeHash": "f71166a20e84662d9d113a3a89ad352761100e5c79648fe40c0e136249d3efe7",
+        "text": "[1]",
+        "textAfter": ", ",
+        "context": "Alpha [1], ",
+        "citationID": "c1"
+      },
+      {
+        "index": 1,
+        "start": 258,
+        "end": 505,
+        "codeStart": 258,
+        "codeEnd": 501,
+        "resultStart": 502,
+        "resultEnd": 505,
+        "fieldStart": 257,
+        "fieldEnd": 506,
+        "storyType": 1,
+        "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[2]\",\"noteIndex\":0},\"citationID\":\"c2\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0002\"],\"id\":2,\"itemData\":{\"title\":\"Item 2\",\"id\":2,\"type\":\"book\"}}]}",
+        "codeHash": "8bade8e0f190f54c28383462e18833cc0a520ecc469b91e92254d8aa986858c2",
+        "text": "[2]",
+        "textAfter": " tail.\r",
+        "context": "type\":\"book\"}}]} [1], [2] tail.\r",
+        "citationID": "c2"
+      }
+    ],
+    "rangeVersion": 2,
+    "bodySegments": [
+      {
+        "kind": "text",
+        "start": 0,
+        "end": 6,
+        "text": "Alpha "
+      },
+      {
+        "kind": "citation",
+        "start": 6,
+        "end": 255,
+        "signature": "c5ee9956eababafa92f2a2e9a46c7707728220db88f3e4ec38ebf4d93cd260ba"
+      },
+      {
+        "kind": "text",
+        "start": 255,
+        "end": 257,
+        "text": ", "
+      },
+      {
+        "kind": "citation",
+        "start": 257,
+        "end": 506,
+        "signature": "2324cdbb69851e3efe63a1d72bf55baa4cc7047c33b825594b5878ea8bb1b238"
+      },
+      {
+        "kind": "text",
+        "start": 506,
+        "end": 513,
+        "text": " tail.\r"
+      }
+    ],
+    "pendingTransaction": "",
+    "transaction": null,
+    "unsupportedCitationStories": [],
+    "bibliographyCount": 0,
+    "display": "",
+    "selectionStart": 0,
+    "selectionEnd": 0
+  },
+  "scope": "Fault injected only into a temporary assembly, after real merge deletions",
+  "ok": true,
+  "before": {
+    "documentKey": "1244dbf89ba740a5b3e4337b2bfa9295",
+    "fingerprint": "4e6509ca8a0ece825c5bb12750ab7444dd12715acaa401255a74bb3e5f58ade3",
+    "documentData": "",
+    "bindingData": "",
+    "path": "",
+    "name": "文档1",
+    "candidates": [
+      {
+        "start": 251,
+        "end": 254,
+        "raw": "[1]",
+        "eligible": false,
+        "reason": "已有域（包括 Zotero 引用及参考文献表）",
+        "context": "em 1\",\"id\":1,\"type\":\"book\"}}]} [1], ",
+        "textAfter": ", "
+      },
+      {
+        "start": 502,
+        "end": 505,
+        "raw": "[2]",
+        "eligible": false,
+        "reason": "已有域（包括 Zotero 引用及参考文献表）",
+        "context": "em 2\",\"id\":2,\"type\":\"book\"}}]} [2] tail.\r",
+        "textAfter": " tail.\r"
+      }
+    ],
+    "citationCodes": [
+      "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[1]\",\"noteIndex\":0},\"citationID\":\"c1\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0001\"],\"id\":1,\"itemData\":{\"title\":\"Item 1\",\"id\":1,\"type\":\"book\"}}]}",
+      "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[2]\",\"noteIndex\":0},\"citationID\":\"c2\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0002\"],\"id\":2,\"itemData\":{\"title\":\"Item 2\",\"id\":2,\"type\":\"book\"}}]}"
+    ],
+    "citationTexts": [
+      "[1]",
+      "[2]"
+    ],
+    "citationFields": [
+      {
+        "index": 0,
+        "start": 7,
+        "end": 254,
+        "codeStart": 7,
+        "codeEnd": 250,
+        "resultStart": 251,
+        "resultEnd": 254,
+        "fieldStart": 6,
+        "fieldEnd": 255,
+        "storyType": 1,
+        "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[1]\",\"noteIndex\":0},\"citationID\":\"c1\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0001\"],\"id\":1,\"itemData\":{\"title\":\"Item 1\",\"id\":1,\"type\":\"book\"}}]}",
+        "codeHash": "f71166a20e84662d9d113a3a89ad352761100e5c79648fe40c0e136249d3efe7",
+        "text": "[1]",
+        "textAfter": ", ",
+        "context": "Alpha [1], ",
+        "citationID": "c1"
+      },
+      {
+        "index": 1,
+        "start": 258,
+        "end": 505,
+        "codeStart": 258,
+        "codeEnd": 501,
+        "resultStart": 502,
+        "resultEnd": 505,
+        "fieldStart": 257,
+        "fieldEnd": 506,
+        "storyType": 1,
+        "code": "ADDIN ZOTERO_ITEM CSL_CITATION {\"properties\":{\"plainCitation\":\"[2]\",\"noteIndex\":0},\"citationID\":\"c2\",\"citationItems\":[{\"uris\":[\"https://zotero.org/users/local/TEST/items/ITEM0002\"],\"id\":2,\"itemData\":{\"title\":\"Item 2\",\"id\":2,\"type\":\"book\"}}]}",
+        "codeHash": "8bade8e0f190f54c28383462e18833cc0a520ecc469b91e92254d8aa986858c2",
+        "text": "[2]",
+        "textAfter": " tail.\r",
+        "context": "type\":\"book\"}}]} [1], [2] tail.\r",
+        "citationID": "c2"
+      }
+    ],
+    "rangeVersion": 2,
+    "bodySegments": [
+      {
+        "kind": "text",
+        "start": 0,
+        "end": 6,
+        "text": "Alpha "
+      },
+      {
+        "kind": "citation",
+        "start": 6,
+        "end": 255,
+        "signature": "c5ee9956eababafa92f2a2e9a46c7707728220db88f3e4ec38ebf4d93cd260ba"
+      },
+      {
+        "kind": "text",
+        "start": 255,
+        "end": 257,
+        "text": ", "
+      },
+      {
+        "kind": "citation",
+        "start": 257,
+        "end": 506,
+        "signature": "2324cdbb69851e3efe63a1d72bf55baa4cc7047c33b825594b5878ea8bb1b238"
+      },
+      {
+        "kind": "text",
+        "start": 506,
+        "end": 513,
+        "text": " tail.\r"
+      }
+    ],
+    "pendingTransaction": "",
+    "transaction": null,
+    "unsupportedCitationStories": [],
+    "bibliographyCount": 0,
+    "display": "",
+    "selectionStart": 0,
+    "selectionEnd": 0
+  },
+  "faultAssembly": "D:\\zotero-plugin\\work\\test-runs\\active\\test-repair114-merge-fault-final2\\ZoteroBatchCitations.fault.dll",
+  "afterFields": 2
+}

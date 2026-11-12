@@ -1,0 +1,21 @@
+{
+  "version": "1.1.13",
+  "hosts": [
+    {
+      "activation": "test-runs/active/test-v7-activation1113-dblclick-activation-final-v7-20261106",
+      "ui": "test-runs/active/test-v7-ui1113-dblclick-dual-20261106",
+      "zoteroVersion": "7.0.32",
+      "live": "test-runs/active/test-v7-live1113-dblclick-word-final-v7-20261106"
+    },
+    {
+      "activation": "test-runs/active/test-v10-activation1113-dblclick-activation-final-v10-20261106",
+      "ui": "test-runs/active/test-v10-ui1113-dblclick-dual-20261106",
+      "zoteroVersion": "10.0.7",
+      "live": "test-runs/active/test-v710-live1113-dblclick-word-final-20261106"
+    }
+  ],
+  "sourceFixture": "D:/zotero-plugin/work/test-fixtures/large-document.docx",
+  "safety": "test-runs/active/test-word-safety1113-dblclick-independent-final-20261106",
+  "integrity": "test-runs/active/test-word-citation-integrity1113-dblclick-independent-final-20261106",
+  "pipeline": "test-runs/active/test-word-identity-pipeline1113-dblclick-independent-final-20261106"
+}

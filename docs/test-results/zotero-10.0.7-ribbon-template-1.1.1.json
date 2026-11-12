@@ -1,0 +1,17 @@
+{
+  "templatePath": "D:\\zotero-plugin\\work\\test-v10-live-111-release\\ribbon\\Zotero-ZBC-Test.dotm",
+  "ok": true,
+  "originalTemplateSHA256": "5b502497ac15bc1afdc408a0c2a7f9e70e6c8c417a08ff83f7b2a1974096b6ec",
+  "checks": [
+    "only the ribbon XML entry changes; native VBA macros and other parts remain byte-identical",
+    "the native Zotero tab uses the shared namespace",
+    "native Zotero controls and callback attributes are preserved",
+    "repeated installation is idempotent",
+    "uninstall restores the exact original template bytes",
+    "uninstall preserves a template replaced by a later Zotero update",
+    "repair backs up and can restore the newer official template"
+  ],
+  "patchedSHA256": "2cb59ffe8f3eab669cda6c156be37d4627150363b69969990fd9d108d8eb66f9",
+  "zoteroVersion": "10.0.7",
+  "addonVersion": "1.1.1"
+}

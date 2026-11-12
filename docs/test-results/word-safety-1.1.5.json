@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "finished": "2026-11-04T16:28:46.7943482+08:00",
+  "wordAddinSHA256": "CD70D06DC438D1A8AD04E920FA80D96D1ECF00CF444034C5D5AD9A473755F7E9",
+  "checks": [
+    "repeated snapshots ignore volatile Word rsid metadata",
+    "a matching document reuses scanned candidates",
+    "format changes reject a stale plan before mutation",
+    "a cached reopen refreshes the complete fingerprint after formatting changes",
+    "text changes reject a stale plan before mutation",
+    "track changes blocks all live writes",
+    "ordinary fields are protected from conversion",
+    "hyperlinks are protected from conversion",
+    "content controls are protected from conversion",
+    "injected failure after field insertion is reported",
+    "failed batch rolls back all inserted fields and original text",
+    "failed batch restores original Zotero document data",
+    "failed batch restores original-number metadata after a property write failure",
+    "switching documents cannot redirect batch writes",
+    "one Word Undo restores the complete batch"
+  ],
+  "wordVersion": "16.0"
+}

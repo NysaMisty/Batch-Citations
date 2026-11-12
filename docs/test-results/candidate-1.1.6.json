@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "version": "1.1.6",
+  "addonContentSHA256": "f4cb31a28b5e159d802cec7c7678857017ba0e3a4395a567e42d046588592332",
+  "assemblySHA256": "96b17410c561e019ccf0dfa839a04bf872931dd253582f3a6f31e20f90c6eb47",
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "hostChecks": 90,
+      "iterationChecks": 43,
+      "literatureUIChecks": 30,
+      "ribbonChecks": 7,
+      "wordVersion": "16.0",
+      "wordBuild": "16.0.20527",
+      "devicePixelRatio": [
+        1
+      ]
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "hostChecks": 90,
+      "iterationChecks": 43,
+      "literatureUIChecks": 30,
+      "ribbonChecks": 7,
+      "wordVersion": "16.0",
+      "wordBuild": "16.0.20527",
+      "devicePixelRatio": [
+        1
+      ]
+    }
+  ],
+  "independent": {
+    "safety": 15,
+    "integrity": 8,
+    "pipeline": 8
+  },
+  "unitTests": 153,
+  "gitIndexUnchanged": true,
+  "baselineScope": "Actual isolated Zotero windows; synthetic library and document; content-area snapshots",
+  "sourceHashes": {
+    "addon/bootstrap.js": "58efa2c31513b994d1932b151c6d974de098225bc1e2bcf5a53fdd337deb4783",
+    "addon/manifest.json": "af2c1036c34b95f4766780e083f7ac307f01428fffcb171214090cc046c064c7",
+    "addon/content/archive.js": "1e38b15cf1f44414399ea5700fd8864fb18734632d033cc41bc777e37b3f1d2b",
+    "addon/content/citation-state.js": "ae64f6228df54e507c0039ec36d77b60b74afa5c7da30004a833f2e93988806c",
+    "addon/content/core.js": "c163b6ccb37fe8aad9068f31a77aedcb8ed4bce54cf48b4556a7fd5062644458",
+    "addon/content/dialog.css": "873bb1988c40e09516c09c67603e56ce0148b6b51d0fb1d4d23289f43fa91888",
+    "addon/content/dialog.js": "28d0a3c67df6ca22f90350c22bfc221f68c156e26a2f4cc1b2024f44d22e7363",
+    "addon/content/dialog.xhtml": "04362cc730d87fc515b9685d62482d06395958fd0e801be1189b8a621a38b7c4",
+    "addon/content/literature.js": "0bd6aaff3807f95aab4e713a931c10871e1af66f91aa54815f8beb8208fb7517",
+    "addon/content/live-core.js": "50b11580640e72943b0a44fd26a5a3e973171cfff5ebfb07d1f071e1aef9b139",
+    "addon/content/live-service.js": "1a97501f9fe48a5161cf8e40510b5c41c78c170022e2f7a6f064e284900681fe",
+    "addon/content/mapping.js": "fdfe64853985a29f33f85af43bb6cda15cc8b5041a717848fb8e16b65fe0e27d",
+    "addon/content/numbering-summary.js": "fff3bb5b3189b61479450b4bdda35b78befca6db76a480ded8c5de58f657b124",
+    "addon/content/picker.css": "2466f12603296c2ed8e6a026bd5b90ff60883bc8fa40c4365b1d9b301d7f9d6f",
+    "addon/content/picker.js": "8bad288cb2b7ef1f8bf3c7f2dbac30b453e8cecceb3716e0437349930f892237",
+    "addon/content/reference-status.js": "4e6198de172f1d4fb75b8a6ac26ad9b11feceb29cb583757097df5f4e8b63c66",
+    "addon/content/renumber-confirm.js": "f8f0f2ce69335cb8797328bd83fd852c357e0c7a2658b679c9990d2f594fd09f",
+    "addon/content/renumber-confirm.xhtml": "3060d5a00c76f993c42c48359ed25553aaca0c6e3f7c231be1e343a80ec9f762",
+    "addon/content/ui-common.css": "b3e3fdc7107d8e24fa59f3c24c49fefd7ae383c23ca66d4e3783a0287d773c01",
+    "addon/content/zotero-adapter.js": "5bef14272d356a80f30380eda88f3fa189d0665e52378f36c48426d1f0eb9678",
+    "addon/content/vendor/fflate.js": "c3b34f2e9f5e74d4d7d64e01cac7a0c01954c6c406414d42185c7b53d6875ddf",
+    "word-addin/BridgeClient.cs": "a160e7a12a900445e9ef650a0744f31eee2b048b7ada3b64fdba5aeb6817886d",
+    "word-addin/build.ps1": "c9344accc41ae81dc24c8676860ebc55525e42885ceafb98bebc06435d2c1254",
+    "word-addin/Connect.cs": "d0d9fa62de5494ba0d0ce249aec272f59629183d074aee68d555c7fe40bcdc8a",
+    "word-addin/Diagnostics.cs": "24b7078284b71aa8dda299c5b275f94c394799385de5174b3bddcbc23ebaa4ce",
+    "word-addin/DocumentEvents.cs": "bedf443b90be2be2cc6a9b48d5a232dba2e9310f9f03215b50bfa58db0fb180c",
+    "word-addin/install.ps1": "b6c2334bd4ed5b689a60a023c69f45985b11af88fa37684319ffe49efa4b37d8",
+    "word-addin/RibbonImages.cs": "1482b1a7edd02c09cf6f503833201c81a7a31cb0a5a1f699839b49c97665860d",
+    "word-addin/RibbonIntegration.ps1": "ce90616496f5ec111a8767fcfcaca2a216cb3956d5cec2485c518ace7643dd69",
+    "word-addin/Toast.cs": "61a69fa79efe42104bcd0ca43ee3f6f679566fcebdfe5346a55fce8f26a7e4bc",
+    "word-addin/WordDocument.cs": "e7d05570b865b566f6ba8b9e4c394f66e2439ea446c46c91df8c1a3c38f2c8ab",
+    "word-addin/WordLauncher.cs": "7cb39f421ebc3160a6b25e79a40514a3c3ee55aac330ceda230e9284a5970640",
+    "word-addin/icons/metadata.json": "5e2baf848d4d7b56319ca5420d5b2728b57eeae9718ae0ba119b8c399ce0de0f"
+  }
+}

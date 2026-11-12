@@ -1,0 +1,33 @@
+{
+  "version": "1.1.4",
+  "workflow": "identity-v2",
+  "unitTests": 128,
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "live": "test-runs/active/test-repair114-z7-final2",
+      "ui": "test-runs/active/test-repair114-ui7-progress",
+      "identityChecks": 61,
+      "hostChecks": 47
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "live": "test-runs/active/test-repair114-z10-final3",
+      "ui": "test-runs/active/test-repair114-ui10-final",
+      "identityChecks": 61,
+      "hostChecks": 47
+    }
+  ],
+  "safety": "test-runs/active/test-repair114-safety",
+  "safetyChecks": 15,
+  "integrity": "test-runs/active/test-repair114-integrity",
+  "integrityChecks": 8,
+  "pipeline": "test-runs/active/test-repair114-pipeline",
+  "pipelineChecks": 8,
+  "mergeFault": "test-runs/active/test-repair114-merge-fault-final2",
+  "images": "test-runs/active/test-repair114-images",
+  "imageChecks": 17,
+  "ribbonChecks": 7,
+  "invariance": "test-runs/active/test-repair114-invariance",
+  "sourceProof": "test-runs/active/test-repair114-source-proof"
+}

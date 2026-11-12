@@ -1,0 +1,18 @@
+{
+  "workflow": "ui-sort-local-candidate-v1",
+  "version": "1.1.6",
+  "unitTests": 153,
+  "hosts": [
+    {"zoteroVersion": "7.0.32", "ui": "test-runs/active/test-v7-ui116finalqa", "hostChecks": 90, "live": "test-runs/active/test-v7-live116finalqa", "iterationChecks": 43},
+    {"zoteroVersion": "10.0.7", "ui": "test-runs/active/test-v10-ui116finalqa", "hostChecks": 90, "live": "test-runs/active/test-v10-live116finalqa", "iterationChecks": 43}
+  ],
+  "sourceFixture": "D:/zotero-plugin/textdocx/大规模文档测试.docx",
+  "safety": "test-runs/active/test-word-safety116",
+  "safetyChecks": 15,
+  "integrity": "test-runs/active/test-word-integrity116",
+  "integrityChecks": 8,
+  "pipeline": "test-runs/active/test-word-pipeline116",
+  "pipelineChecks": 8,
+  "baselineSource": "test-runs/active/test-v116-baseline",
+  "baselineUI": "test-runs/active/test-v10-baseline115"
+}

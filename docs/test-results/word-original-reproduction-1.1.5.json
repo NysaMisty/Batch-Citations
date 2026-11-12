@@ -1,0 +1,13 @@
+{
+  "sourceUnchanged": true,
+  "sourceHashBefore": "B729C2EA9EE879B913907C26915578D941D270FBF657119D97E00816E68D44A0",
+  "captureMs": 38426,
+  "assemblyHash": "054244CDC2A38789365F529D2DC3253C7E91E4239BC2C31E7584BC10A633A441",
+  "sourceHashAfter": "B729C2EA9EE879B913907C26915578D941D270FBF657119D97E00816E68D44A0",
+  "candidates": 554,
+  "elapsedMs": 45369,
+  "ok": true,
+  "openMs": 4353,
+  "nativeFields": 0,
+  "stage": "complete"
+}

@@ -1,0 +1,55 @@
+{
+  "checks": [
+    "batch uses a native OLE icon",
+    "batch has the expected Ribbon size and transparent background",
+    "batch reuses its cached picture",
+    "all four numbers are centered within their own rendered brackets",
+    "the vertical stem of one is optically centered",
+    "display uses a native OLE icon",
+    "display has the expected Ribbon size and transparent background",
+    "display reuses its cached picture",
+    "both display glyphs stay inside the document with safe margins",
+    "inline uses a native OLE icon",
+    "inline has the expected Ribbon size and transparent background",
+    "inline reuses its cached picture",
+    "inline X and 2 share the same visual baseline",
+    "superscript uses a native OLE icon",
+    "superscript has the expected Ribbon size and transparent background",
+    "superscript reuses its cached picture",
+    "superscript 2 is visibly raised above X"
+  ],
+  "ok": true,
+  "wordAddinSHA256": "054244CDC2A38789365F529D2DC3253C7E91E4239BC2C31E7584BC10A633A441",
+  "method": "Actual OLE picture round-trip and pixel checks; no desktop screenshot",
+  "images": [
+    {
+      "type": 3,
+      "transparent": true,
+      "width": 32,
+      "id": "batch",
+      "height": 32
+    },
+    {
+      "type": 3,
+      "transparent": true,
+      "width": 32,
+      "id": "display",
+      "height": 32
+    },
+    {
+      "type": 3,
+      "transparent": true,
+      "width": 16,
+      "id": "inline",
+      "height": 16
+    },
+    {
+      "type": 3,
+      "transparent": true,
+      "width": 16,
+      "id": "superscript",
+      "height": 16
+    }
+  ],
+  "finished": "2026-11-04T14:31:32.7170071+08:00"
+}
