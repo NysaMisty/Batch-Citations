@@ -1,0 +1,21 @@
+{
+  "rebuiltSHA256": "FBA515EED2DED617108F0264A7B14D9E16C55927D3448FD30FB723A99A1FE27E",
+  "differences": [],
+  "scope": "Method/constructor IL equality with a new build from current sources; this does not imply byte-identical DLLs",
+  "rebuiltMethods": 308,
+  "candidateSHA256": "054244CDC2A38789365F529D2DC3253C7E91E4239BC2C31E7584BC10A633A441",
+  "candidateMethods": 308,
+  "ok": true,
+  "sourceHashes": {
+    "word-addin/BridgeClient.cs": "7104d7c9c35e9cf41adf0320306aaaf0f06441e1c0a1f1b02f6a0b55d6f7cbdb",
+    "word-addin/Connect.cs": "8db7da6b060c78a9f59871e88efad08ae1d613a5dd85a52cb3cb5f8c0b32db75",
+    "word-addin/DocumentEvents.cs": "bedf443b90be2be2cc6a9b48d5a232dba2e9310f9f03215b50bfa58db0fb180c",
+    "word-addin/RibbonImages.cs": "1482b1a7edd02c09cf6f503833201c81a7a31cb0a5a1f699839b49c97665860d",
+    "word-addin/Toast.cs": "61a69fa79efe42104bcd0ca43ee3f6f679566fcebdfe5346a55fce8f26a7e4bc",
+    "word-addin/WordDocument.cs": "c614797722624a4c14c7a1ba36ae8bde9231108cb2154424ef0dd1566997446d",
+    "word-addin/WordLauncher.cs": "7cb39f421ebc3160a6b25e79a40514a3c3ee55aac330ceda230e9284a5970640",
+    "word-addin/icons/batch-ribbon.png": "72cc0efff4b27dd35a6395ebdab1f65d4fdc57d0d42d303bcd623c427defb469",
+    "word-addin/icons/display-ribbon.png": "b9cbe111fbf2702a7e01c488a4a6a2112c7e9f66eb546e6e119f816128de3a58",
+    "word-addin/build.ps1": "5e3dbeaa40affc9eb629acb13154d5c8300feb74a3eda0222773f026969f81c1"
+  }
+}

@@ -1,0 +1,304 @@
+TAP version 13
+# Subtest: full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+ok 1 - full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+  ---
+  duration_ms: 25.253
+  type: 'test'
+  ...
+# Subtest: reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+ok 2 - reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+  ---
+  duration_ms: 1272.3178
+  type: 'test'
+  ...
+# Subtest: count excluded story candidates separately
+ok 3 - count excluded story candidates separately
+  ---
+  duration_ms: 2.21
+  type: 'test'
+  ...
+# Subtest: bibliography placeholder is ordinary text, never an existing Zotero field
+ok 4 - bibliography placeholder is ordinary text, never an existing Zotero field
+  ---
+  duration_ms: 1.4674
+  type: 'test'
+  ...
+# Subtest: continuity combines manual markers and native numeric citation results, excluding other fields
+ok 5 - continuity combines manual markers and native numeric citation results, excluding other fields
+  ---
+  duration_ms: 2.3021
+  type: 'test'
+  ...
+# Subtest: reconciling an edited document keeps mappings for surviving numbers and checks only unchanged occurrences
+ok 6 - reconciling an edited document keeps mappings for surviving numbers and checks only unchanged occurrences
+  ---
+  duration_ms: 0.5766
+  type: 'test'
+  ...
+# Subtest: pending snapshot changes notify immediately and atomically, with no cross-document rebinding
+ok 7 - pending snapshot changes notify immediately and atomically, with no cross-document rebinding
+  ---
+  duration_ms: 3.7443
+  type: 'test'
+  ...
+# Subtest: an empty current document remains observable; submitted jobs refuse updates
+ok 8 - an empty current document remains observable; submitted jobs refuse updates
+  ---
+  duration_ms: 0.8603
+  type: 'test'
+  ...
+# Subtest: listeners receive completion and cancellation transitions and are isolated from listener errors
+ok 9 - listeners receive completion and cancellation transitions and are isolated from listener errors
+  ---
+  duration_ms: 0.7899
+  type: 'test'
+  ...
+# Subtest: parse simple, clusters, Chinese separators and bounded ranges
+ok 10 - parse simple, clusters, Chinese separators and bounded ranges
+  ---
+  duration_ms: 2.186
+  type: 'test'
+  ...
+# Subtest: scan across runs but never across paragraphs
+ok 11 - scan across runs but never across paragraphs
+  ---
+  duration_ms: 5.162
+  type: 'test'
+  ...
+# Subtest: protected hyperlink and ordinary fields are visible but ineligible
+ok 12 - protected hyperlink and ordinary fields are visible but ineligible
+  ---
+  duration_ms: 1.0944
+  type: 'test'
+  ...
+# Subtest: block content controls protect their paragraphs and cannot host the bibliography marker
+ok 13 - block content controls protect their paragraphs and cannot host the bibliography marker
+  ---
+  duration_ms: 3.4036
+  type: 'test'
+  ...
+# Subtest: reject tracked changes, existing Zotero fields, malformed XML and DTD
+ok 14 - reject tracked changes, existing Zotero fields, malformed XML and DTD
+  ---
+  duration_ms: 0.7037
+  type: 'test'
+  ...
+# Subtest: replace multiple markers in same run; preserve text, suffix formatting and section
+ok 15 - replace multiple markers in same run; preserve text, suffix formatting and section
+  ---
+  duration_ms: 8.0503
+  type: 'test'
+  ...
+# Subtest: cross-run suffix retains its original formatting
+ok 16 - cross-run suffix retains its original formatting
+  ---
+  duration_ms: 1.6778
+  type: 'test'
+  ...
+# Subtest: markers next to tabs and line breaks convert without losing surrounding run content
+ok 17 - markers next to tabs and line breaks convert without losing surrounding run content
+  ---
+  duration_ms: 8.3977
+  type: 'test'
+  ...
+# Subtest: cross-run marker replacement retains adjacent drawings, multiple text nodes and bookmarks
+ok 18 - cross-run marker replacement retains adjacent drawings, multiple text nodes and bookmarks
+  ---
+  duration_ms: 4.8681
+  type: 'test'
+  ...
+# Subtest: text outside a complex field remains convertible while its display text stays protected across paragraphs
+ok 19 - text outside a complex field remains convertible while its display text stays protected across paragraphs
+  ---
+  duration_ms: 2.7648
+  type: 'test'
+  ...
+# Subtest: only selected candidates convert; missing mappings fail before output
+ok 20 - only selected candidates convert; missing mappings fail before output
+  ---
+  duration_ms: 1.9646
+  type: 'test'
+  ...
+# Subtest: duplicate mapped paper appears once in a cluster
+ok 21 - duplicate mapped paper appears once in a cluster
+  ---
+  duration_ms: 1.0395
+  type: 'test'
+  ...
+# Subtest: bibliography marker requires its own paragraph; manual list is rejected
+ok 22 - bibliography marker requires its own paragraph; manual list is rejected
+  ---
+  duration_ms: 2.0237
+  type: 'test'
+  ...
+# Subtest: custom properties retain unrelated entries and reject existing Zotero prefs
+ok 23 - custom properties retain unrelated entries and reject existing Zotero prefs
+  ---
+  duration_ms: 1.8932
+  type: 'test'
+  ...
+# Subtest: preference data is accepted as JSON version 4 with Word fields
+ok 24 - preference data is accepted as JSON version 4 with Word fields
+  ---
+  duration_ms: 0.283
+  type: 'test'
+  ...
+# Subtest: about:blank unload does not lose the live window; shutdown cleans up
+ok 25 - about:blank unload does not lose the live window; shutdown cleans up
+  ---
+  duration_ms: 3.2815
+  type: 'test'
+  ...
+# Subtest: completed and manually closed windows release their job association across repeated opens
+ok 26 - completed and manually closed windows release their job association across repeated opens
+  ---
+  duration_ms: 2.5128
+  type: 'test'
+  ...
+# Subtest: editable CSV/TSV round trip BOM, quoted titles, commas, tabs and newlines
+ok 27 - editable CSV/TSV round trip BOM, quoted titles, commas, tabs and newlines
+  ---
+  duration_ms: 3.0306
+  type: 'test'
+  ...
+# Subtest: legacy JSON is accepted; invalid shape and record fields identify the problem
+ok 28 - legacy JSON is accepted; invalid shape and record fields identify the problem
+  ---
+  duration_ms: 0.8211
+  type: 'test'
+  ...
+# Subtest: duplicate numbers and equivalent Zotero URIs are rejected atomically
+ok 29 - duplicate numbers and equivalent Zotero URIs are rejected atomically
+  ---
+  duration_ms: 0.3334
+  type: 'test'
+  ...
+# Subtest: live scan reuses bounded marker grammar and preserves protected positions
+ok 30 - live scan reuses bounded marker grammar and preserves protected positions
+  ---
+  duration_ms: 1.9589
+  type: 'test'
+  ...
+# Subtest: plan binds document and snapshot, stores URIs and creates no automatic bibliography
+ok 31 - plan binds document and snapshot, stores URIs and creates no automatic bibliography
+  ---
+  duration_ms: 4.1116
+  type: 'test'
+  ...
+# Subtest: existing document settings and citation IDs survive incremental batch insertion
+ok 32 - existing document settings and citation IDs survive incremental batch insertion
+  ---
+  duration_ms: 0.3815
+  type: 'test'
+  ...
+# Subtest: malformed and overlapping Word ranges cannot become a commit plan
+ok 33 - malformed and overlapping Word ranges cannot become a commit plan
+  ---
+  duration_ms: 0.2587
+  type: 'test'
+  ...
+# Subtest: standard document data accepts JSON and legacy XML; bookmark/note documents fail before commit
+ok 34 - standard document data accepts JSON and legacy XML; bookmark/note documents fail before commit
+  ---
+  duration_ms: 0.2677
+  type: 'test'
+  ...
+# Subtest: live bridge rejects unauthenticated or browser-origin requests
+ok 35 - live bridge rejects unauthenticated or browser-origin requests
+  ---
+  duration_ms: 5.3773
+  type: 'test'
+  ...
+# Subtest: transactions are exclusive, authenticated, expiring and accept a commit only once
+ok 36 - transactions are exclusive, authenticated, expiring and accept a commit only once
+  ---
+  duration_ms: 1.3705
+  type: 'test'
+  ...
+# Subtest: native document mismatch stops before session update and releases all integration locks
+ok 37 - native document mismatch stops before session update and releases all integration locks
+  ---
+  duration_ms: 1.2718
+  type: 'test'
+  ...
+# Subtest: existing bibliography is refreshed instead of being inserted again
+ok 38 - existing bibliography is refreshed instead of being inserted again
+  ---
+  duration_ms: 0.473
+  type: 'test'
+  ...
+# Subtest: native refresh failure is reported and does not leave Zotero busy
+ok 39 - native refresh failure is reported and does not leave Zotero busy
+  ---
+  duration_ms: 0.4657
+  type: 'test'
+  ...
+# Subtest: stopping service cancels uncommitted jobs and refuses further requests
+ok 40 - stopping service cancels uncommitted jobs and refuses further requests
+  ---
+  duration_ms: 0.3785
+  type: 'test'
+  ...
+# Subtest: completion acknowledgement closes only the completed window and permits the next operation
+ok 41 - completion acknowledgement closes only the completed window and permits the next operation
+  ---
+  duration_ms: 1.7391
+  type: 'test'
+  ...
+# Subtest: sequence check sorts distinct numbers, reports gaps and accepts continuous excerpts
+ok 42 - sequence check sorts distinct numbers, reports gaps and accepts continuous excerpts
+  ---
+  duration_ms: 2.8116
+  type: 'test'
+  ...
+# Subtest: duplicate current item IDs or normalized Zotero URIs are blocked atomically
+ok 43 - duplicate current item IDs or normalized Zotero URIs are blocked atomically
+  ---
+  duration_ms: 1.4247
+  type: 'test'
+  ...
+# Subtest: reselecting the same numbered item is allowed; identical titles do not identify an item
+ok 44 - reselecting the same numbered item is allowed; identical titles do not identify an item
+  ---
+  duration_ms: 0.484
+  type: 'test'
+  ...
+# Subtest: ordered assignment preserves actual add order and does not mutate the source mapping
+ok 45 - ordered assignment preserves actual add order and does not mutate the source mapping
+  ---
+  duration_ms: 1.7369
+  type: 'test'
+  ...
+# Subtest: duplicate batch choice stays at the same number and retains the previous draft
+ok 46 - duplicate batch choice stays at the same number and retains the previous draft
+  ---
+  duration_ms: 0.417
+  type: 'test'
+  ...
+# Subtest: batch edit and clear allow correction, preserve unrelated mappings and reject gaps
+ok 47 - batch edit and clear allow correction, preserve unrelated mappings and reject gaps
+  ---
+  duration_ms: 0.5233
+  type: 'test'
+  ...
+# Subtest: manifest contains the metadata required by the Zotero 7 loader
+ok 48 - manifest contains the metadata required by the Zotero 7 loader
+  ---
+  duration_ms: 1.4418
+  type: 'test'
+  ...
+# Subtest: XHTML controller loads after controls, without relying on HTML-only defer behavior
+ok 49 - XHTML controller loads after controls, without relying on HTML-only defer behavior
+  ---
+  duration_ms: 4.5542
+  type: 'test'
+  ...
+1..49
+# tests 49
+# suites 0
+# pass 49
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1484.7419

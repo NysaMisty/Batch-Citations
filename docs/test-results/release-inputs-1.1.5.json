@@ -1,0 +1,36 @@
+{
+  "workflow": "summary-scan-v1",
+  "version": "1.1.5",
+  "unitTests": 145,
+  "ribbonChecks": 7,
+  "hosts": [
+    {
+      "zoteroVersion": "10.0.7",
+      "live": "test-runs/active/test-application115-v10-acceptance",
+      "iterationChecks": 34,
+      "ui": "test-runs/active/test-ui115-v10-inset",
+      "hostChecks": 62
+    },
+    {
+      "zoteroVersion": "7.0.32",
+      "live": "test-runs/active/test-application115-v7-acceptance",
+      "iterationChecks": 34,
+      "ui": "test-runs/active/test-ui115-v7-inset",
+      "hostChecks": 62
+    }
+  ],
+  "safety": "test-runs/active/test-safety115-acceptance",
+  "safetyChecks": 15,
+  "integrity": "test-runs/active/test-integrity115-acceptance",
+  "integrityChecks": 8,
+  "pipeline": "test-runs/active/test-pipeline115-acceptance",
+  "pipelineChecks": 8,
+  "mergeFault": "test-runs/active/test-fault115-acceptance",
+  "large": "test-runs/active/test-large115-acceptance",
+  "baseline": "test-runs/active/test-large115-original",
+  "sourceFixture": "D:\\zotero-plugin\\textdocx\\大规模文档测试.docx",
+  "cosmeticDelta": {
+    "file": "content/picker.css",
+    "scope": "Only the additional 10px instruction/status inset; exact final XPI tested in both UI hosts."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "scope": "Readback comparison of saved pre-commit CSL preview and post-native-refresh field result numbers in the A/H regression",
+  "comparisons": [
+    {
+      "zoteroVersion": "7.0.32",
+      "style": "ieee",
+      "stage": "insertH",
+      "ok": true
+    },
+    {
+      "zoteroVersion": "7.0.32",
+      "style": "swjtu",
+      "stage": "insertH",
+      "ok": true
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "style": "ieee",
+      "stage": "insertH",
+      "ok": true
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "style": "swjtu",
+      "stage": "insertH",
+      "ok": true
+    }
+  ]
+}

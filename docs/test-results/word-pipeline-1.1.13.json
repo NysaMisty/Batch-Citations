@@ -1,0 +1,131 @@
+﻿{
+    "passed":  8,
+    "results":  [
+                    {
+                        "status":  "pass",
+                        "name":  "real Word snapshot chooses ordered adjacent merge",
+                        "id":  "W01a",
+                        "details":  {
+                                        "textAfterCodePoints":  [
+                                                                    91,
+                                                                    56,
+                                                                    93,
+                                                                    32,
+                                                                    101,
+                                                                    110,
+                                                                    100,
+                                                                    46,
+                                                                    13
+                                                                ],
+                                        "sourceText":  "Alpha [1][8] end.",
+                                        "markerStart":  364,
+                                        "fieldResultEnd":  363,
+                                        "kind":  "mergeAdjacent"
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "Word merge validator accepts a real external marker after the source field",
+                        "id":  "W02",
+                        "details":  {
+                                        "error":  "",
+                                        "fields":  1
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "real Word snapshot chooses ordered adjacent merge",
+                        "id":  "W01b",
+                        "details":  {
+                                        "textAfterCodePoints":  [
+                                                                    32,
+                                                                    91,
+                                                                    56,
+                                                                    93,
+                                                                    32,
+                                                                    101,
+                                                                    110,
+                                                                    100,
+                                                                    46,
+                                                                    13
+                                                                ],
+                                        "sourceText":  "Alpha [1] [8] end.",
+                                        "markerStart":  365,
+                                        "fieldResultEnd":  363,
+                                        "kind":  "mergeAdjacent"
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "real Word snapshot chooses ordered adjacent merge",
+                        "id":  "W01c",
+                        "details":  {
+                                        "textAfterCodePoints":  [
+                                                                    44,
+                                                                    32,
+                                                                    91,
+                                                                    56,
+                                                                    93,
+                                                                    32,
+                                                                    101,
+                                                                    110,
+                                                                    100,
+                                                                    46,
+                                                                    13
+                                                                ],
+                                        "sourceText":  "Alpha [1], [8] end.",
+                                        "markerStart":  366,
+                                        "fieldResultEnd":  363,
+                                        "kind":  "mergeAdjacent"
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "earlier duplicate can finalize after successful semantic verification",
+                        "id":  "W03",
+                        "details":  {
+                                        "error":  "",
+                                        "staged":  "{\"version\":2,\"revision\":1,\"entries\":{\"1\":{\"referenceId\":\"https://zotero.org/users/local/TEST/items/AAAA1111\",\"uris\":[\"http://zotero.org/users/local/TEST/items/AAAA1111\"],\"citations\":[\"a\"]},\"8\":{\"uris\":[\"http://zotero.org/users/local/TEST/items/AAAA1111\"],\"citations\":[\"b66716f0d39d48769d20b2672630b66e\"]}}}",
+                                        "verified":  "{\"version\":2,\"revision\":1,\"entries\":{\"1\":{\"referenceId\":\"https://zotero.org/users/local/TEST/items/AAAA1111\",\"uris\":[\"http://zotero.org/users/local/TEST/items/AAAA1111\"],\"citations\":[\"b66716f0d39d48769d20b2672630b66e\",\"a\"]},\"8\":{\"referenceId\":\"https://zotero.org/users/local/TEST/items/AAAA1111\",\"uris\":[\"http://zotero.org/users/local/TEST/items/AAAA1111\"],\"citations\":[\"b66716f0d39d48769d20b2672630b66e\",\"a\"]}},\"references\":{\"https://zotero.org/users/local/TEST/items/AAAA1111\":{\"uris\":[\"http://zotero.org/users/local/TEST/items/AAAA1111\"]}},\"occurrences\":[{\"occurrenceId\":\"citation:b66716f0d39d48769d20b2672630b66e\",\"citationID\":\"b66716f0d39d48769d20b2672630b66e\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/TEST/items/AAAA1111\"}]},{\"occurrenceId\":\"citation:a\",\"citationID\":\"a\",\"items\":[{\"referenceId\":\"https://zotero.org/users/local/TEST/items/AAAA1111\"}]}]}",
+                                        "semanticVerification":  true,
+                                        "stagedEqualsVerified":  false
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "local undo returns the document to a restartable state",
+                        "id":  "W04",
+                        "details":  {
+                                        "body":  "Repeat [8] middle Alpha [1] end.\r",
+                                        "pendingTransaction":  "",
+                                        "remainingFields":  1
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "protocol-3 refresh plan can be committed in Word",
+                        "id":  "W05",
+                        "details":  {
+                                        "error":  "",
+                                        "hasBindingData":  true,
+                                        "staged":  true
+                                    }
+                    },
+                    {
+                        "status":  "pass",
+                        "name":  "interrupted transaction after undo can finish by verified metadata only",
+                        "id":  "W07",
+                        "details":  {
+                                        "journalBefore":  true,
+                                        "mode":  "restore-records",
+                                        "fields":  1
+                                    }
+                    }
+                ],
+    "finished":  "2026-11-06T20:14:02.8781217+08:00",
+    "scope":  "Real Word COM plus current Node planner; no real Zotero process",
+    "wordVersion":  "16.0",
+    "total":  8,
+    "assemblySHA256":  "B3760EF19F0764BC44C58038C50AF501969C22DC66CEB20083A7DE7FD6CE108A",
+    "failed":  0
+}

@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "gitIndexUnchanged": true,
+  "gitIndexSHA256": "e763cc46303511d66c7ce17c0449974c29e6785d50175adefd368f8c39eaacb4",
+  "documents": [
+    {
+      "path": "D:\\zotero-plugin\\test01.docx",
+      "before": "2baeaa914384f5471f0899eaa026f31ae5723b7448a2b6dc475a72c964410c49",
+      "after": "2baeaa914384f5471f0899eaa026f31ae5723b7448a2b6dc475a72c964410c49",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\zotero-plugin\\test01_新增前.docx",
+      "before": "2ae07dc43f354840f7c3e83f3760d81ff36a66ccba291d05658b9de8c37f9acb",
+      "after": "2ae07dc43f354840f7c3e83f3760d81ff36a66ccba291d05658b9de8c37f9acb",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\zotero-plugin\\test01_异常.docx",
+      "before": "4534ed8e803208574d46e1687fa0460fcb6f55b81316cc5fc510cf16c4a313ea",
+      "after": "4534ed8e803208574d46e1687fa0460fcb6f55b81316cc5fc510cf16c4a313ea",
+      "unchanged": true
+    }
+  ]
+}

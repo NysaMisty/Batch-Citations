@@ -1,0 +1,87 @@
+{
+  "version": "10.0.7",
+  "checks": [
+    "plugin startup",
+    "Tools menu",
+    "dialog and host API checks",
+    "menu icon loads",
+    "plugin icon registered",
+    "native FilePicker API",
+    "dialog initialization",
+    "native settings controls",
+    "style popup opens",
+    "style selection command",
+    "language popup opens",
+    "language selection commands",
+    "closed popup layout",
+    "settings fit panel",
+    "URI and CSL metadata",
+    "resolve library URI",
+    "DOCX scan",
+    "all markers eligible beside tabs and breaks",
+    "available in-text styles",
+    "CSL citation clusters",
+    "CSL bibliography",
+    "tabs and line breaks preserved",
+    "write new DOCX",
+    "existing output refused",
+    "official DocumentData reader",
+    "official CitationField reader",
+    "continuous numbering enables batch picker",
+    "batch starts with an unapplied draft",
+    "batch queue fits above native buttons",
+    "batch duplicate cannot advance or close",
+    "batch selection keeps one window",
+    "batch does not apply before final confirmation",
+    "batch maps actual add order",
+    "single duplicate stays unconfirmed",
+    "cancel preserves individual mapping",
+    "same numbered item may be reselected",
+    "batch edits remain a draft",
+    "cancel discards batch changes",
+    "conflicting import is atomic",
+    "resolved duplicate mappings rejected",
+    "missing number disables bulk selection",
+    "export uses selected style and language",
+    "exported preferences follow selected controls",
+    "settings reenabled after export"
+  ],
+  "started": "2026-11-03T05:43:11.954Z",
+  "initialization": {
+    "busy": false,
+    "styleCount": 12
+  },
+  "popupSizes": {
+    "style": {
+      "width": 838,
+      "height": 406
+    },
+    "locale": {
+      "width": 170,
+      "height": 76
+    }
+  },
+  "pickerLayout": {
+    "treeHeight": 350,
+    "panelHeight": 232,
+    "queueHeight": 117
+  },
+  "uiSelection": {
+    "styleID": "http://www.zotero.org/styles/american-chemical-society",
+    "locale": "en-US"
+  },
+  "citationTexts": {
+    "0:15:18": "[1]",
+    "0:27:32": "[1], [2]",
+    "1:5:8": "[3]",
+    "2:8:13": "[1], [2], [3]"
+  },
+  "bibliography": "[1] T. Author1, Synthetic reference 1. Test Press, 2021.\n[2] T. Author3, Synthetic reference 3. Test Press, 2023.\n[3] T. Author2, Synthetic reference 2. Test Press, 2022.",
+  "style": "http://www.zotero.org/styles/ieee",
+  "output": "D:\\zotero-plugin\\work\\test-v10-ui-110-verified\\converted.docx",
+  "ok": true,
+  "finished": "2026-11-03T05:43:19.840Z",
+  "zoteroVersion": "10.0.7",
+  "addonVersion": "1.1.0",
+  "addonContentSHA256": "b7ae48e91c8184eb0cca7f8756fbe1a2f19f27fee4b4310db69cf998cc2f81db"
+}

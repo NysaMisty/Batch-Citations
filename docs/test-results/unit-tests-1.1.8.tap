@@ -1,0 +1,1048 @@
+TAP version 13
+# Subtest: full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+ok 1 - full package conversion preserves unrelated bytes, creates prefs and is not repeatable
+  ---
+  duration_ms: 21.798
+  type: 'test'
+  ...
+# Subtest: reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+ok 2 - reject corrupt, path traversal, macro, revision mode and oversized expanded ZIP
+  ---
+  duration_ms: 1317.6621
+  type: 'test'
+  ...
+# Subtest: count excluded story candidates separately
+ok 3 - count excluded story candidates separately
+  ---
+  duration_ms: 2.1895
+  type: 'test'
+  ...
+# Subtest: bibliography placeholder is ordinary text, never an existing Zotero field
+ok 4 - bibliography placeholder is ordinary text, never an existing Zotero field
+  ---
+  duration_ms: 1.097
+  type: 'test'
+  ...
+# Subtest: continuity combines manual markers and native numeric citation results, excluding other fields
+ok 5 - continuity combines manual markers and native numeric citation results, excluding other fields
+  ---
+  duration_ms: 2.2799
+  type: 'test'
+  ...
+# Subtest: reconciling an edited document keeps mappings for surviving numbers and checks only unchanged occurrences
+ok 6 - reconciling an edited document keeps mappings for surviving numbers and checks only unchanged occurrences
+  ---
+  duration_ms: 0.4858
+  type: 'test'
+  ...
+# Subtest: pending snapshot changes notify immediately and atomically, with no cross-document rebinding
+ok 7 - pending snapshot changes notify immediately and atomically, with no cross-document rebinding
+  ---
+  duration_ms: 6.2327
+  type: 'test'
+  ...
+# Subtest: an empty current document remains observable; submitted jobs refuse updates
+ok 8 - an empty current document remains observable; submitted jobs refuse updates
+  ---
+  duration_ms: 3.4745
+  type: 'test'
+  ...
+# Subtest: listeners receive completion and cancellation transitions and are isolated from listener errors
+ok 9 - listeners receive completion and cancellation transitions and are isolated from listener errors
+  ---
+  duration_ms: 1.7579
+  type: 'test'
+  ...
+# Subtest: a surviving duplicate restores its original number independently of CSL output and position
+ok 10 - a surviving duplicate restores its original number independently of CSL output and position
+  ---
+  duration_ms: 8.601
+  type: 'test'
+  ...
+# Subtest: only deleting all bound positions releases the original number
+ok 11 - only deleting all bound positions releases the original number
+  ---
+  duration_ms: 0.7004
+  type: 'test'
+  ...
+# Subtest: cross-number reuse is allowed for an insertion marker but an unselected label cannot be rebound
+ok 12 - cross-number reuse is allowed for an insertion marker but an unselected label cannot be rebound
+  ---
+  duration_ms: 1.6967
+  type: 'test'
+  ...
+# Subtest: corrupt or inconsistent metadata fails closed without guessing display numbers
+ok 13 - corrupt or inconsistent metadata fails closed without guessing display numbers
+  ---
+  duration_ms: 0.7412
+  type: 'test'
+  ...
+# Subtest: an explicit native replacement can be reconciled only by confirming the original number again
+ok 14 - an explicit native replacement can be reconciled only by confirming the original number again
+  ---
+  duration_ms: 1.4417
+  type: 'test'
+  ...
+# Subtest: a confirmed recovery is finalized from the verified document rather than reusing the stale ledger
+ok 15 - a confirmed recovery is finalized from the verified document rather than reusing the stale ledger
+  ---
+  duration_ms: 1.2975
+  type: 'test'
+  ...
+# Subtest: explicit migration validates all existing items and records original numbers without rewriting fields
+ok 16 - explicit migration validates all existing items and records original numbers without rewriting fields
+  ---
+  duration_ms: 0.5493
+  type: 'test'
+  ...
+# Subtest: new native citations can serve a free label and cannot steal a bound number
+ok 17 - new native citations can serve a free label and cannot steal a bound number
+  ---
+  duration_ms: 0.8558
+  type: 'test'
+  ...
+# Subtest: URI normalization merges only equivalent Zotero identities
+ok 18 - URI normalization merges only equivalent Zotero identities
+  ---
+  duration_ms: 1.0555
+  type: 'test'
+  ...
+# Subtest: two citation items with the same URI in one field are a duplicate citation, not a conflict
+ok 19 - two citation items with the same URI in one field are a duplicate citation, not a conflict
+  ---
+  duration_ms: 6.3742
+  type: 'test'
+  ...
+# Subtest: a changed citationID with the same URI is a carrier change with a non-blocking issue
+ok 20 - a changed citationID with the same URI is a carrier change with a non-blocking issue
+  ---
+  duration_ms: 0.8957
+  type: 'test'
+  ...
+# Subtest: a surviving citationID that now contains another reference is a blocking replacement
+ok 21 - a surviving citationID that now contains another reference is a blocking replacement
+  ---
+  duration_ms: 1.6655
+  type: 'test'
+  ...
+# Subtest: duplicate citation IDs are blocking instead of silently binding one field
+ok 22 - duplicate citation IDs are blocking instead of silently binding one field
+  ---
+  duration_ms: 0.6903
+  type: 'test'
+  ...
+# Subtest: same local id with different URIs stays two references; same URI with another id stays one
+ok 23 - same local id with different URIs stays two references; same URI with another id stays one
+  ---
+  duration_ms: 0.4138
+  type: 'test'
+  ...
+# Subtest: first-use order follows document position and in-cluster order, not old labels
+ok 24 - first-use order follows document position and in-cluster order, not old labels
+  ---
+  duration_ms: 2.7767
+  type: 'test'
+  ...
+# Subtest: verification catches lost references, unexpected references and merge order inversion
+ok 25 - verification catches lost references, unexpected references and merge order inversion
+  ---
+  duration_ms: 2.2375
+  type: 'test'
+  ...
+# Subtest: carrier sync rewrites the ledger identity without moving or renumbering references
+ok 26 - carrier sync rewrites the ledger identity without moving or renumbering references
+  ---
+  duration_ms: 1.1217
+  type: 'test'
+  ...
+# Subtest: parse simple, clusters, Chinese separators and bounded ranges
+ok 27 - parse simple, clusters, Chinese separators and bounded ranges
+  ---
+  duration_ms: 2.1512
+  type: 'test'
+  ...
+# Subtest: scan across runs but never across paragraphs
+ok 28 - scan across runs but never across paragraphs
+  ---
+  duration_ms: 4.1308
+  type: 'test'
+  ...
+# Subtest: protected hyperlink and ordinary fields are visible but ineligible
+ok 29 - protected hyperlink and ordinary fields are visible but ineligible
+  ---
+  duration_ms: 1.1356
+  type: 'test'
+  ...
+# Subtest: block content controls protect their paragraphs and cannot host the bibliography marker
+ok 30 - block content controls protect their paragraphs and cannot host the bibliography marker
+  ---
+  duration_ms: 2.946
+  type: 'test'
+  ...
+# Subtest: reject tracked changes, existing Zotero fields, malformed XML and DTD
+ok 31 - reject tracked changes, existing Zotero fields, malformed XML and DTD
+  ---
+  duration_ms: 0.6257
+  type: 'test'
+  ...
+# Subtest: replace multiple markers in same run; preserve text, suffix formatting and section
+ok 32 - replace multiple markers in same run; preserve text, suffix formatting and section
+  ---
+  duration_ms: 9.0452
+  type: 'test'
+  ...
+# Subtest: cross-run suffix retains its original formatting
+ok 33 - cross-run suffix retains its original formatting
+  ---
+  duration_ms: 1.5541
+  type: 'test'
+  ...
+# Subtest: markers next to tabs and line breaks convert without losing surrounding run content
+ok 34 - markers next to tabs and line breaks convert without losing surrounding run content
+  ---
+  duration_ms: 5.8004
+  type: 'test'
+  ...
+# Subtest: cross-run marker replacement retains adjacent drawings, multiple text nodes and bookmarks
+ok 35 - cross-run marker replacement retains adjacent drawings, multiple text nodes and bookmarks
+  ---
+  duration_ms: 3.4064
+  type: 'test'
+  ...
+# Subtest: text outside a complex field remains convertible while its display text stays protected across paragraphs
+ok 36 - text outside a complex field remains convertible while its display text stays protected across paragraphs
+  ---
+  duration_ms: 2.0542
+  type: 'test'
+  ...
+# Subtest: only selected candidates convert; missing mappings fail before output
+ok 37 - only selected candidates convert; missing mappings fail before output
+  ---
+  duration_ms: 1.3426
+  type: 'test'
+  ...
+# Subtest: duplicate mapped paper appears once in a cluster
+ok 38 - duplicate mapped paper appears once in a cluster
+  ---
+  duration_ms: 0.8619
+  type: 'test'
+  ...
+# Subtest: bibliography marker requires its own paragraph; manual list is rejected
+ok 39 - bibliography marker requires its own paragraph; manual list is rejected
+  ---
+  duration_ms: 1.3152
+  type: 'test'
+  ...
+# Subtest: custom properties retain unrelated entries and reject existing Zotero prefs
+ok 40 - custom properties retain unrelated entries and reject existing Zotero prefs
+  ---
+  duration_ms: 1.3876
+  type: 'test'
+  ...
+# Subtest: preference data is accepted as JSON version 4 with Word fields
+ok 41 - preference data is accepted as JSON version 4 with Word fields
+  ---
+  duration_ms: 0.1915
+  type: 'test'
+  ...
+# Subtest: T07 new-reference evidence keeps all seven original labels and fields
+ok 42 - T07 new-reference evidence keeps all seven original labels and fields
+  ---
+  duration_ms: 5.956
+  type: 'test'
+  ...
+# Subtest: T07 abnormal evidence keeps A as label 1 after its citationID changed
+ok 43 - T07 abnormal evidence keeps A as label 1 after its citationID changed
+  ---
+  duration_ms: 1.6315
+  type: 'test'
+  ...
+# Subtest: T07 merged abnormal field stays in native H,A order and is not auto-fixed
+ok 44 - T07 merged abnormal field stays in native H,A order and is not auto-fixed
+  ---
+  duration_ms: 1.571
+  type: 'test'
+  ...
+# Subtest: T07 evidence DOCX remain byte-identical after offline inspection
+ok 45 - T07 evidence DOCX remain byte-identical after offline inspection
+  ---
+  duration_ms: 0.3902
+  type: 'test'
+  ...
+# Subtest: current/history ambiguity requires an explicit source and keeps both old references
+ok 46 - current/history ambiguity requires an explicit source and keeps both old references
+  ---
+  duration_ms: 11.8637
+  type: 'test'
+  ...
+# Subtest: current-number conflict allocation reserves later original labels and stays within valid label bounds
+ok 47 - current-number conflict allocation reserves later original labels and stays within valid label bounds
+  ---
+  duration_ms: 2.4198
+  type: 'test'
+  ...
+# Subtest: replacing one repeated A preserves its other occurrence and original label
+ok 48 - replacing one repeated A preserves its other occurrence and original label
+  ---
+  duration_ms: 1.8797
+  type: 'test'
+  ...
+# Subtest: native citations without historical labels can be preserved without inventing labels
+ok 49 - native citations without historical labels can be preserved without inventing labels
+  ---
+  duration_ms: 0.9133
+  type: 'test'
+  ...
+# Subtest: a confirmed URI replacement relation joins identities but a bare local id does not
+ok 50 - a confirmed URI replacement relation joins identities but a bare local id does not
+  ---
+  duration_ms: 0.3887
+  type: 'test'
+  ...
+# Subtest: postflight detects unrelated body edits while allowing citation rendering changes
+ok 51 - postflight detects unrelated body edits while allowing citation rendering changes
+  ---
+  duration_ms: 0.9013
+  type: 'test'
+  ...
+# Subtest: two different locators are preserved as two items of one reference
+ok 52 - two different locators are preserved as two items of one reference
+  ---
+  duration_ms: 0.6706
+  type: 'test'
+  ...
+# Subtest: manual result editing is detected before an adjacent merge
+ok 53 - manual result editing is detected before an adjacent merge
+  ---
+  duration_ms: 0.4802
+  type: 'test'
+  ...
+# Subtest: new adjacent markers separated by spaces become one ordered insertion
+ok 54 - new adjacent markers separated by spaces become one ordered insertion
+  ---
+  duration_ms: 0.7075
+  type: 'test'
+  ...
+# Subtest: recovery preserves approved new labels without inserting fields a second time
+ok 55 - recovery preserves approved new labels without inserting fields a second time
+  ---
+  duration_ms: 2.0571
+  type: 'test'
+  ...
+# Subtest: metadata-only replacement recovery retains the approved scope
+ok 56 - metadata-only replacement recovery retains the approved scope
+  ---
+  duration_ms: 0.4757
+  type: 'test'
+  ...
+# Subtest: automatic refresh reacts to first-use changes and leaves the matching window reusable
+ok 57 - automatic refresh reacts to first-use changes and leaves the matching window reusable
+  ---
+  duration_ms: 2.4679
+  type: 'test'
+  ...
+# Subtest: style capability distinguishes first-use numbering from bibliography sorting
+ok 58 - style capability distinguishes first-use numbering from bibliography sorting
+  ---
+  duration_ms: 24.5645
+  type: 'test'
+  ...
+# Subtest: CSL preview cannot mutate the commit graph with engine-owned item data
+ok 59 - CSL preview cannot mutate the commit graph with engine-owned item data
+  ---
+  duration_ms: 2.042
+  type: 'test'
+  ...
+# Subtest: about:blank unload does not lose the live window; shutdown cleans up
+ok 60 - about:blank unload does not lose the live window; shutdown cleans up
+  ---
+  duration_ms: 2.8825
+  type: 'test'
+  ...
+# Subtest: completed and manually closed windows release their job association across repeated opens
+ok 61 - completed and manually closed windows release their job association across repeated opens
+  ---
+  duration_ms: 2.2687
+  type: 'test'
+  ...
+# Subtest: activation failure does not suppress focus; maximized windows remain maximized
+ok 62 - activation failure does not suppress focus; maximized windows remain maximized
+  ---
+  duration_ms: 1.9876
+  type: 'test'
+  ...
+# Subtest: editable CSV/TSV round trip BOM, quoted titles, commas, tabs and newlines
+ok 63 - editable CSV/TSV round trip BOM, quoted titles, commas, tabs and newlines
+  ---
+  duration_ms: 2.1003
+  type: 'test'
+  ...
+# Subtest: legacy JSON is accepted; invalid shape and record fields identify the problem
+ok 64 - legacy JSON is accepted; invalid shape and record fields identify the problem
+  ---
+  duration_ms: 0.7572
+  type: 'test'
+  ...
+# Subtest: duplicate numbers and equivalent Zotero URIs are rejected atomically
+ok 65 - duplicate numbers and equivalent Zotero URIs are rejected atomically
+  ---
+  duration_ms: 0.3906
+  type: 'test'
+  ...
+# Subtest: live scan reuses bounded marker grammar and preserves protected positions
+ok 66 - live scan reuses bounded marker grammar and preserves protected positions
+  ---
+  duration_ms: 2.188
+  type: 'test'
+  ...
+# Subtest: plan binds document and snapshot, stores URIs and creates no automatic bibliography
+ok 67 - plan binds document and snapshot, stores URIs and creates no automatic bibliography
+  ---
+  duration_ms: 6.7457
+  type: 'test'
+  ...
+# Subtest: existing document settings and citation IDs survive incremental batch insertion
+ok 68 - existing document settings and citation IDs survive incremental batch insertion
+  ---
+  duration_ms: 0.8192
+  type: 'test'
+  ...
+# Subtest: malformed and overlapping Word ranges cannot become a commit plan
+ok 69 - malformed and overlapping Word ranges cannot become a commit plan
+  ---
+  duration_ms: 0.2727
+  type: 'test'
+  ...
+# Subtest: standard document data accepts JSON and legacy XML; bookmark/note documents fail before commit
+ok 70 - standard document data accepts JSON and legacy XML; bookmark/note documents fail before commit
+  ---
+  duration_ms: 0.2439
+  type: 'test'
+  ...
+# Subtest: live bridge rejects unauthenticated or browser-origin requests
+ok 71 - live bridge rejects unauthenticated or browser-origin requests
+  ---
+  duration_ms: 4.1091
+  type: 'test'
+  ...
+# Subtest: older Word clients cannot omit persistent binding metadata and silently accept new plans
+ok 72 - older Word clients cannot omit persistent binding metadata and silently accept new plans
+  ---
+  duration_ms: 2.2347
+  type: 'test'
+  ...
+# Subtest: transactions are exclusive, authenticated, expiring and accept a commit only once
+ok 73 - transactions are exclusive, authenticated, expiring and accept a commit only once
+  ---
+  duration_ms: 1.6831
+  type: 'test'
+  ...
+# Subtest: protocol-3 completion waits for post-commit verification and a field-free finalization
+ok 74 - protocol-3 completion waits for post-commit verification and a field-free finalization
+  ---
+  duration_ms: 2.5443
+  type: 'test'
+  ...
+# Subtest: a carrier-only sync verifies the ledger without running a native refresh
+ok 75 - a carrier-only sync verifies the ledger without running a native refresh
+  ---
+  duration_ms: 3.1163
+  type: 'test'
+  ...
+# Subtest: a protocol-3 completion that loses a reference stops in needs-recovery instead of done
+ok 76 - a protocol-3 completion that loses a reference stops in needs-recovery instead of done
+  ---
+  duration_ms: 1.4624
+  type: 'test'
+  ...
+# Subtest: a legacy Word client cannot receive a plan with adjacent merges
+ok 77 - a legacy Word client cannot receive a plan with adjacent merges
+  ---
+  duration_ms: 0.4223
+  type: 'test'
+  ...
+# Subtest: native document mismatch stops before session update and releases all integration locks
+ok 78 - native document mismatch stops before session update and releases all integration locks
+  ---
+  duration_ms: 0.5288
+  type: 'test'
+  ...
+# Subtest: saved document refresh avoids stale path monikers and still validates the transaction nonce
+ok 79 - saved document refresh avoids stale path monikers and still validates the transaction nonce
+  ---
+  duration_ms: 0.5431
+  type: 'test'
+  ...
+# Subtest: native bibliography completion wakes one deferred open without a timer or stale snapshot
+ok 80 - native bibliography completion wakes one deferred open without a timer or stale snapshot
+  ---
+  duration_ms: 0.5803
+  type: 'test'
+  ...
+# Subtest: Zotero 7 native completion is tracked without currentCommandPromise and restored on shutdown
+ok 81 - Zotero 7 native completion is tracked without currentCommandPromise and restored on shutdown
+  ---
+  duration_ms: 0.5228
+  type: 'test'
+  ...
+# Subtest: existing bibliography is refreshed instead of being inserted again
+ok 82 - existing bibliography is refreshed instead of being inserted again
+  ---
+  duration_ms: 0.2987
+  type: 'test'
+  ...
+# Subtest: native refresh failure is reported and does not leave Zotero busy
+ok 83 - native refresh failure is reported and does not leave Zotero busy
+  ---
+  duration_ms: 0.2864
+  type: 'test'
+  ...
+# Subtest: stopping service cancels uncommitted jobs and refuses further requests
+ok 84 - stopping service cancels uncommitted jobs and refuses further requests
+  ---
+  duration_ms: 0.2235
+  type: 'test'
+  ...
+# Subtest: completion acknowledgement closes only the completed window and permits the next operation
+ok 85 - completion acknowledgement closes only the completed window and permits the next operation
+  ---
+  duration_ms: 0.7591
+  type: 'test'
+  ...
+# Subtest: a closed dialog cancels its orphan job and focus reports cancellation instead of trapping Word
+ok 86 - a closed dialog cancels its orphan job and focus reports cancellation instead of trapping Word
+  ---
+  duration_ms: 0.307
+  type: 'test'
+  ...
+# Subtest: ordered matching skips committed numbers and refuses ordinary edit or clear
+ok 87 - ordered matching skips committed numbers and refuses ordinary edit or clear
+  ---
+  duration_ms: 2.0821
+  type: 'test'
+  ...
+# Subtest: sequence check sorts distinct numbers, reports gaps and accepts continuous excerpts
+ok 88 - sequence check sorts distinct numbers, reports gaps and accepts continuous excerpts
+  ---
+  duration_ms: 2.018
+  type: 'test'
+  ...
+# Subtest: duplicate current item IDs or normalized Zotero URIs are blocked atomically
+ok 89 - duplicate current item IDs or normalized Zotero URIs are blocked atomically
+  ---
+  duration_ms: 0.7762
+  type: 'test'
+  ...
+# Subtest: reselecting the same numbered item is allowed; identical titles do not identify an item
+ok 90 - reselecting the same numbered item is allowed; identical titles do not identify an item
+  ---
+  duration_ms: 0.5473
+  type: 'test'
+  ...
+# Subtest: ordered assignment preserves actual add order and does not mutate the source mapping
+ok 91 - ordered assignment preserves actual add order and does not mutate the source mapping
+  ---
+  duration_ms: 0.7198
+  type: 'test'
+  ...
+# Subtest: duplicate batch choice stays at the same number and retains the previous draft
+ok 92 - duplicate batch choice stays at the same number and retains the previous draft
+  ---
+  duration_ms: 0.401
+  type: 'test'
+  ...
+# Subtest: batch edit and clear allow correction, preserve unrelated mappings and reject gaps
+ok 93 - batch edit and clear allow correction, preserve unrelated mappings and reject gaps
+  ---
+  duration_ms: 0.9005
+  type: 'test'
+  ...
+# Subtest: live ordered session allows one reference at multiple labels while legacy stays unique
+ok 94 - live ordered session allows one reference at multiple labels while legacy stays unique
+  ---
+  duration_ms: 0.7881
+  type: 'test'
+  ...
+# Subtest: moving a draft slot updates its numbered records atomically and follows the editing target
+ok 95 - moving a draft slot updates its numbered records atomically and follows the editing target
+  ---
+  duration_ms: 1.1292
+  type: 'test'
+  ...
+# Subtest: invalid moves and locked barriers cannot partially rebind a draft
+ok 96 - invalid moves and locked barriers cannot partially rebind a draft
+  ---
+  duration_ms: 0.8342
+  type: 'test'
+  ...
+# Subtest: partial drafts reorder holes without loss and remain compatible with clear and replacement
+ok 97 - partial drafts reorder holes without loss and remain compatible with clear and replacement
+  ---
+  duration_ms: 1.582
+  type: 'test'
+  ...
+# Subtest: live repeated references survive moves while the legacy uniqueness rule remains intact
+ok 98 - live repeated references survive moves while the legacy uniqueness rule remains intact
+  ---
+  duration_ms: 0.431
+  type: 'test'
+  ...
+# Subtest: partial application emits only explicit changes and preserves untouched and outside bindings
+ok 99 - partial application emits only explicit changes and preserves untouched and outside bindings
+  ---
+  duration_ms: 0.711
+  type: 'test'
+  ...
+# Subtest: single mode supports sparse numbers, exact targeting and immutable neighboring bindings
+ok 100 - single mode supports sparse numbers, exact targeting and immutable neighboring bindings
+  ---
+  duration_ms: 0.7408
+  type: 'test'
+  ...
+# Subtest: skip advances without assigning or deleting a numbered slot and partial order remains applicable
+ok 101 - skip advances without assigning or deleting a numbered slot and partial order remains applicable
+  ---
+  duration_ms: 0.5052
+  type: 'test'
+  ...
+# Subtest: duplicate checks list every other original label by identity and ignore equal titles
+ok 102 - duplicate checks list every other original label by identity and ignore equal titles
+  ---
+  duration_ms: 0.7222
+  type: 'test'
+  ...
+# Subtest: summary hides unchanged rows, highlights insertion and merges a contiguous forward shift
+ok 103 - summary hides unchanged rows, highlights insertion and merges a contiguous forward shift
+  ---
+  duration_ms: 3.0189
+  type: 'test'
+  ...
+# Subtest: backward shifts merge only consecutive old and new numbers
+ok 104 - backward shifts merge only consecutive old and new numbers
+  ---
+  duration_ms: 0.3281
+  type: 'test'
+  ...
+# Subtest: reusing an unchanged reference is highlighted instead of hidden
+ok 105 - reusing an unchanged reference is highlighted instead of hidden
+  ---
+  duration_ms: 0.1971
+  type: 'test'
+  ...
+# Subtest: a reused reference that moves is highlighted and its old number remains explicit
+ok 106 - a reused reference that moves is highlighted and its old number remains explicit
+  ---
+  duration_ms: 0.1632
+  type: 'test'
+  ...
+# Subtest: swaps, gaps and irregular moves cannot disappear in a merged run
+ok 107 - swaps, gaps and irregular moves cannot disappear in a merged run
+  ---
+  duration_ms: 0.2291
+  type: 'test'
+  ...
+# Subtest: ambiguous old displays and number conflicts are explicit and never merged
+ok 108 - ambiguous old displays and number conflicts are explicit and never merged
+  ---
+  duration_ms: 0.3239
+  type: 'test'
+  ...
+# Subtest: an unverifiable preview shows order and never invents final numeric values
+ok 109 - an unverifiable preview shows order and never invents final numeric values
+  ---
+  duration_ms: 0.2684
+  type: 'test'
+  ...
+# Subtest: unknown insertion provenance is never guessed and all unchanged documents stay compact
+ok 110 - unknown insertion provenance is never guessed and all unchanged documents stay compact
+  ---
+  duration_ms: 0.1742
+  type: 'test'
+  ...
+# Subtest: presentation leaves every plan operation, label, field and preview value unchanged
+ok 111 - presentation leaves every plan operation, label, field and preview value unchanged
+  ---
+  duration_ms: 0.5714
+  type: 'test'
+  ...
+# Subtest: a long regular shift stays compact while complete details retain every reference
+ok 112 - a long regular shift stays compact while complete details retain every reference
+  ---
+  duration_ms: 227.8889
+  type: 'test'
+  ...
+# Subtest: preview table separates titles from changes and excludes unchanged reused references
+ok 113 - preview table separates titles from changes and excludes unchanged reused references
+  ---
+  duration_ms: 0.332
+  type: 'test'
+  ...
+# Subtest: table preview never displays inferred numbers as verified in a nonnumeric style
+ok 114 - table preview never displays inferred numbers as verified in a nonnumeric style
+  ---
+  duration_ms: 0.1906
+  type: 'test'
+  ...
+# Subtest: manifest contains the metadata required by the Zotero 7 loader
+ok 115 - manifest contains the metadata required by the Zotero 7 loader
+  ---
+  duration_ms: 2.013
+  type: 'test'
+  ...
+# Subtest: XHTML controller loads after controls, without relying on HTML-only defer behavior
+ok 116 - XHTML controller loads after controls, without relying on HTML-only defer behavior
+  ---
+  duration_ms: 9.8301
+  type: 'test'
+  ...
+# Subtest: citation-state loads before live-core in both the dialog and the background service
+ok 117 - citation-state loads before live-core in both the dialog and the background service
+  ---
+  duration_ms: 0.6872
+  type: 'test'
+  ...
+# Subtest: duplicate binding requires explicit continuation and defaults to cancel with original numbers and merge warning
+ok 118 - duplicate binding requires explicit continuation and defaults to cancel with original numbers and merge warning
+  ---
+  duration_ms: 5.3387
+  type: 'test'
+  ...
+# Subtest: same-number reselection and unrelated titles do not prompt while imported duplicates share the confirmation
+ok 119 - same-number reselection and unrelated titles do not prompt while imported duplicates share the confirmation
+  ---
+  duration_ms: 1.5654
+  type: 'test'
+  ...
+# Subtest: library merge aliases prompt for newly shared labels and retain already confirmed relationships
+ok 120 - library merge aliases prompt for newly shared labels and retain already confirmed relationships
+  ---
+  duration_ms: 3.0494
+  type: 'test'
+  ...
+# Subtest: field-backed references from other libraries do not conflict merely because their numeric IDs match
+ok 121 - field-backed references from other libraries do not conflict merely because their numeric IDs match
+  ---
+  duration_ms: 1.8734
+  type: 'test'
+  ...
+# Subtest: confirmed labels produce one reference per citation cluster and survive ordered partial changes
+ok 122 - confirmed labels produce one reference per citation cluster and survive ordered partial changes
+  ---
+  duration_ms: 3.9101
+  type: 'test'
+  ...
+# Subtest: final citations deduplicate all shared aliases and transitive identities regardless of URI sort order
+ok 123 - final citations deduplicate all shared aliases and transitive identities regardless of URI sort order
+  ---
+  duration_ms: 0.4625
+  type: 'test'
+  ...
+# Subtest: number preview and final citations agree on bridging aliases while preserving earliest use and unrelated references
+ok 124 - number preview and final citations agree on bridging aliases while preserving earliest use and unrelated references
+  ---
+  duration_ms: 1.9619
+  type: 'test'
+  ...
+# Subtest: confirmed shared references retain every original label through planning finalization and reopen
+ok 125 - confirmed shared references retain every original label through planning finalization and reopen
+  ---
+  duration_ms: 8.1745
+  type: 'test'
+  ...
+# Subtest: citation status uses distinct native citation IDs and all eligible manual positions
+ok 126 - citation status uses distinct native citation IDs and all eligible manual positions
+  ---
+  duration_ms: 2.4905
+  type: 'test'
+  ...
+# Subtest: unassigned labels retain their own real marker counts and empty status is a dash
+ok 127 - unassigned labels retain their own real marker counts and empty status is a dash
+  ---
+  duration_ms: 0.2501
+  type: 'test'
+  ...
+# Subtest: release workflow rejects drift and tampering, preserves history, and rolls back failed publication
+ok 128 - release workflow rejects drift and tampering, preserves history, and rolls back failed publication
+  ---
+  duration_ms: 11390.6096
+  type: 'test'
+  ...
+# Subtest: T01 adjacent insert merges into the left field, keeps A first and allocates H a new label
+ok 129 - T01 adjacent insert merges into the left field, keeps A first and allocates H a new label
+  ---
+  duration_ms: 13.3975
+  type: 'test'
+  ...
+# Subtest: T01 post-commit verification accepts A,H and rejects a native order reversal
+ok 130 - T01 post-commit verification accepts A,H and rejects a native order reversal
+  ---
+  duration_ms: 5.2194
+  type: 'test'
+  ...
+# Subtest: T01 non-adjacent insert after A yields A=1,H=2,B=3 without touching B..G identities
+ok 131 - T01 non-adjacent insert after A yields A=1,H=2,B=3 without touching B..G identities
+  ---
+  duration_ms: 1.6115
+  type: 'test'
+  ...
+# Subtest: T02 one reference preserves distinct original labels across several document positions
+ok 132 - T02 one reference preserves distinct original labels across several document positions
+  ---
+  duration_ms: 1.7214
+  type: 'test'
+  ...
+# Subtest: T03 citing C before A makes C first without renumbering the stored labels
+ok 133 - T03 citing C before A makes C first without renumbering the stored labels
+  ---
+  duration_ms: 0.7398
+  type: 'test'
+  ...
+# Subtest: T04 deleting duplicate carriers preserves identity until the last carrier is gone
+ok 134 - T04 deleting duplicate carriers preserves identity until the last carrier is gone
+  ---
+  duration_ms: 0.4418
+  type: 'test'
+  ...
+# Subtest: T05 rebinding an existing label is rejected until the replacement is explicit
+ok 135 - T05 rebinding an existing label is rejected until the replacement is explicit
+  ---
+  duration_ms: 2.1256
+  type: 'test'
+  ...
+# Subtest: T06 add, append, delete and move keep reference identity after each operation
+ok 136 - T06 add, append, delete and move keep reference identity after each operation
+  ---
+  duration_ms: 2.4604
+  type: 'test'
+  ...
+# Subtest: T11 adjacent merge stops at paragraph breaks and preserves item attributes
+ok 137 - T11 adjacent merge stops at paragraph breaks and preserves item attributes
+  ---
+  duration_ms: 0.8783
+  type: 'test'
+  ...
+# Subtest: T11 duplicate adjacent reference is merged once, without a second identity
+ok 138 - T11 duplicate adjacent reference is merged once, without a second identity
+  ---
+  duration_ms: 1.3765
+  type: 'test'
+  ...
+# Subtest: T15 preview numbers are only claimed for a verified numeric style
+ok 139 - T15 preview numbers are only claimed for a verified numeric style
+  ---
+  duration_ms: 1.37
+  type: 'test'
+  ...
+# Subtest: R01 new label 8 + new H preserves A,H,B,C first-use preview
+ok 140 - R01 new label 8 + new H preserves A,H,B,C first-use preview
+  ---
+  duration_ms: 10.1243
+  type: 'test'
+  ...
+# Subtest: R02 new label 8 shares B identity and preserves both historical labels
+ok 141 - R02 new label 8 shares B identity and preserves both historical labels
+  ---
+  duration_ms: 1.2106
+  type: 'test'
+  ...
+# Subtest: R03 unambiguous old label 2 cannot be assigned H in selected service input
+ok 142 - R03 unambiguous old label 2 cannot be assigned H in selected service input
+  ---
+  duration_ms: 0.8443
+  type: 'test'
+  ...
+# Subtest: R04 unselected old label 2 is protected (control)
+ok 143 - R04 unselected old label 2 is protected (control)
+  ---
+  duration_ms: 0.6215
+  type: 'test'
+  ...
+# Subtest: R05 postflight rejects loss of one original repeated occurrence
+ok 144 - R05 postflight rejects loss of one original repeated occurrence
+  ---
+  duration_ms: 1.4498
+  type: 'test'
+  ...
+# Subtest: R06 postflight rejects field-to-reference swaps with unchanged unique URI set
+ok 145 - R06 postflight rejects field-to-reference swaps with unchanged unique URI set
+  ---
+  duration_ms: 0.791
+  type: 'test'
+  ...
+# Subtest: R07 actual abnormal fixture restores all eight labels by URI
+ok 146 - R07 actual abnormal fixture restores all eight labels by URI
+  ---
+  duration_ms: 11.0376
+  type: 'test'
+  ...
+# Subtest: R08 verified earlier duplicate records both carriers in document order
+ok 147 - R08 verified earlier duplicate records both carriers in document order
+  ---
+  duration_ms: 1.3654
+  type: 'test'
+  ...
+# Subtest: R09 postflight rejects missing planned new H
+ok 148 - R09 postflight rejects missing planned new H
+  ---
+  duration_ms: 0.6908
+  type: 'test'
+  ...
+# Subtest: R10 postflight rejects unexpected extra occurrence of an already cited reference
+ok 149 - R10 postflight rejects unexpected extra occurrence of an already cited reference
+  ---
+  duration_ms: 1.3833
+  type: 'test'
+  ...
+# Subtest: R11 postflight rejects changed locator rather than treating it as success
+ok 150 - R11 postflight rejects changed locator rather than treating it as success
+  ---
+  duration_ms: 0.6716
+  type: 'test'
+  ...
+# Subtest: R12 adjacent multi-source merge copies every source field item
+ok 151 - R12 adjacent multi-source merge copies every source field item
+  ---
+  duration_ms: 0.6921
+  type: 'test'
+  ...
+# Subtest: R13 custom/dontUpdate source fields fail before a merge is planned
+ok 152 - R13 custom/dontUpdate source fields fail before a merge is planned
+  ---
+  duration_ms: 0.3325
+  type: 'test'
+  ...
+# Subtest: R14 live CSV route accepts different free labels using the same reference
+ok 153 - R14 live CSV route accepts different free labels using the same reference
+  ---
+  duration_ms: 1.0054
+  type: 'test'
+  ...
+# Subtest: R15 historical label/current display ambiguity blocks automatic B selection
+ok 154 - R15 historical label/current display ambiguity blocks automatic B selection
+  ---
+  duration_ms: 0.4476
+  type: 'test'
+  ...
+# Subtest: R16 all-new adjacent markers reject native H,A reversal
+ok 155 - R16 all-new adjacent markers reject native H,A reversal
+  ---
+  duration_ms: 0.6059
+  type: 'test'
+  ...
+# Subtest: R17 refresh protocol-3 plan contains a staged ledger
+ok 156 - R17 refresh protocol-3 plan contains a staged ledger
+  ---
+  duration_ms: 1.0708
+  type: 'test'
+  ...
+# Subtest: R18 legacy client with matching version is rejected before writes
+ok 157 - R18 legacy client with matching version is rejected before writes
+  ---
+  duration_ms: 0.2616
+  type: 'test'
+  ...
+# Subtest: R19 URI alias ordering does not turn a valid reference into loss/new identity
+ok 158 - R19 URI alias ordering does not turn a valid reference into loss/new identity
+  ---
+  duration_ms: 0.3809
+  type: 'test'
+  ...
+# Subtest: R20 bridge alias joins yield one reference or a blocking ambiguity
+ok 159 - R20 bridge alias joins yield one reference or a blocking ambiguity
+  ---
+  duration_ms: 0.2715
+  type: 'test'
+  ...
+# Subtest: R21 valid embedded existing record does not need to resolve in the current library
+ok 160 - R21 valid embedded existing record does not need to resolve in the current library
+  ---
+  duration_ms: 1.6497
+  type: 'test'
+  ...
+# Subtest: R22 postflight preserves native suppress-author and author-only attributes
+ok 161 - R22 postflight preserves native suppress-author and author-only attributes
+  ---
+  duration_ms: 0.3239
+  type: 'test'
+  ...
+# Subtest: unfinished legacy preferences are new-document settings only with positive evidence of no native references
+ok 162 - unfinished legacy preferences are new-document settings only with positive evidence of no native references
+  ---
+  duration_ms: 3.9674
+  type: 'test'
+  ...
+# Subtest: a confirmed insertion initializes empty legacy preferences without rewriting the source snapshot
+ok 163 - a confirmed insertion initializes empty legacy preferences without rewriting the source snapshot
+  ---
+  duration_ms: 3.4274
+  type: 'test'
+  ...
+# Subtest: one unsupported marker remains visible and cannot hide valid neighboring candidates
+ok 164 - one unsupported marker remains visible and cannot hide valid neighboring candidates
+  ---
+  duration_ms: 0.7633
+  type: 'test'
+  ...
+# Subtest: duplicate or overlapping Word ranges still stop safely instead of being silently deduplicated
+ok 165 - duplicate or overlapping Word ranges still stop safely instead of being silently deduplicated
+  ---
+  duration_ms: 0.2308
+  type: 'test'
+  ...
+# Subtest: candidate limits fail explicitly without truncating the original snapshot
+ok 166 - candidate limits fail explicitly without truncating the original snapshot
+  ---
+  duration_ms: 0.7086
+  type: 'test'
+  ...
+# Subtest: verification retains all text around non-affine Word object offsets and still detects unrelated edits
+ok 167 - verification retains all text around non-affine Word object offsets and still detects unrelated edits
+  ---
+  duration_ms: 0.3649
+  type: 'test'
+  ...
+# Subtest: entry failures log their stage and counts without raw document text, then allow retry
+ok 168 - entry failures log their stage and counts without raw document text, then allow retry
+  ---
+  duration_ms: 1.6829
+  type: 'test'
+  ...
+# Subtest: bulk selection requires valid bindings for every number in a compound citation
+ok 169 - bulk selection requires valid bindings for every number in a compound citation
+  ---
+  duration_ms: 1.6389
+  type: 'test'
+  ...
+# Subtest: cleared, malformed and invalidated bindings prune whole selected positions
+ok 170 - cleared, malformed and invalidated bindings prune whole selected positions
+  ---
+  duration_ms: 0.2822
+  type: 'test'
+  ...
+# Subtest: ambiguous source labels and protected ranges remain blocked with complete mappings
+ok 171 - ambiguous source labels and protected ranges remain blocked with complete mappings
+  ---
+  duration_ms: 0.1867
+  type: 'test'
+  ...
+# Subtest: local record validity checks deletion, regular item type and URI identity
+ok 172 - local record validity checks deletion, regular item type and URI identity
+  ---
+  duration_ms: 2.3643
+  type: 'test'
+  ...
+# Subtest: a field-backed embedded reference remains valid without a local library item
+ok 173 - a field-backed embedded reference remains valid without a local library item
+  ---
+  duration_ms: 0.8679
+  type: 'test'
+  ...
+1..173
+# tests 173
+# suites 0
+# pass 173
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 12131.438

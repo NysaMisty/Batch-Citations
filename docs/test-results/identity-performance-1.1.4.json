@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "scope": "Pure JS restoreBindings, 1000 fields and references, first call plus three subsequent calls; excludes Word COM",
+  "milliseconds": [
+    27.441,
+    15.3963,
+    20.8679,
+    20.2061
+  ],
+  "node": "v24.16.0"
+}

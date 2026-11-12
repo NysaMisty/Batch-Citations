@@ -1,0 +1,286 @@
+{
+  "version": "10.0.7",
+  "checks": [
+    "plugin startup",
+    "Tools menu",
+    "dialog and host API checks",
+    "menu icon loads",
+    "plugin icon registered",
+    "native FilePicker API",
+    "dialog initialization",
+    "native settings controls",
+    "style popup opens",
+    "style selection command",
+    "language popup opens",
+    "language selection commands",
+    "closed popup layout",
+    "settings fit panel",
+    "URI and CSL metadata",
+    "resolve library URI",
+    "DOCX scan",
+    "all markers eligible beside tabs and breaks",
+    "available in-text styles",
+    "CSL citation clusters",
+    "CSL bibliography",
+    "tabs and line breaks preserved",
+    "write new DOCX",
+    "existing output refused",
+    "official DocumentData reader",
+    "official CitationField reader",
+    "continuous numbering enables batch picker",
+    "batch starts with an unapplied draft",
+    "batch queue fits above native buttons",
+    "footer order is add and continue, apply literature list, cancel",
+    "batch duplicate cannot advance or close",
+    "native double-click fills the current original number and continues",
+    "batch selection keeps one window",
+    "batch does not apply before final confirmation",
+    "batch maps actual add order",
+    "single duplicate stays unconfirmed",
+    "cancel preserves individual mapping",
+    "same numbered item may be reselected",
+    "batch edits remain a draft",
+    "cancel discards batch changes",
+    "large ordered draft retains all sixty numbered rows",
+    "status and instructions have a left inset aligned with the numbered rows",
+    "native light theme media query matches the isolated host preference at 720px",
+    "sixty-row picker 720x560 light fits and scrolls independently",
+    "native dark theme media query matches the isolated host preference at 720px",
+    "sixty-row picker 720x560 dark fits and scrolls independently",
+    "native light theme media query matches the isolated host preference at 1000px",
+    "sixty-row picker 1000x760 light fits and scrolls independently",
+    "native dark theme media query matches the isolated host preference at 1000px",
+    "sixty-row picker 1000x760 dark fits and scrolls independently",
+    "long titles truncate and retain the full native tooltip",
+    "row actions use native Zotero XUL buttons",
+    "clearing one of sixty rows disables apply without losing another mapping",
+    "replacement targets the exact numbered row",
+    "canceling a sixty-row draft applies nothing",
+    "conflicting import is atomic",
+    "resolved duplicate mappings rejected",
+    "missing number disables bulk selection",
+    "export uses selected style and language",
+    "exported preferences follow selected controls",
+    "settings reenabled after export",
+    "both tab toolbars stay separate and within the window at 760 and 1000 pixels"
+  ],
+  "started": "2026-11-04T08:41:39.922Z",
+  "initialization": {
+    "busy": false,
+    "styleCount": 12
+  },
+  "popupSizes": {
+    "style": {
+      "width": 618,
+      "height": 385.3333435058594
+    },
+    "locale": {
+      "width": 208,
+      "height": 72
+    }
+  },
+  "pickerLayout": {
+    "treeHeight": 461.26666259765625,
+    "panelHeight": 162.39999389648438,
+    "queueHeight": 103.33332824707031,
+    "largeGeometry": [
+      {
+        "width": 705,
+        "height": 553,
+        "devicePixelRatio": 1.5,
+        "scheme": "light",
+        "nativeDark": false,
+        "background": "#fff",
+        "fill": "rgba(0, 0, 0, 0.8509803922)",
+        "fits": true,
+        "queue": {
+          "x": 200,
+          "y": 348.316650390625,
+          "width": 505.33331298828125,
+          "height": 143.68333435058594,
+          "top": 348.316650390625,
+          "right": 705.3333129882812,
+          "bottom": 491.99998474121094,
+          "left": 200
+        },
+        "buttons": {
+          "x": 200,
+          "y": 492,
+          "width": 505.33331298828125,
+          "height": 60.66667175292969,
+          "top": 492,
+          "right": 705.3333129882812,
+          "bottom": 552.6666717529297,
+          "left": 200
+        },
+        "tree": {
+          "x": 200,
+          "y": 60.33332824707031,
+          "width": 505.33331298828125,
+          "height": 220.9166717529297,
+          "top": 60.33332824707031,
+          "right": 705.3333129882812,
+          "bottom": 281.25,
+          "left": 200
+        }
+      },
+      {
+        "width": 705,
+        "height": 553,
+        "devicePixelRatio": 1.5,
+        "scheme": "dark",
+        "nativeDark": true,
+        "background": "#1e1e1e",
+        "fill": "rgba(255, 255, 255, 0.8980392157)",
+        "fits": true,
+        "queue": {
+          "x": 200,
+          "y": 348.316650390625,
+          "width": 505.33331298828125,
+          "height": 143.68333435058594,
+          "top": 348.316650390625,
+          "right": 705.3333129882812,
+          "bottom": 491.99998474121094,
+          "left": 200
+        },
+        "buttons": {
+          "x": 200,
+          "y": 492,
+          "width": 505.33331298828125,
+          "height": 60.66667175292969,
+          "top": 492,
+          "right": 705.3333129882812,
+          "bottom": 552.6666717529297,
+          "left": 200
+        },
+        "tree": {
+          "x": 200,
+          "y": 60.33332824707031,
+          "width": 505.33331298828125,
+          "height": 220.9166717529297,
+          "top": 60.33332824707031,
+          "right": 705.3333129882812,
+          "bottom": 281.25,
+          "left": 200
+        }
+      },
+      {
+        "width": 985,
+        "height": 753,
+        "devicePixelRatio": 1.5,
+        "scheme": "light",
+        "nativeDark": false,
+        "background": "#fff",
+        "fill": "rgba(0, 0, 0, 0.8509803922)",
+        "fits": true,
+        "queue": {
+          "x": 200,
+          "y": 502,
+          "width": 785.3333129882812,
+          "height": 190,
+          "top": 502,
+          "right": 985.3333129882812,
+          "bottom": 692,
+          "left": 200
+        },
+        "buttons": {
+          "x": 200,
+          "y": 692,
+          "width": 785.3333129882812,
+          "height": 60.66667175292969,
+          "top": 692,
+          "right": 985.3333129882812,
+          "bottom": 752.6666717529297,
+          "left": 200
+        },
+        "tree": {
+          "x": 200,
+          "y": 60.33332824707031,
+          "width": 785.3333129882812,
+          "height": 374.6000061035156,
+          "top": 60.33332824707031,
+          "right": 985.3333129882812,
+          "bottom": 434.93333435058594,
+          "left": 200
+        }
+      },
+      {
+        "width": 985,
+        "height": 753,
+        "devicePixelRatio": 1.5,
+        "scheme": "dark",
+        "nativeDark": true,
+        "background": "#1e1e1e",
+        "fill": "rgba(255, 255, 255, 0.8980392157)",
+        "fits": true,
+        "queue": {
+          "x": 200,
+          "y": 502,
+          "width": 785.3333129882812,
+          "height": 190,
+          "top": 502,
+          "right": 985.3333129882812,
+          "bottom": 692,
+          "left": 200
+        },
+        "buttons": {
+          "x": 200,
+          "y": 692,
+          "width": 785.3333129882812,
+          "height": 60.66667175292969,
+          "top": 692,
+          "right": 985.3333129882812,
+          "bottom": 752.6666717529297,
+          "left": 200
+        },
+        "tree": {
+          "x": 200,
+          "y": 60.33332824707031,
+          "width": 785.3333129882812,
+          "height": 374.6000061035156,
+          "top": 60.33332824707031,
+          "right": 985.3333129882812,
+          "bottom": 434.93333435058594,
+          "left": 200
+        }
+      }
+    ]
+  },
+  "uiSelection": {
+    "styleID": "http://www.zotero.org/styles/american-chemical-society",
+    "locale": "en-US"
+  },
+  "responsiveLayout": [
+    {
+      "width": 761,
+      "page": 0,
+      "fits": true
+    },
+    {
+      "width": 761,
+      "page": 1,
+      "fits": true
+    },
+    {
+      "width": 1001,
+      "page": 0,
+      "fits": true
+    },
+    {
+      "width": 1001,
+      "page": 1,
+      "fits": true
+    }
+  ],
+  "citationTexts": {
+    "0:15:18": "[1]",
+    "0:27:32": "[1], [2]",
+    "1:5:8": "[3]",
+    "2:8:13": "[1], [2], [3]"
+  },
+  "bibliography": "[1] T. Author1, Synthetic reference 1. Test Press, 2021.\n[2] T. Author3, Synthetic reference 3. Test Press, 2023.\n[3] T. Author2, Synthetic reference 2. Test Press, 2022.",
+  "style": "http://www.zotero.org/styles/ieee",
+  "output": "D:\\zotero-plugin\\work\\test-runs\\active\\test-ui115-v10-inset\\converted.docx",
+  "ok": true,
+  "finished": "2026-11-04T08:42:04.244Z"
+}

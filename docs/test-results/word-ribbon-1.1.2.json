@@ -1,0 +1,99 @@
+{
+  "ok": true,
+  "addonVersion": "1.1.2",
+  "wordAddinSHA256": "f287cee94e3d956ec7c38b0a93d2fe989a7df9e82d84383778f1bfa0df1e1586",
+  "method": "Normally launched Word COM add-in, merged native template XML and actual OLE icon round-trip; no new Word desktop screenshot",
+  "hosts": [
+    {
+      "zoteroVersion": "7.0.32",
+      "sharedRibbonChecks": [
+        "actual installed COM add-in connected",
+        "two top-level entries share the native Zotero tab namespace",
+        "duplicate native Zotero controls and standalone tab are absent",
+        "the group is Batch Citations and all four consistent custom icons are registered"
+      ],
+      "nativeTemplateChecks": [
+        "only the ribbon XML entry changes; native VBA macros and other parts remain byte-identical",
+        "the native Zotero tab uses the shared namespace",
+        "native Zotero controls and callback attributes are preserved",
+        "repeated installation is idempotent",
+        "uninstall restores the exact original template bytes",
+        "uninstall preserves a template replaced by a later Zotero update",
+        "repair backs up and can restore the newer official template"
+      ]
+    },
+    {
+      "zoteroVersion": "10.0.7",
+      "sharedRibbonChecks": [
+        "actual installed COM add-in connected",
+        "two top-level entries share the native Zotero tab namespace",
+        "duplicate native Zotero controls and standalone tab are absent",
+        "the group is Batch Citations and all four consistent custom icons are registered"
+      ],
+      "nativeTemplateChecks": [
+        "only the ribbon XML entry changes; native VBA macros and other parts remain byte-identical",
+        "the native Zotero tab uses the shared namespace",
+        "native Zotero controls and callback attributes are preserved",
+        "repeated installation is idempotent",
+        "uninstall restores the exact original template bytes",
+        "uninstall preserves a template replaced by a later Zotero update",
+        "repair backs up and can restore the newer official template"
+      ]
+    }
+  ],
+  "icons": {
+    "checks": [
+      "batch uses a native OLE icon",
+      "batch has the expected Ribbon size and transparent background",
+      "batch reuses its cached picture",
+      "all four numbers are centered within their own rendered brackets",
+      "the vertical stem of one is optically centered",
+      "display uses a native OLE icon",
+      "display has the expected Ribbon size and transparent background",
+      "display reuses its cached picture",
+      "both display glyphs stay inside the document with safe margins",
+      "inline uses a native OLE icon",
+      "inline has the expected Ribbon size and transparent background",
+      "inline reuses its cached picture",
+      "inline X and 2 share the same visual baseline",
+      "superscript uses a native OLE icon",
+      "superscript has the expected Ribbon size and transparent background",
+      "superscript reuses its cached picture",
+      "superscript 2 is visibly raised above X"
+    ],
+    "ok": true,
+    "wordAddinSHA256": "F287CEE94E3D956EC7C38B0A93D2FE989A7DF9E82D84383778F1BFA0DF1E1586",
+    "method": "Actual OLE picture round-trip and pixel checks; no desktop screenshot",
+    "images": [
+      {
+        "type": 3,
+        "transparent": true,
+        "width": 32,
+        "id": "batch",
+        "height": 32
+      },
+      {
+        "type": 3,
+        "transparent": true,
+        "width": 32,
+        "id": "display",
+        "height": 32
+      },
+      {
+        "type": 3,
+        "transparent": true,
+        "width": 16,
+        "id": "inline",
+        "height": 16
+      },
+      {
+        "type": 3,
+        "transparent": true,
+        "width": 16,
+        "id": "superscript",
+        "height": 16
+      }
+    ],
+    "finished": "2026-11-03T21:06:57.3713075+08:00"
+  }
+}

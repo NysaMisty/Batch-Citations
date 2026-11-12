@@ -1,0 +1,33 @@
+{
+  "version": "10.0.7",
+  "checks": [
+    "plugin startup",
+    "Tools menu",
+    "dialog and host API checks",
+    "native FilePicker API",
+    "dialog initialization",
+    "URI and CSL metadata",
+    "resolve library URI",
+    "DOCX scan",
+    "available in-text styles",
+    "CSL citation clusters",
+    "CSL bibliography",
+    "write new DOCX",
+    "existing output refused",
+    "official DocumentData reader",
+    "official CitationField reader"
+  ],
+  "started": "2026-11-02T15:52:49.384Z",
+  "citationTexts": {
+    "0:14:17": "[1]",
+    "0:26:31": "[1], [2]",
+    "1:5:8": "[3]",
+    "2:8:13": "[1], [2], [3]"
+  },
+  "bibliography": "[1] T. Author1, Synthetic reference 1. Test Press, 2021.\n[2] T. Author3, Synthetic reference 3. Test Press, 2023.\n[3] T. Author2, Synthetic reference 2. Test Press, 2022.",
+  "style": "http://www.zotero.org/styles/ieee",
+  "ok": true,
+  "finished": "2026-11-02T15:52:56.318Z",
+  "fixture": "Synthetic references and DOCX only",
+  "addonContentSHA256": "1c991e5292c330008b880574103d01dc0094ee2a0a98fba6e2858be863c1a1a1"
+}
