@@ -132,6 +132,13 @@ class ReleaseTests(unittest.TestCase):
         self.assertFalse((self.outputs / '候选版本').exists())
         self.assertEqual((target / 'Word加载项/ZoteroBatchCitations.dll').read_bytes(), (self.project / 'word-addin/bin/ZoteroBatchCitations.dll').read_bytes())
         self.assertTrue((target / 'Word加载项/Install.cmd').is_file())
+        for suffix in ('-word.zip', '-bundle.zip'):
+            package = target / f'zotero-batch-citations-{self.current}{suffix}'
+            with zipfile.ZipFile(package) as archive:
+                self.assertIn('README.md', archive.namelist())
+                self.assertIn('examples/citation-literature-example.csv', archive.namelist())
+                self.assertFalse(any(name.startswith('docs/test-results/') for name in archive.namelist()))
+        self.assertTrue((target / 'docs/test-results' / self.proof.name).is_file())
         self.assertFalse(staged.exists())
         self.assertEqual((self.outputs / '历史版本/1.1.5/historical.xpi').read_bytes(), b'valuable old installation')
         self.assertEqual(release.git(self.project, 'rev-parse', 'v' + self.current), release.git(self.project, 'rev-parse', 'HEAD'))

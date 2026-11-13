@@ -1,7 +1,5 @@
 # 编号批量引用 · Batch Citations 2.0.0
 
-此分支用于准备下一版。当前可安装版本见 [正式发行版](https://github.com/NysaMisty/Batch-Citations/releases)。
-
 把 Windows 桌面 Word 文档里的 `[1]`、`[1,3]`、`[1–3]` 等手写文献编号，批量转换成可编辑、可刷新的 Zotero 动态引用。
 
 [下载完整安装包](https://github.com/NysaMisty/Batch-Citations/releases/download/v2.0.0/zotero-batch-citations-2.0.0-bundle.zip) · [单独下载 Zotero XPI](https://github.com/NysaMisty/Batch-Citations/releases/download/v2.0.0/zotero-batch-citations-2.0.0.xpi) · [发行页面与校验文件](https://github.com/NysaMisty/Batch-Citations/releases/tag/v2.0.0)
@@ -12,7 +10,7 @@
 - 预览编号变化，勾选要转换的位置，一次插入并刷新引用。可整批撤销。
 - 在 Word 里切换已有数字引用的上标或正文显示，继续使用 Zotero 原有功能编辑引用和生成参考文献表。
 
-![编号匹配界面，左侧是 Zotero 资料库，右侧是编号队列](docs/images/picker-10.0.7-1.1.13.png)
+![编号匹配界面，左侧是 Zotero 资料库，右侧是编号队列](https://raw.githubusercontent.com/NysaMisty/Batch-Citations/main/docs/images/picker-10.0.7-1.1.13.png)
 
 *界面截图使用合成文献和 DOCX 示例。*
 
@@ -32,7 +30,7 @@
 
 Word 加载项负责扫描当前文档、核对位置和写入引用。Zotero 插件提供文献选择、编号匹配和预览。选择文献时只保存编号映射，确认插入后才写入 Word。写入前会核对文档有没有变化，写入异常时会回滚本批操作。两个组件在本机协作。
 
-已测环境与覆盖范围见 [测试报告](docs/DEVELOPMENT-2.0.0.md) 和 [Word 集成说明](docs/WORD-INTEGRATION.md)。
+已测环境与覆盖范围见 [测试报告](https://github.com/NysaMisty/Batch-Citations/blob/main/docs/DEVELOPMENT-2.0.0.md)。
 
 ## 欢迎反馈和帮忙测试
 
