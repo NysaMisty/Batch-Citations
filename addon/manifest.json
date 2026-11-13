@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "编号批量引用 · Batch Citations",
-  "version": "1.1.13",
-  "description": "配合 Word 加载项在当前文档批量插入编号引用，复用 Zotero 文献关联与动态刷新。保留 DOCX 导出。",
+  "version": "2.0.0",
+  "description": "配合 Windows Word 加载项，把手写编号批量转换为可编辑、可刷新的 Zotero 引用。",
   "icons": {
     "48": "content/icons/batch-citations.svg",
     "96": "content/icons/batch-citations.svg"
@@ -10,9 +10,11 @@
   "applications": {
     "zotero": {
       "id": "batch-citations@nanyan.local",
-      "update_url": "https://example.invalid/zotero-batch-citations/updates.json",
+      "update_url": "https://raw.githubusercontent.com/NysaMisty/Batch-Citations/main/updates.json",
       "strict_min_version": "7.0",
       "strict_max_version": "10.0.*"
     }
-  }
+  },
+  "author": "NysaMisty",
+  "homepage_url": "https://github.com/NysaMisty/Batch-Citations"
 }

@@ -9,9 +9,9 @@ SEMVER = re.compile(r'\d+\.\d+\.\d+')
 TEXT_FIELDS = {
     'README.md': [
         (r'\A# 编号批量引用 · Batch Citations (\d+\.\d+\.\d+)', 1),
-        (r'zotero-batch-citations-(\d+\.\d+\.\d+)(?:-bundle\.zip|-word\.zip|\.xpi)', 3),
+        (r'zotero-batch-citations-(\d+\.\d+\.\d+)(?:-bundle\.zip|-word\.zip|\.xpi)', 4),
+        (r'/releases/(?:tag|download)/v(\d+\.\d+\.\d+)', 3),
         (r'DEVELOPMENT-(\d+\.\d+\.\d+)\.md', 1),
-        (r'images/picker-\d+\.\d+\.\d+-(\d+\.\d+\.\d+)\.png', 1),
     ],
     'addon/bootstrap.js': [(r"version:'(\d+\.\d+\.\d+)'", 1)],
     'addon/content/dialog.xhtml': [(r'id="version" hidden="hidden">(\d+\.\d+\.\d+)<', 1)],
@@ -40,6 +40,21 @@ def synchronize(project=PROJECT, target=None, check=False):
             raise ValueError('Version mismatch: ' + name)
         data['version'] = version
         updates[path] = json.dumps(data, ensure_ascii=False, indent=2) + '\n'
+    update_path = project / 'updates.json'
+    manifest = json.loads(updates[project / 'addon/manifest.json'])
+    zotero = manifest['applications']['zotero']
+    feed = json.loads(update_path.read_text(encoding='utf8'))
+    current_update, = feed['addons'][zotero['id']]['updates']
+    homepage = manifest['homepage_url']
+    expected = {
+        'version': version,
+        'update_link': f'{homepage}/releases/download/v{version}/zotero-batch-citations-{version}.xpi',
+        'applications': {'zotero': {key: zotero[key] for key in ('strict_min_version', 'strict_max_version')}},
+    }
+    if check and current_update != expected:
+        raise ValueError('Version or download metadata mismatch: updates.json')
+    feed['addons'][zotero['id']]['updates'] = [expected]
+    updates[update_path] = json.dumps(feed, ensure_ascii=False, indent=2) + '\n'
     for name, fields in TEXT_FIELDS.items():
         path = project / name
         text = path.read_text(encoding='utf8')

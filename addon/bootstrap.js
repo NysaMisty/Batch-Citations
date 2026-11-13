@@ -120,7 +120,7 @@ async function startup({rootURI}) {
       this.endpoint=function(){};
       this.endpoint.prototype={supportedMethods:['POST'],supportedDataTypes:['application/json'],permitBookmarklet:false,init:function(request){return service.request(request);}};
       Zotero.Server.Endpoints['/batch-citations/live']=this.endpoint;
-      await IOUtils.writeUTF8(path,JSON.stringify({protocol:1,version:'1.1.13',processID:Services.appinfo.processID,port,token}),{permissions:0o600});
+      await IOUtils.writeUTF8(path,JSON.stringify({protocol:1,version:'2.0.0',processID:Services.appinfo.processID,port,token}),{permissions:0o600});
     },
     stopLive(){
       this.liveService?.close();

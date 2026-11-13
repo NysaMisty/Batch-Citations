@@ -45,7 +45,7 @@ namespace ZoteroBatchCitations {
             request.Method = "POST"; request.ContentType = "application/json"; request.Proxy = null;
             request.AllowAutoRedirect = false; request.Timeout = 5000; request.ReadWriteTimeout = 5000;
             request.Headers["Authorization"] = "Bearer " + (string)settings["token"];
-            byte[] bytes = Encoding.UTF8.GetBytes(Json.Serialize(new { action = action, payload = payload, protocol = 3, clientVersion = "1.1.13" }));
+            byte[] bytes = Encoding.UTF8.GetBytes(Json.Serialize(new { action = action, payload = payload, protocol = 3, clientVersion = "2.0.0" }));
             request.ContentLength = bytes.Length;
             using (var stream = request.GetRequestStream()) stream.Write(bytes, 0, bytes.Length);
             try {

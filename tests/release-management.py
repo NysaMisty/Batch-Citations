@@ -27,7 +27,7 @@ class ReleaseTests(unittest.TestCase):
         self.outputs = self.root / 'outputs'
         for folder in ['addon', 'word-addin']:
             shutil.copytree(source / folder, self.project / folder, ignore=shutil.ignore_patterns('bin'))
-        for name in ['package.json', 'package-lock.json', 'README.md', 'CHANGELOG.md', 'LICENSE']:
+        for name in ['package.json', 'package-lock.json', 'README.md', 'CHANGELOG.md', 'LICENSE', 'updates.json']:
             shutil.copy2(source / name, self.project / name)
         (self.project / '.gitignore').write_text('dist/'+chr(10)+'word-addin/bin/\n__pycache__/\n', encoding='utf8')
         (self.project / 'examples').mkdir()
@@ -72,6 +72,15 @@ class ReleaseTests(unittest.TestCase):
         version.synchronize(self.project, next_version)
         self.assertEqual(version.synchronize(self.project, check=True), next_version)
         self.assertNotIn(self.current, (self.project / 'README.md').read_text(encoding='utf8'))
+        path = self.project / 'updates.json'
+        data = json.loads(path.read_text(encoding='utf8'))
+        update = next(iter(data['addons'].values()))['updates'][0]
+        self.assertEqual(update['version'], next_version)
+        self.assertTrue(update['update_link'].endswith(f'/v{next_version}/zotero-batch-citations-{next_version}.xpi'))
+        update['applications']['zotero']['strict_max_version'] = '99.*'
+        path.write_text(json.dumps(data), encoding='utf8')
+        with self.assertRaisesRegex(ValueError, 'metadata mismatch: updates.json'):
+            version.synchronize(self.project, check=True)
 
     def test_modified_word_source_invalidates_old_dll(self):
         path = self.project / 'word-addin/Connect.cs'
@@ -123,6 +132,13 @@ class ReleaseTests(unittest.TestCase):
         self.assertFalse((self.outputs / '候选版本').exists())
         self.assertEqual((target / 'Word加载项/ZoteroBatchCitations.dll').read_bytes(), (self.project / 'word-addin/bin/ZoteroBatchCitations.dll').read_bytes())
         self.assertTrue((target / 'Word加载项/Install.cmd').is_file())
+        for suffix in ('-word.zip', '-bundle.zip'):
+            package = target / f'zotero-batch-citations-{self.current}{suffix}'
+            with zipfile.ZipFile(package) as archive:
+                self.assertIn('README.md', archive.namelist())
+                self.assertIn('examples/citation-literature-example.csv', archive.namelist())
+                self.assertFalse(any(name.startswith('docs/test-results/') for name in archive.namelist()))
+        self.assertTrue((target / 'docs/test-results' / self.proof.name).is_file())
         self.assertFalse(staged.exists())
         self.assertEqual((self.outputs / '历史版本/1.1.5/historical.xpi').read_bytes(), b'valuable old installation')
         self.assertEqual(release.git(self.project, 'rev-parse', 'v' + self.current), release.git(self.project, 'rev-parse', 'HEAD'))

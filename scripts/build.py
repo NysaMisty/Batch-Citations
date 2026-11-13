@@ -72,9 +72,8 @@ def checksums(directory):
 
 
 def common_files(project=PROJECT):
-    docs = [(p.relative_to(project).as_posix(), p.read_bytes()) for p in (project / 'docs').rglob('*') if p.is_file() and 'superpowers' not in p.parts]
-    template = ('examples/citation-literature-example.csv', (project / 'examples/citation-literature-example.csv').read_bytes())
-    return [(name, (project / name).read_bytes()) for name in ['README.md', 'CHANGELOG.md', 'LICENSE']] + [template, *docs]
+    names = ['README.md', 'CHANGELOG.md', 'LICENSE', 'examples/citation-literature-example.csv']
+    return [(name, (project / name).read_bytes()) for name in names]
 
 
 def word_files(project=PROJECT):
