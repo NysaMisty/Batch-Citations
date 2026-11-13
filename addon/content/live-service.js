@@ -43,14 +43,14 @@
         if(this.closed)throw new Error('插件已停用。');
         this.expire();
         if(!data||data.protocol!==3||JSON.stringify(data).length>12*1024*1024)throw new Error('协议版本不匹配或请求过大，请同时更新两端组件。');
-        if(!['1.1.4','1.1.5','1.1.6','1.1.7','1.1.8','1.1.9','1.1.10','1.1.11','1.1.12','1.1.13'].includes(data.clientVersion))throw new Error('请同时更新 Word 加载项和 Zotero 插件至 1.1.13，以确保原编号绑定可以随文档保存。');
+        if(!['1.1.4','1.1.5','1.1.6','1.1.7','1.1.8','1.1.9','1.1.10','1.1.11','1.1.12','1.1.13','2.0.0'].includes(data.clientVersion))throw new Error('请同时更新 Word 加载项和 Zotero 插件至 2.0.0，以确保原编号绑定可以随文档保存。');
         const result=await this.handle(data.action,data.payload||{});
         return [200,'application/json',JSON.stringify(result)];
       }catch(e){this.diagnostic('request-'+String(data?.action||'unknown').replace(/[^a-z-]/gi,''),'error',this.now(),data?.payload?.snapshot);this.z.logError?.(e);return [400,'application/json',JSON.stringify({error:e.message||String(e)})];}
     }
     job(id){const job=this.jobs.get(id);if(!job)throw new Error('操作已过期，请从 Word 重新发起。');return job;}
     async handle(action,payload){
-      if(action==='hello')return {protocol:3,capabilities:live.capabilities(),version:'1.1.13'};
+      if(action==='hello')return {protocol:3,capabilities:live.capabilities(),version:'2.0.0'};
       if(action==='start')return this.start(payload);
       const job=this.job(payload.id);
       if(action==='focus'){const window=this.owner.findDialog?.(job.id);if(window&&job.state==='pending')this.owner.focus(window);else if(!window&&job.command==='batch')this.cancel(job.id);return {state:job.state,open:!!window};}

@@ -6,8 +6,8 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Reflection;
 
-[assembly:AssemblyVersion("1.1.13.0")]
-[assembly:AssemblyFileVersion("1.1.13.0")]
+[assembly:AssemblyVersion("2.0.0.0")]
+[assembly:AssemblyFileVersion("2.0.0.0")]
 [assembly:ComVisible(false)]
 namespace ZoteroBatchCitations {
     [ComVisible(true), Guid("59B8DFA8-9039-4855-B4CD-DBF701CE7A81"), ProgId("ZoteroBatchCitations.Connect"), ClassInterface(ClassInterfaceType.AutoDual)]
@@ -143,7 +143,7 @@ namespace ZoteroBatchCitations {
             Diagnostics.Write("bridge-start", "start", target.LastCaptureMilliseconds, 0, 0, 0);
             if (currentCommand == "bibliography" && Convert.ToInt32(snapshot["selectionStart"]) != Convert.ToInt32(snapshot["selectionEnd"]))
                 throw new InvalidOperationException("请先单击参考文献表的插入位置，取消文字选区后再插入。");
-            Post("start", new { protocol = 3, clientVersion = "1.1.13", capabilities = BridgeClient.RequiredCapabilities, command = currentCommand, snapshot = snapshot }, delegate(Dictionary<string, object> result) {
+            Post("start", new { protocol = 3, clientVersion = "2.0.0", capabilities = BridgeClient.RequiredCapabilities, command = currentCommand, snapshot = snapshot }, delegate(Dictionary<string, object> result) {
                     if (result.ContainsKey("waitingForNative")) {
                         waitingForNative = true; Status = "waiting-native"; timer.Start(); return;
                     }

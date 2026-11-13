@@ -1,6 +1,6 @@
 param(
     [switch]$Uninstall,
-    [string]$InstallDirectory = (Join-Path $env:LOCALAPPDATA 'ZoteroBatchCitations\word\1.1.13'),
+    [string]$InstallDirectory = (Join-Path $env:LOCALAPPDATA 'ZoteroBatchCitations\word\2.0.0'),
     [string]$ZoteroTemplatePath,
     [string]$SourceAssemblyPath,
     [string]$RibbonStateDirectory = (Join-Path $env:LOCALAPPDATA 'ZoteroBatchCitations\ribbon')
@@ -44,7 +44,7 @@ foreach ($view in @([Microsoft.Win32.RegistryView]::Registry32, [Microsoft.Win32
             $key.SetValue('RuntimeVersion', 'v4.0.30319')
             $key.SetValue('CodeBase', ([Uri]$assemblyPath).AbsoluteUri)
         } finally { $key.Dispose() }
-        $key = $baseKey.CreateSubKey("$classPath\InprocServer32\1.1.13.0")
+        $key = $baseKey.CreateSubKey("$classPath\InprocServer32\2.0.0.0")
         try {
             $key.SetValue('Class', 'ZoteroBatchCitations.Connect')
             $key.SetValue('Assembly', $assemblyName)
@@ -58,7 +58,7 @@ foreach ($view in @([Microsoft.Win32.RegistryView]::Registry32, [Microsoft.Win32
         $key = $baseKey.CreateSubKey("$classPath\Implemented Categories\{62C8FE65-4EBB-45e7-B440-6E39B2CDBF29}"); $key.Dispose()
         $key = $baseKey.CreateSubKey($addinPath)
         try {
-            $key.SetValue('FriendlyName', 'Zotero Batch Citations 1.1.13')
+            $key.SetValue('FriendlyName', 'Zotero Batch Citations 2.0.0')
             $key.SetValue('Description', 'Live numbered citation mapping for the current Word document')
             $key.SetValue('LoadBehavior', 3, [Microsoft.Win32.RegistryValueKind]::DWord)
             $key.SetValue('CommandLineSafe', 1, [Microsoft.Win32.RegistryValueKind]::DWord)

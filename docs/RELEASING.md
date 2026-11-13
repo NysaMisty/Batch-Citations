@@ -36,7 +36,7 @@ npm test
 npm run build
 ```
 
-版本命令同步 package、lockfile、Zotero manifest、后台连接/握手、窗口初始版本、Word 客户端、程序集版本、安装目录和注册版本，也核对当前 README 的安装包、安装路径和报告/截图版本。历史 CHANGELOG、旧报告和兼容性最低版本不整体替换。
+版本命令同步 package、lockfile、Zotero manifest、后台连接/握手、窗口初始版本、Word 客户端、程序集版本、安装目录和注册版本，也核对 README 的安装包、下载地址和报告版本。`updates.json` 的版本、XPI 下载地址和兼容范围随版本同步。已发布的报告和历史证据保留原内容。
 
 Word 构建同时生成 `word-addin/bin/build-info.json`，记录实际程序集版本、DLL SHA-256、全部 C# 源码、图标和构建脚本摘要。源码或 DLL 在构建后变化，打包会拒绝继续；需要重建。`npm test` 包含无需 Office 的隔离发布流程测试；真实 Word 回归另行执行。
 
@@ -100,5 +100,7 @@ python scripts/release.py promote
 | `TEST-REPORT.md`、`docs/DEVELOPMENT-X.Y.Z.md` | 简要交付报告、具体实现和测试范围 |
 | `docs/test-results` | 必要测试记录与发布核验记录；历史证据按版本保留 |
 | `RELEASE.json`、`SHA256SUMS.txt` | 提交、版本、源码及交付文件的对应关系和校验值 |
+
+GitHub 正式发行版使用同一版本标签，单独上传 XPI、Word ZIP 和完整安装包，附上校验值与发布说明。将发行版标为最新正式版，核对 `updates.json` 的 XPI 地址可直接下载。
 
 交付报告必须列实际文件、路径、测试结果和遗留限制。生成正式本地交付不等于自动安装到用户 Zotero/Word，更不等于远程发布。
